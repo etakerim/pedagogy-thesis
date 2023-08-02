@@ -1,0 +1,669 @@
+https://www.grammarly.com/blog/readability-scores/
+- Učebný text
+	- Čo je učebnica
+	- ČO dať do učebnice (podľa učebného plánu - tématických okruhov v ŠvP)
+	- Edukačné materiály podľa školského zákona
+	- Funkcie učebnice
+	- Multimediálne učebnice
+	- Skvalitnenie textu  - Readability score: https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests (orientačné) vs. sématická náročnosť pruchovou metodou
+- Systémy úloh
+	- Klasifikácia úloh podľa funkcie a úrovne: bloom a zameranie úlo
+	- Existujúce zbierky úloh
+- Praktická časť
+	- Nemala byť viazaná na prog. jazyk
+	- Zaradenie úloh do klasifikácie (tabuľka) - Téma, Podtéma, Element, Funkcia, Úroveň, a Readability score
+	- Ukážka kapitol zbierky s 1 vzorovým riešením
+- Porovnanie riešení žiakov s ideálnym (a aké úpravy sa uskutočnili)
+
+Ciele:
+- (živá učebnica) elektronická s možnosťou sledovať zmeny a voľné kolaboratívny úpravy (wiki, github)
+- návod na pokrytie rôznych typov úloh na rozličných kognitívnych úroviach
+- vekovo primeraný jazyk začiatočníkom v programovaní na SŠ
+- nezávyslosť na prostredí, nárokoch na počítač, a programovacom jazyku
+- diskutovať spôsoby tvorby úloh
+- najprv riešenia potom forma otázok a odpovedí
+
+Pre praktické účely prezentovania riešení úloh sa nemožno úplne odpútať od programovacieho jazyka, keďže narozdiel od matematiky neexistuje nič podobné univerzálnemu zápisu algoritmov pre počítač.
+
+https://www.nuclino.com/solutions/free-wiki#bookstack
+______________________________________
+
+________________
+
+https://support.microsoft.com/sk-sk/office/z%C3%ADskanie-%C5%A1tatistick%C3%BDch-%C3%BAdajov-o-%C4%8Ditate%C4%BEnosti-a-%C3%BArovni-e-mailu-aa374906-2a39-45e5-a735-7c7361c8fb07#__toc342546558
+
+\section*{Poznámky}
+
+(\cite{pavlovkin_ziak_1989})
+- Prínos psychológie k riešeniu otázok obsahu a ďaľších problémov vzdelávania (Psychologické otázky/hľadisko)
+	- Čo sa žiak v danom čase naučí? vymedzenie vyučovacích cieľov, vyučovacieho obsahu v danom type školy, na danej vyučovacej hodine. štruktúta a kvantitatívne charakteristiky (preddimenzovanosť)
+	- Ako si žiak osvojuje učivo v danom čase? čo sa má naučiť, súvisí s tým ako sa to má naučiť, moderné vyučovacie metódy a formy práce  - problémové, skupinové vyučovanie)
+	- Kedy si má žiak osvojiť určité učivo daným spôsobom? v závislosti od učiva, vymedzeného času, chrakteristík žiaka a učiteľa, pružnosť vo vyučovaní
+	- V akom poradí si žiak osvojuje jednotlivé vedomosti, spôsobilosti? najprv jednoduchšie a potom zložitejšie - hierarchia vedomostí, že žiak postupuje na vyššie stupne až keď si osvojí nižšie, zoradenie do hierarchie podľa náročnosti
+	- Ako merať a hodnotiť stupeň zvládnutia učiva?  meranie spôsobitlostí vo výchovno-vzdelávacom procese, je predpokladomzistenia nakoľko žiaci zvládli učivo - ďalej postupvať v učive (vyučovaním ďaľších vedomostí v hierarchii) alebo pokračovať prehlbovaní doterajšieho učiva. spôsobilosti (fyzické, psychické) sú podmienkou nadobúdania množstva hlbokých vedomostí, podmienkou rozvoja psychických schopností
+		- Psychológia upozorňuje na tie vedomosti, spôsobilosti, schopnosti, ktoré umožňujú čo najväčší transfer, a prostredníctvom ktorých človek získa základ na široké množstvo aktivít pre ďaľšie učenie alebo v praktickom živote
+		- Psychológia poskytuje informácie o tom, ako dieťa daného veku a indiv. osobitostí vníma, pamätá si, myslí, ako si predstavuje svet vcelku i po častiach (neprimerané učivo)
+		- Psychológia umožňuje čoraz presnejšie zostaviť hierarchiu vedomostí, spôsobilostí, schopností a zistiť, ktoré si má osvojiť najskôr
+
+Efektívne učenie podľa Skinnera za podmienok:
+	- Poznať konkrétne ciele výchovy a vzdelávania
+	- Umožniť žiakom postupovať svojim vlastným tempom, nežiadať rovnako rýchle napredovanie
+	- Motivácia žiakov - tvorba vzdelávacích programov s často správnou odpoveďou, o ktorej sa hneď dozvie.
+
+Päť základných výskumných problémov v rámci teórie tvorbe učebníc podľa Zujeva (str.19)
+	- Vymedziť rozsah vedomostí, zručností, návykov, ktoré má obsahovať v závislosti od základných didaktických, pedagogických i mentálnych faktorov detí a mládeže.
+	- Stanoviť spôsoby, ako sa má podávať učivo v učebniciach, vrátane vymedzenia jazyka učebnice
+	- Určiť spôsob, ako sa má ilustrovať učivo, t.j. nájsť zákonitosti prezentácie učiva v nejazykovej forme a zákonitostí vnímania a osvojovanie si takýchto informácií. Patria sem i otázky ako viesť žiaka k tomu, aby pochopil neverbálne zdroje učebných informácií a utváral si zručnosti v čítaní.
+	- Tvoriť modely učebníc vrátane riešenia nadväznosti učebnice na iné vyučovacie prostriedky učiteľa, učebné pomôcky žiakov atď.
+	- Kriticky analyzovať a zhodnotiť cudzie teórie učebníc.
+
+Kapitola - Zhrnutie:
+	- Moderná forma učebnice sa blíži učebnému programu žiaka, vyučovaciemu programu učiteľa, je scenárom učebného a vyučovacieho procesu. Jej jadro prestavuje súbor úloh, ktoré má žiak aktívne riešiť.
+
+
+
+2. Psychologické východiská tvorby úloh v učebnici
+	- Kedy žiak chce úlohy v učebnici riešiť?
+	- Ako difrencovať úlohy vzhľadom na individuálne osobitosti žiakov?
+	- Ako zoradiť úlohy v učebnici?
+
+	- Každé učivo nevieme sprostrekovať žiakovi, že samo od seba priťahuje jeho pozornosť. Dieťa má tendenciu podujať sa na riešenie takých úloh, o ktorých má dojem, že ich zvládne. Spravidla to, čo prekonáva bez výrazných problémov, v čom je dieťa úspešné, motivuje i ďalej sa učiť a naopak, príliš náročné úlohy odstrašujú. Preto je žiaduce aby boli úlohy \textit{primerané danýchm možnostiam dieťaťa}.
+	- Nevyhnutné je zladiť poznávacie možnosti dieťaťa zodpovedajúce jeho veku, individuálnym osobitostiam, predchádzajúcim skúsenostiam s daným podnetovým materiálom - úlohami.
+	- \textbf{Zohľadnenie vekových osobitostí }- na hranice v psychickom vývine upozornil S.L.Vygotskij a nazval ich vývinové limity. Definuje úroveň aktuálneho vývinu a zónu najbližšieho vývinu (úroveň, ktorú dieťa vie riešiť len s pomocou dospelého).
+			- Ak sú úlohy v učebnici príliš náročné, stavané skôr pre menšiu skupinu žiakov s reýchlejším tempom psychického vývinu, s nadpriemrnýcmi schopnosťami, potom sa zákonite musí zhoršiť prospech väčšinu detí, lebo na požiadavky úloh nestačia. Ak chceme prospech väčšej časti triedy udržať na úrovni, musíme zľaviť z nárokov (vo vyšších ročníkoch žiaci, kt. chýbajú základné poznatky)
+		- V škole sa má žiak niečo naučiť. Ak by sme mu dávali len také úlohy, kt. vie ľahko vyriešiť (primerane svojim schopn), jeho učenie by nedosiahlo žiadny pokrok.Treba zaradiť úlohy nielen vekprimerané, ake aj rozvíjajúce (vývin vyšších schopností)
+		- Zaraďovať úlohy - myslieť až potom konať (mladší žiaci)
+		- Rozdielmi v štruktúre (profile) poznávacích schopností rozumieme skutočnosť, že v danom štádiu vývinu dosahujú jednotilvé poznávacie schopnosti rôznu úroveň.
+		- Spôsob poznávania (poznaváci štýl) - v rôznych sitáciach rôzny a každému vyhovuje iný.
+	- \textbf{Zohľadňovať individuálne odlišnosti} pri tvorbe učebníc predpokladá diferenciáciu úloh podľa toho:
+		- akú \textit{celkovú úroveň} schopností si vyžaduje riešenie úlohy
+		- aký profil, resp. \textit{štruktúra} schopností sú potrebné na úspešné splnenie úlohy
+		- ktorý \textit{poznávací štýl} je optimálny na jej riešenie
+		- Z hľadisko celkovej úrovne schopností je žiaduce zaradiť v každej oblasti úlohy s tromi stupňami náročnosti - \textit{menej náročné, stredné, vysoko náročné}.
+		Prvá skupina úloh je pre žiakov s pomalším tempom vývinu alebo nižšou poznávacou kapacitou (alebo skutočnosť, že ich vedia riešiť žiaci priemerní žiaci o ročník nižšie), druhá pre priemerných žiakov, ktorých je najviac a tretia pre tých, ktorí sa vyvíjajú rýchlejšie alebo ich poznávacia kapacita je nadpriemerná (priemerní žiaci vo vyššom ročníku!.
+		- Takéto rozdelenie úloh, prirodzene neznamená, že by jeden žiak nemohol a nemal riešiť úlohy všetkých stupňov obtiažnosti. Menej náročné úlohy môžu slúžiť na opkaovanie učiva, hoci bystrejším žiakom stačí splniť menší počet a môžu rýchlejšie prejsť na stredne prípade vysoko náročné úlohy.
+		- Stimulovať vývoj zaostávajúcich schopností
+
+	- \textbf{Zohľadnenie predchádzajúcich skúseností} - každý nový podnet je atraktívny - až potiaľ, kým nezíska nepríjemnú skúsenosť
+		- Výber a zoradenie úloh (hierarchia úloh) prispôsobiť tak aby garantoval množstvo zážitkov úspechu
+		- úlohy v učebnici by mali byť primerané nielen schopnostiam žiaka, ale aj konkrétnym vedomostiam a spôsobilostiam
+		- \textbf{Nadobúdanie vedomostí} Stupeň náročnosti osvojovaním poznatkov závisí od ich \textbf{množstva a kvality} (informácii) - kvalita je od konkrétnemu k abstraktnému
+			- Na základe chápanie vzťahov sa rozvíjajú i schémy (tiež majú hierarchickú) organizáciu. Na rozdiel od pojmov, aj schémy majú svoju sieť, hierarchickú organizáciu
+			- Schémy narozdiel od pojmov reprezentujú nielen
+				- poznanie vo forme faktov (\textbf{deklaratívne poznatky}),
+				- ale tiež aj to, ako je možné tieto poznatky využívať (\textbf{procedurálne poznatky})
+				- a kedy daný spôsob využívania poznatkov realizovať (\textbf{kondicionálne poznatky})
+			- Schémy ako vedomosti obsahjúce najvyšší stupeň zovšeobecnenia stelesňujú poznatky typu
+			\textit{vedieť čo, vedieť ako, vedieť kedy ako}.
+		- \textbf{Osvojovanie spôsobilostí} - spôsobilosť je ovládanie určitej zložky činnosti, ktorá sa získava v priebehu cvičenia (motorické, senzomotorické, psychické), osvojovanie pozorovaním modelu činnosti
+			- Kroky:
+				- 1. Učenie faktov (informácie typu kto/čo/kde/kedy/prečo/ako)
+				- 2. Zvrat od poznania faktov ku skúsenosti ako ich využívať (kompilácia) - kvantititatívne zmeny (urýchlenie činnosti, ucelené vykonávanie činnosti, vynechanie slovného opisu/faktov)
+				- 3. Ladenie - ladiace mechanizmy (proces generalizácie - širšia aplikácia pravidiel postupu, diskriminácia - zužovanie pravidiel, posilňovanie - lepšie pravidlá sa posilňujú horšie oslabujú)
+		-  \textbf{Rozvíjanie schopností} - schopnosti stoja na najvyššom stupienku v hierarchii poznávania. Zo strany prostredia sa dajú ťažšie ovplyvňovať ako vedomosti, spôsobilosti.
+			- Rozvíjanie myslenia v kategoriách podľa S. Nickersona:
+				- Prístupy zdôrazňujúce kognitívne procesy (myseľ závisí od základných procesov: porovnávanie, zoraďovanie, klasifikácia, usudzovanie, predvídanie)
+				- Heuristicky orientované prístupy - cvičenie stratégii formulácie problému, hľadanie spôobov jeho zobrazenia, plánovanie riešenia
+				- Prístup súst. na vývin formálneho myslenia (Piaget) - učivo má byť primerané poznávacím schopnostiam žiaka
+				- Prísupy zdôr. jazyk a narábanie so symbolmi - rozv. mysl. písaním alebo program. pre PC
+				- Prístupy sús. na učenie o myslení (metakognitvíne schopnosti - poznať vlastné myslenie)
+
+		Učebnica - najmä vzdelávaciu funkciu, vyjadrenie vz. obsahu, ktorý si má žiak osvojiť
+		Text - Verbálny a neverbálny komunikant (J. Prucha)
+		\textbf{Chápanie textu}
+			- čitateľ pri čítaní najprv chápe zmysel jednotlivých slov, viet, ich vzájomné vzťahy, na základe čoho si
+			  vytvára obraz o mikroštruktúre textu
+			- vyspelý čiateľ sa pri čítaní snaží orientovať v makroštrukúre textu.
+			  Usiluje sa nájsť najpodstatnejšie body, hlavné myšlienky, či už sú v texte priamo vyjadrené, alebo si ich musí sám vyvodiť.
+			  (oddelenie podstaty od menej podstatných častí - makroprocesy)
+			 - chápanie čítaného prebieha v cykloch - limitovaná kapacita kratkodobej pamäte
+			 - spracovanie informácii v texte sa čitatelia spoliehajú na kľúče - sémantické (významové), formálne (grafické), jazykové a pod.
+			\textbf{Štrukúra textu}
+			 	- Lineárna - opisuje udalosti prebiahjúce časovo organizovane
+			 	             (v lit. často súčasnosť, minulosť, budúcnosť). jedoduchšie ak sú chronologicky
+			 	            - členenie na etapy v prirodzenom slede
+			 	- Hierarchická - medzi myšlienkami vzťahy nadradenosti a podradenosti
+			 			- (vzťah uzatvárania - hlavné a vedľajšie myšlienky sa vyskytujú spolu, napr. v jednom odseku),
+			 				opak voľne organizovaný text.
+			 			- členenie na hlavné a vedľajšie myšleinky (časť textu má ustrednú myšleinku a podrobnosti)
+		- Učebné osnovy istým spôsobom reprezentujú štruktúru obsahu učiva, kt. si majú v danom ročníku osvojiť.
+		-  Osnovy zahŕňajú tématické okruhy - najdôležitejšie časti učiva z danej oblasti, detaily si vyberie autor.
+		- Makroštuktúra - tématické okruhy, kapitoly, texty, ich hlavné myšlienky.
+			- Aby sa v nich čitaeteľ vedel orientovať - signály makroštrukúry (rozličné nadpisy, podnadpisy, významový súvis spolu, súhrn)
+			- Nadpisy - veľké nadpisy podľa hlavnej témy textu.
+				- Rozdelenie hlavnej témy na podtémy voľba malých nadpisov (efektívnosť v podobe otázky).
+				- Malé nadpisy môžu byť hlavné myšlienky samostatnej časti textu - iný typ písma, priestorové oddelenei, podčiarknutie
+			- Kľučové vety
+				- Každý text (alebo jeho časť) implicitne alebo explictne vyjadruje niečo sa zvykne nazývať hlavná myšlienka (nemusí byť priamo vyjadrená, vtedy si ju musí vyvodiť). Menej vypelý čitateľ stačí, aby ju našiel (uľahčiť, napr. umiestnením na začiatku textu a graficky zvýraznená)
+			- Otázky
+				- Provokujú čitateľa porovnávať predchádazjúce s novým, hľadať a nachádzať vzťahy v texte.
+				- Otázky pred textom - ak je ich viac a sú zoradené, tvoria plán vnímania čitateľa, nástroj organizácie vnímania. ČIteatľ si osobitne všíma tie časti v takom poradí ako na ne upozorňujú otázky
+				- Otázky za textom - uľahčujú osvojiť si, pochopiť a zapamätať si hlavné i vedľaj. info. v texte. Podnecujú zámerné i nezámerné učenie sa
+				- Otázky:
+					- 1.typu - doslovne si zapamätať. V texte je odpoveď priamo vyjadrená
+					- 2.typu - vyvodzovanie úsudku. V texte nie je odpoveď priamo vyjadrená ale možno ju vyvodiť z poskytnutých infomácii
+					- 3.typu - využívať predchádzajúce skúsenosti pri chápaní textu (nestimulujú osvojenie informácii z textu) (nemožno vyvodiť)
+				- Oddeliť otázky od samotného textu (priestorom, typom písma)
+				- Oddeliť podstatné otázky (zamerané na hlavné body) od skupiny vedľajších otázok
+			- Obrázky
+				- prostriedok zvýrazenie makroštruktúry
+				- organizovanie vnímania hlavných bodov, myšlienok niekedy lepšie ako hlavný text
+				- mimoriadne dôležité vhodné zladenie umiestnenia obrázku a k nemu prisluchajúcemu textu
+			- Typografické a grafické prostriedky
+				- Mladý K. - autor uvádza zásady, kt. môžu priaznivo alebo nepriaznivo pôsobiť na kvalitu učebnice
+				najmä z didaktickej , psychohygienickej a estetickej stránky.
+		- Skvalitnenie textov na úrovni mikroštruktúry
+			- problém významovej súvislosti medzi myšlienkami textu a spôsobom ich vyjadrenia.
+			- určenie vzťahov medzi jednot. myšlienkami - vetami v texte, vybrať vhodné pojmy, slová atď.
+			- sémantické konektory - signály
+			- podrobnosti (>2) vľahčujú chápanie hlavných myšlienok. Zdôvod: tredenie podrobností podľa charakterisktík danej triedy
+				- viac príkladov, lepšie pochopenie charakt. triedy
+			- chápanie pojmov -pojem (psych. hľ.) znamená predstavu človeka o tom, čo označuje. Niekedy nie je ľahké zaradiť do kat.
+			  	- neosté množiny
+			  	- najlepší príklad člena kategórie = prototyp (abstrakciou členov kategorie - niečo ako drozd)
+			  	- typickosť pojmu - nakoľko sa daný predmet vyznačuje určujúcimi vlastnostami  (kt maju vsetci členovai kateg.)
+			- náročnosť pojmov - zohľadniť vlastnosti pojmu, schopnosti, spôsobilosti, predchádzajúce vedomosti a zážitky dieťaťa
+				- taxonomické normy - ktoré pojmy sa u detí spájajú s názvom im nadradenej kategorie
+			- štruktúra viet - veľké problémy s chápaním niektorých syntaktických štruktúr
+				- ťažké na pochopenie - včlenenie vedľajšej vety prívlastkovej do vety hlavnej
+					namiesto toho vyjadriť myšleinku dvoma vetami
+					riziko je vynechanie konektorov (spáajajúcich slov) - znižuje sa kohezita textu - opatrne rozdeľovať vety
+				- vznik zvýšenej záťaže - tam je porušený princíp minimálnej vzdielenosti
+					- podmet vedľajšej vety sa má vzťahovať na odkaz, kt. 	sa nachádza pred touto vedľajšou vetou
+			- inferenčná záťaž textu - nakoľko si čitateľ musí sám vyvodzovať vzťahy z textu S.Kemper (1983)
+				- uľahčiť myšlienky kt. spolu súvisia nasleduju v texte po sebe
+				- priame vyjadrenie psychických a fyzických stavov osob ktore vykonavaju danu činnosť
+			- signály mikroštruktúry textu
+				- signály na uľachčenie lokálneho chapania textu, slova po slove, vetu, po vete, ich vzťahy
+				- jazykové signály - nie sú nositeľom významu pomáhajú pochopiť zmysel a súvislosti mikrozložike
+				- nejazykove - zvýraznenie kľúčových slov (typografia a graficka uprava)
+				- napr. lebo, nakolko, vzhladom, pretoze
+				- signaly sematickych väzieb (podla J.Pruchu)
+					- 1. iteráciu (opkoavanie toho isteho vyrazu)
+					- 2. kongruenciu (pouzitie slova, kt. tvar upozorňuje na význam určitého výrazu v texte)
+					- 3. substitúcia (nahradzovanie výrazu iným)
+					- 4. asociácia (upozornenie na slovo výrazom, kt. je s nim v asociacnom vzťahu)
+		- Kvantitativne charakteristiky textu
+				- "čo má text obsahovať" vs "koľko má čoho obsahovať"
+				- čitateľnosť textu - napr. dĺžka viet, výskyt ťažkých slov (nie sú v zoznamoch bežných slov)
+				- vzorce náročnosti podľa J.Pruchu:
+					1. syntakticky faktor - zložitosť vetnej stavby
+					2. lexikálny faktor - sémantikcá náročnosť tetxu
+				- Mikka - výpočet náročnosti - dĺžke samostatných viet (počet písmen), abstraktnosť opakujúcich sa pod. mien.
+				- čítania - komunikácia medzi autorom a čitateľom (psycholingvisktika)
+				- model spracovania textu
+
+
+(\cite{mlady_tvorba_1988})
+	- 3.3. Redakčné spracovanie učebnice
+		- činnosť jazykovej a odbornej redakcie a potom grafická, resp. technická úprava
+		- jazyková redakcia sa okrem gramatickej a pravopisnej správnosti rukopisu zaoberá štylistikou a odbornou terminológiou. Pri odbornej terminológii sa musí pridrživať názvoslovných noriem
+		- odborná redakcia okrem odbornej správnosti a metodiky posudzuje správnosť postupov a názvov, základov histórie a vývoja odboru a vplyvy vedecko-technického rozvoja. Koordinovať súčinnosť autora, grafika-ilustrátora a technického redaktora.
+		- redaktor je spolupracovníkom autora a jeho prvým kritikom v období, keď sa dá na rukopise ešte veľa zmeniť. Redaktor spolu s lektorom preveruje odborný obsah učebnice
+		- zásady pri grafickej úprave
+			 - cieľ úpravy učebnice je podoprieť a uľahčiť komunikáciu prostredníctvom dobrej čitateľnosti, usporiadaným členením a aktuálnou vonkajšou formou, ktorá je v súlade s obsahom učebnice
+			 - graf. úprava musí byť primerane jednoduchá lebo zložitá štruktúra úpravy učebnice dieťa skôr rozptyluje ako ho nabáda k čítaniu.
+			 - Učeb. musí pútavo graficky upravená, prehľadná a utvorená s cieľom pôsobiť esteticky na výchvu žiakov.
+			 - diadakticá funkcia učebnice vyžaduje rozličné spôsoby a formy odlišovania = členitosť štruktúry textu - sadzba (voľba typu písma)
+			 - základné infromácie odstupňované podľa významu
+			 - súvislosť textovej a obrazovej časti (ktorá je nadradená)
+		- písmo (sadzba)
+			- volí sa ľahko čitateľné písmo, aby boli slová ľahko identifikovateľné a žiaci sa nezaoberali rozpoznávaním
+			- písmo v rôznych veľkostiach - odliš. veľkosť od hl. textu môžu mať príklady, cvičenia, úlohy, doplnkové vety, kontrolné otázky, poznámky
+			- Riadkovanie do bloku so / bez zarážky v prvom riadku odseku
+			- Pri zalamovaní učebnice matematiky pre nižšie ročníky - príklad by nemal prechádazať na nasledujúcu stranu (neplatí pri zložitom príklade na stred. a vysok. školách.
+			- jednotná hierarchia odlišovania, najmä zvýrazňovania textu písmom
+		- Lektor učebnice - musí pozerať na učebnicu pohľadom učiteľa aj žiaka, aj z odborného a didakticko-pedagogického hľadiska
+			- Lektorský posudok - celkové posúdenie učebnice, návrhy na čiastkové úpravy, záver
+			- Lektor hodnotí:
+				- dodržiavanie schválenej osnovy obsahu a náväznosti jednotlvých tém
+				- prínos rukopisu k formovaniu a rovoju svetonázoru
+				- didaktickú správnosť látky, názornosť, formu odovzdávania poznatkov
+				- odbornú správnosť rukopisu z pohľadu súčasného stavu
+				- súlad slovného a výtvarného prejavu, primeraná náročnosť
+				- primeranosť vyjjadrovania, nových pojmov, rozsahu učebnice aj tém (podľa počtu vyuč. hodín v uč. osobných)
+	- 4.2. Vypracovanie osnovy učebnice - základné usporiadanie a rozvrhnutie učiva podľa tém celkov s udaním počtu strán, obr., schem, tab.
+									   - nemôže sa odkláňať od učebných osnov alebo rozsaho osnovy nemusí byť totožný
+									   - počet strán rukopisu na vyuč. hodinu
+	- 4.3. Príprava materiálov pre tvorbu učebnice
+		- vypracovanie zásad tvorby
+			- určenie zásad pre konštrukciu témy, písanie a číslovanie strán, označovanie a popis obrázkov,
+			systém používania formy vyobrazenia, tvorba schémy používanej symboliky a zásady odlišovania
+			- konštrukcia témy: názov (podľa osnov), úvod a zákl. definícia, jadro - pod. vysv. problematiky a nových pojmov,
+			význam a uplatnenie (záver), kontrolné otázky, cvičenia
+		- zhromažďovanie podkladov
+	- 4.4. Harmonogram tvorby učebnice - pred spracovaním učebnice by mal autor vypracovať osobný plán,
+	- 4.5. Príprava rukopisu - nové pojmy musí autor priamo pri ich definovaní zaraďovať do dvoch skupín (1. pojmy, kt. doteraz nepoznali a nemali možnosť sa stretnúť sa s nimi, 2. pojmy, kt. žiaci už počuli napr. v rozhlase / televizii - nepoznaju ich presnu oficialnu definiciu)
+		- pri uvádzaní skratiek vysvetliť čo znamenajú pri prvom pužití
+		- rozsah učebníc: určuje sa počtom strán na jednu vyuč. hodinu - jedna strana učebnice (autorský hárok).
+		- rukopisná strana - 30 riadkov po 60 znakov v riaku (1800 znakov - aj bodky, čiarky, medzislovne medzery)
+	- 4.6. príprava obrázkov - predlôh
+		- obrázky sa triedia do dvoch skupín - výtvarné a technické vyobrazenia
+			- výtvarné obrázky - kreslené (maľované), zriedkavo fotografie (výtvarná fotografia)
+			- technické obrázky - kreslené (perovky, schémy), rysované (technické výkresy), fotografické (krajinky, predmety, technické a dokumentárne fotografie)
+		- obrázky pre žiakov zrozumiteľné a ľahko pochopiteľné - ak by mal hl. objekt zobrazenia splývať treba samostatné obrázky
+	- Cvičný materiál - prispieva k osvojeniu schopností, vedomostí, zručnosti a návykov žiakov, ktorí spracúvajú a upravujú cvičný materiál podľa zadanej úlohy
+	- Obsah vyučovania - didaktický systém učiva normatívne stanovený učebnými osnovami. kt. si mjú žiaci osvojiť vo vyuč. procese, aby dosiahli určitý stupeň alebo druh vzdelania
+	- Problémové vyučovanie - vyučovanie, pri kt. žiaci získavajú nové vedomosti nie v hotovej forme, ale samostatným skúmaním. Postupy majú výskumný a hľadací charakter
+	- Problémová úloha - jedna z náročných úloh, kt. pri plnenení vyžaduje od žiaka veľkú tvorivú aktivitu. Zákl. znakom je utvorenie problémovej situálcie. kt. obsah je odvodený z učiva
+	- Formáty učebníc (5.5.)
+
+
+(\cite{zujev_ako_1986})
+	- Na jednej strane učebnica je pre žiakov najdôležitejším prameňom poznatkov, nositeľom obsahu vzdelávania.
+		Odhaľuje a definuje základné vedecké pojmy, podľa plánu školských osnov vymedzuje rozsah základného obsahu učiva, poznatkov, ktoré sú určené na zvládnutie v škole
+	- Na druhej strane učebnica je učebným prostriedkom. A ako taký má za úlohu pomôcť žiakom osvojiť si obsah učiva, rozsah poznatkov vemedzený presne učebnými osnovami.
+	- Učebnica ako učebný prostriedok má celkom konkrétnu materiálnu podobu, ktorá v oveľa väčšej miere ako v akejkoľvej inej knihe je úzko spätá s obsahom, s procesom jeho osvojovania a výsledkom tohto osvojovania.
+	- Základa vedeckého prístupu k najdôležitejším problémom učebnice je dialektická jednota obsahu a formy. (Pedagogika a Knihoveda)
+	- Základ teoretických koncepcií školskej učebnice
+		- Pedagogická veda (Didaktika) - skúma a vedecky odôvodňuje rôzne formy vyučovania, jeho obsah, metódy, orgnaizáciu
+			- etapy predmetu: hľavný cieľ, úroveň vyučovacieho predmetu, obsah učiva, pedagogická činnosť, realizácia obsahu vzdelávania je výustenie do úrovne konkrétnej osobnosti žiaka.
+			- Etapy (úrovne) tvorby a realizácie obsahu vzdelávania
+				- I. Všeobecné teoretické východiská
+				- II. Vyučovací predmet
+				- III. Obsah učiva
+				- IV. Pedagogická činnosť
+				- V. Osbonosť žiaka
+			- Určenie a teoretické zdôvodnenie piatich úrovní formovania a realizácie obsahu vzdelávania je dôležitým teoretickým predpokladom (i keď nie jediným), na základe ktorého možno tvoriť teóriu vydávania študijnej literatúry
+			- pedagogická teória učebnica - kočeným východiskom pre teóriu obsahu vzdelávania bude teoretické chápanie východisk a spôsobov rozpracúvania učiva, bezprostredných súčastí učebného plánu, ktoré majú podobu učebníc, učebných pomôcok a iných prvkov učebného procesu.
+		- Knihoveda
+			- Špecifickým cieľom teórie učebníc je určiť zákonitosti a pravidlá tvorby učebnice ako formy, kt. optimálne stelesňuje ciele, princípy a obsah vzdelávania.
+			- Učebnice je konečným produktom realizácie obsahu vzdelávania.
+			- Súčasti knihovedy: typológia literatúry, pravidlá formy a vonkajšej štruktúry knihy, spôsoby zabezpečenia efektívnosti jej prvkov
+			- Teória učebníc je veda hraničná.
+	- Funckie a ciele školskej učebnice
+		- cieľavedomo napomáha riešiť výchovno-vzdelávacie úlohy stojace pred školou
+		- Funkcie
+			- prvej skupiny: učebnica je nositeľ obsahu vzdelávania
+			- druhej skupiny: využitie informácii na získanie informácii o žiakoch (obmedzená)
+			- tretej skupiny: zavádzanie obsahu vzdelávania do učebného procesu, formovanie motívov, ktoré umožňuje žiakom prijať poskytovaný materiál a tú činnosť, kt. je jeho súčasťou - využitei probl. situácii
+			- štvrtej skupiny: rozpracovanie a zavadeneie cvičných úloh. Korigovanie úloh je mimo dosahu učebníc
+		- Pod didaktickou funkciou školskej učebnice rozumieme tie jej vlastnosti (kvality), ktoré sa sformovali vzhľadom na cieľ, ktorý plní ako nositeľka obsahu vzdelávania a základný knižný učebný prostriedok a ktoré najplnšie zodpovedajú funkčnému určeniu učebnice pri realizácii obsahu vzdelávania v podmienkach rozvíjajúceho a výchovného vyučovania.
+		- Funkcie učebnice:
+			- Informačná
+			- Motivačná
+			- Stimulačná
+			- Usmerňujúca
+			- Racionalizačná
+			- Interpretačná
+
+		Didaktické funkcie (nestoja vedľa seba ale tvoria hierarchiu vzájomne pospájaných a prelínajúcich sa vlastností, komplexne vystupujúce v každej učebnici)
+			- 1. Informačná funckia - zakladá sa na fixovaní predmetného obsahu vzdelávania a druhov činností, ktoré sa musia u žiakov sformovať v priebehu štúdia predmetov a na vymedzení povinného rozsahu (dávky) informácie. uspôsobená na dosiahnutie osvetového, vzdelávacieho efektu v učebnom procese
+				- učebnica spolu s učiteľovým výkladom je základným zdrojom nevyhnutných informácií, ktoré si osovojujú žiaci
+			- 2. Transformačná funkcia - (podľa princípu prístupnosti) transformovanie základov poznatkov do podoby obsahu učiva (napr. systému úloh a cvičení), pričom sa zohľadnia požiadavky spoločnosti a pedagogiky na školy, osobitosti žiakov.
+				- u žiakov sa pPopri reproduktívnej činnosti sa uplatňujú aj prieskumné činnosti - heuristická (čiastočné prieskumná), tvorivá (bádateľská, konštruktérska) - vedie k aktivizácii učenia u žiakov
+				- schopnosti žiakom podať obsah konkrétneho predmetu ľahko osvojiteľnou, zaujímavou, pochopiteľnom a im blízkou formou
+				- základné smery transf. obsahu predmetu na úroveň obsahu učiva:
+					- zabezpečenie prístupnosti obsahu danej vekovej kategórii - didakt. spracovanie obashu učiva
+					- určenie významných vzťahov študovaného materiálu k životu, k praxi vzhľadom na istú kategóriu žiakov
+					- optimálna aktivizácia procesu učenia u žiakov začlenovaním prvkov problémového objasňovania, zvyšovania jeho presvedčivosti, pútavosti a emocionálnej výrazovosti
+			- 3. Systematizačná (systémová) funkcia - zabezpečuje pri objasňovaní obsahu učiva v systémovej forme prísnu postupnosť, orientuje žiakov na osvojenie spôsobov vedeckej systematizácie.
+				- prísnu postupnosť pri objasňovaní informácie tvoriaca obsah štúdia
+				- učebnica sama musí viesť žiaka k osvojovaniu spôsobov a metód vedeckej systematizácie
+			- 4. Funkcia upevňovania vedomostí a sebakontrola - pod vedením učiteľa sú cieľovo zamerané na formovanie druhov činnosti žiakov, pomoc pri tvalom osvojení základného obsahu učiva, pri orientácii v ňom a oprieraní sa oň v praktickej činnosti
+			- 5. Sebavzdelávanie - formovanie túžby a schopnosti žiakov samostatne nadobúdať (získavať) poznatky, stimulovanie učebno-poznávacej motivácie
+			- 6. Integrujúca funkcia - pomoc pri výbere a osvojovaní uceleného súhrnu pznatkov, ktoré žiaci nadobudli v rôznych druhov činností a prameňov
+			- 7. Koordinujúca funkcia - najefektívnejšie funkčné využitie všetkých učebných prostriedkov, ktoré majú vzťah k študovanému predmetu, pričom k nim žiaci dospejú v masovou komunikáciou
+				- učebnica je jadrom okolo ktoré sa zoskupujú všetky ostatné učebné prostriedky
+			- 8. Funkcia rozvíjajúca a výchovná -aktívne formovanie najdôležitejších črt harmonicky rozvinutej osobnosti
+
+	Členenie systému učebnice na podsystémy:
+		- Učebnica
+			- Texty - skupina dvoch alebo viacerých viet, kt. má svoj textový subjet a textový predikát, pričom spolu tvoria texový úsudok
+				- Základný (hlavný) text - hlavný pameň študijnej informácie, ktorá je pre štúdium a osvojenie žiakmi je povinná
+						- Poznatky o zákl. pojomoch, zákonoch, teóriach a spôsoboch činnosti tvoria jadro zákl. textu
+						- zákl. poznatky a činnosť, kt. zodpovedá týmto poznatkom aj cieľom vyučovania
+						- Skupiny textov:
+							- Teoretické poznávacie texty - prevláda informačná funckia (pojmy a fakty)
+							- Inštumentálno-praktické texty - - prvláda pretvárajúca (transf.) funckia (úlohy, cvič., experimenty, metódy)
+				- Doplňujúci text - (čiastková verbálna zložka štruktúry) upevnenie a prehlbanie téz základného textu.
+						Niekedy učivo môže presahovať rozah školských osnov. Učebnicu nemožno pokladať za zrkaldoý obraz osnov.
+						prehlbujú vedeckú presvedčivosť a emocionálny obsah učebnice (napr. jedinečné fakty, rozprávania o dôležitých metódach
+				- Vysvetľujúci text (čiastková verbálna zložka štruktúry) -
+						materiál nevyhnutný na pochopenie na čo najúplnejšie osvojenie obsahu učiva
+						prostriedok na uskutočňovanie samostatného štúdia
+						- úzky vzťah k zákl. tetxu a neprítomnosť prebytoč. materiálu (požiadavky)
+			- Mimotextové zložky - uvedená klasifikácia umožňuje určité prelínanie funkcií štruktúrnych zložiek a súčasne je klasifikáciou,
+						ktorej kritérium je dominantná funkcia
+				- Aparát organizácie osovojovania - otázky a úlohy (niekedy zakl.text)
+							, odpovede na ne a tiež systematizujúce a zovšebecňujúce tabuľky
+						- štruktúra zložka učebnice, kt. úlohou je v procese osvojovania obsahu učebnice stimulovať
+							a usmerňovať poznávaciu činnosť žiaka (pomáha rozvíjať ich poznávacie schopnosti a záujmy)
+				- Ilustračný materiál
+						- úlohou je zitenzivniť poznávací, ideový, estetický a emocionálny vplyv učiva na žiaka a tým zabezpečiť
+						jeho úspešné osvojenie
+						- tvoria ho tieto prvky: ilustrácie (umelecké, obrazné - námetové a predmetné, dokumentárne, technické, fotoilustrácie)
+							obrázky, schémy, plány, diagramy, grafiky, mapy
+						-  vedúce ilustrácie (od ilust), rovnocenné ilustrácie (obojstra), pomocné ilustrácie (šípky medzi textom a ilusráciou)
+				- Orientačný aparát
+						- pomáhajú žiakom rýchlo a správne sa orientovať v komplikovanej štruktúre učebnice
+						- predhovor, obsah, rubrikácia, tlačové a farebné vyznačenie, signály - symboly, vecné a menné registre,
+						bibliografiu, živé záhlavie (nadpis umiestnený nad textovú stránku)
+
+
+(\cite{gavora_ziak_1992})
+Pedagogický text
+	- Texty písnaé na mieru konkr. čitateľa -  žiakovi konkrétneho typu školy a ročníka
+	- Sledujú cieľ dosiahnuť vopred stanovené zámery
+	- Najtypickejším predstaviteľom pedag. textov je učebnica
+	- Pedagogické funkcie učebnice
+		- Didakticky stvárňuje vedecké poznatky a podáva ich formou učiva
+		- Pomáha učivo precvičovať, opakovať, systematizovať a integrovať
+		- Prostriedok sebavzdelávania a sebakontroly žiaka
+		- Nerozvíja len vedomosti žiaka, ale pôsobí aj na jeho postoje, motívy, záujmy atď. teda výchovne na neho vplýva
+	- Časti učebnice - zastupenie zložiek rôzne podľa predmetov (matematika - výkladový text stručný, na väčšine strán sú úlohy)
+		- výkladová zložka - žiakovi podáva, vysveľuje, a komentuje nové učivo
+		- nevykládová zložka - pomáha žiakovi osvojovať si učivo . otázky, úlohy, cvičenia
+	- Učebnica je napísaná tak, aby optimálnym spôsobom slúžila na dosiahnutie výchovno-vzdelávacieho cieľa daného vyuč. predmetu
+		- Štruktúra učebnica a zastúpenie zložiek nie je náhodné
+	- Základné vlastnosti textu (text = súvislý jazykový prejav slúžiaci na dorozumievanie)
+		- Komunikačný zámer - sa podriaďujú všetky zložky textu. cieľ: informovanosť, zmena názoru čitateľa, motivácia uskutočnoť činnosť
+		- Kohézia (súdržnosť) - vzájomná nadväznosť viet (na predošlú na nasledujúcu)
+			- nadväznosť sa uskutočňuje pomocou rozl. jazykových prostr.
+				- gramatické (kongruencia, rekcia)
+				- lexikálne (opakovanie výrazu, elipsa, synonýmia)
+				- grafické (interpukčné znamienka)
+		- Kohrencia (spojitosť) - tématická spojitosť textu (text má hlavnú tému, kt. sa rozvetvuje do niekoľ. okruhov)
+Recepcia textu
+	- prijímanie a vnútorné spracovanie informácii (líši sa od pojmu čítanie - nie každé čítanie je recepciou)
+	- proces recepcie má niekoľko fáz: text -> vnímanie, porozumenie, zapamätávanie
+	- recepcia nemôže prebiehať bez úsilia (vôle) vnímať text, porozumieť mu a zapamätať si ho
+	- človek siahne po texte s motívom poznať niečo nové (záujem) alebo potrebuje isté infor.
+	- Vnímanie textu
+		- fixácia - oko človeka sa pohybu po texte nie plynulo zľava doprava - má podobu skokov (sakád), niekedy sa vráti dozadu
+				- U dospelých primerne 250 ms a kolíše od obtiažnosti textu (64\% slov dospelý fixuje, 34\% slov pri rýchlom čítaní)
+				- spätné sakády majú opravný význam - keď neporozumie
+				- rýchlé čítanie je ochudobnené - so stratami
+				- teórie zákonistosti pohybu oka: grafická t. (dĺžka slova, medzery, veľké písmená) , obsah textu reguluje (pod. m., slovesá)
+	- Porozumenie textu
+		- Bloomova taxonómia - princíp: nižší cieľ je základom (predpokladom) pre dosiahnutie vyššieho cieľa
+		- 1. porozumenie - využívanie učiva bez vzťahu s iným učivom a vie čo sa komunikuje
+		- 2. prevod - pretváranie učiva so zachovaním jeho vernosti a presnosti (parafrázovanie, usporiadanie).
+					medzi symbolickým a prirodzeným jazykom
+		- 3. interpretácia - vysvetlneie učiva, pretvorenie učiva alebo zaujatie nového pohľadu naň
+		- 4. extrapolácia - rozšírenie pôvodných informácii na základe implikácii, zistenia dôsledkov, účinkov a podobne.
+				vyslovenie záverov na základe vyvovodzovania, zručnosť predpovedať priebeh udalosti
+		- porozumenie textu je psycholingvistická činnosť s 3 druhmi spojení:
+			- medzi javmi objektívnej reality a prvkami textu, kt. ich označujú
+			- medzi jednotlivými prvkami textu (slovami, vetami, nadvetnými útvarmi)
+			- medzi prvkami textu a prvkami vedomostnej štruktúry recipienta
+		- porozumenie má vzťahový charkater
+			- recipient identifikuje prvky textu, objektívnej reality a vlastnej vedomostnej štruktúry a dáva ich do vzťahov
+		- porozumenie textu nemá mechanický charakter - vyžaduje myšlienkovú aktivitu povahy riešenia problémovej úlohy
+		- text aktivizuje doterajšie vedomosti recipienta (musia tvoriť systém a byť usporiadané, inak je ich aktivizácia sťažená), a text
+			usúvsťažňuje dotarašie vedomosti s novými, čím rožširuje a prehlbuje doterajšie vedomosti.
+		- intertextovosť - texty nadväzujúce na seba najmä v tématickom celku
+		- Operácie pri porozumení textu:
+			- Elaborácia - recipient dáva informcácie obsiahnuté v texte do vzťahu so svojimi doterajšími vedomosťami (kt. aktvizuje)
+				- obsahom: idey, asociásie, predstavy integrujúce sa s textom.
+				- Typy elaborácie:
+					- Sémantické  vedomosti - spresnenie informácie
+					- Epizodické vedomosti - autentické zážitky recip.
+					- Hodnotiaci prvok - založený na doterajších vedom.
+					- Vizuálna predstava - verbálne komunikova
+					- Recipient nenašiel sopojenie s predch. vedomosťami - infor. o spracovaní textu (význam slova nepozná)
+			- Inferencia (vyvodzovania) - čiastkové dedukcie alebo závery s účelom prepájať predchádazjúce vedomosti s novými
+				informáciami obsiahnutými v recipovanom texte
+				- Vypĺňajú chýbajúce informcácie v texte (dieťa vybehlo+matka utekala = matka chcela zabrániť nehode)
+			- Tí, ktorí mali mali predch. podkladové informácie lepšie recipovali text
+		- Obtiažnosť textu = Pruchova modifikácia Nestlerovej metódy. Reliabilita testu
+		- Prípadové štúdie
+			- žiačka, kt. si označovala text vlastnými značkami (znaky)
+			- zoradenie viet do správneho poradia (výkon žiakov stúpa a smer. odýchlky sa zmenšujú)
+			- výber tématickej vety, hlavenj, vedľajšej a odťažitej informácie (lepší v identif. nepodstatných ako podstatných)
+			- kondenzácia textu (najťahšie (najviac obtiažné), nepostrehnutie možnosti kondenzovať, neúplná alebo čiastočná kondenzácia)
+		- Selekcia informácii - 5 druhov informácii  s charakterom elementárnych výrokov
+				(pedag. texty sa píše tak, že text obsahuje niekoľko zákl. faktov, tvrdení alebo informácií.
+			- informatívne výroky - výroky opisujúce daný jav
+			- logické výroky - definície, názvy,
+			- objasňujúce výroky - širšie rozvádzajú predtým zovšeobecnené v inf. a log. výrokoch
+			- historické výroky - vývin poznania ľudstav v danej problematike
+			- výroky s príkladmi - príklady, ilustrovanie inf. a obj. výrokov
+		- Informácie zoskupené v škále (Dayová, Brownová)
+			- Tématická veta (topic sentence) - na začiatku istého úseku textu, avizuje a zhrňuje jeho obsah,
+					nemusí byť prítomné v každom texte (podľa preferencii autora)
+			- Triviálne informácie - nedôležité detaily, odbočenie od témy
+			- Redundatné informácie - opakujú v inom znení inf., kt. už boli uvedené v texte
+		- Každý text obsahuje tieto druhy informácii:
+			- tématická veta - explicitne vyjadruje tému textu, slúži ako základná orientácie v infromačnej štruktúre textu
+			- hlavné informácie - tvoria informčné jadro textu
+			- vedľajšie informácie - rozvedením, doplnením, alebo ilustráciou hlavných informácii
+			- odťažité informácie - - všeobecné informácie nepatriace do témy textu a podobne úvodné vety s motivačným charakterom
+		- Kondenzácia textu - verbálna redukcia textu. výsledkom je nové znenie textu, kt. má stručnejšiu podobu
+				- redukcia informácii spojená s verbálnou zmenou oôvod. informácie
+			- Základné postupy kondenzácie textu:
+				- Generalizácia v rámci jednej vety - keď je vo vete viacero pojmov týkajúcich sa jedného javu, tieto sa nahradia
+						nadradeným pojmom
+				- Intergrácia dvoch alebo viacerých viet - spájanie viet, že z dvoch alebo viacerých viet vznikne jedna veta, celkový
+					rozsah je kratší
+			- Najjednoduhšia selekcia je odpíš alebo vynechaj, zložitejšie je usporiadanie informácii
+		- Činnosti s textom od najľahšej po najnáročnejšiu
+			- lokalizácia informácii
+			- selekcia odťažitých informácii
+			- usporiadanie informácii
+			- selekcia hlavných informácii
+			- selekcia tématickej vety
+			- kondezácia textu
+		- Model lokalizácie informácii v texte
+			a) vymedzenie presného cieľa
+			b) skúmanie vymedzeného druhu informácii v texte
+			c) vyberanie dôležitých podrobností z každ. druh. inf.
+			d) integrovanie vedomostí s doterajšími vedomosťami a ich porovanie s cieľom činnosti
+		- Faktory determinujúce porozumenie textu:
+			- vek žiakov, pohlavie (už nie je štatisticky významné, rovanké záľuby), lokality školy (menej, viac vplýva iné sociálne ukazovatele)
+	- Zapamätanie si textu
+		- Každá informácia je zasadená do kontextu
+		- Informácie tvoria štruktúru
+		- Informácie možno v texte rozličným spôsobom zdôrazniť (textové signály)
+	- Taxomonómia porúch pri porozumení textu
+		- Neporozumenie slova
+			- neznáme slovo
+			- známe slovo, kt. v uvedenom kontexte nedáva zmysel
+		- Neporozumenie vety
+			- nemožná interpretácia
+			- len vágna, abstraktná intrepretácia
+			- viacero možných interpretácii
+			- interpretácia je v rozpore s vedomosťami recipienta
+		- Neporozumenie v akom vzťahu je jedna veta k druhej
+			- interpretácia jednej vety v rozpore s druhou
+			- nemožno nájsť spätosť medzi vetami
+			- viacero možných vzťahov medzi vetami
+		- Neporozumenie štruktúry textu
+			- nemožno nájsť hlavnú myšlienku časti alebo celého textu
+			- nepochopenie, prečo sa v texte vyskytujú isté časti
+	- Poruchy z hľadiska zhody medzi vedomosťami recipienta, obsahom textu a zámerom autora textu
+		- Recipient nemá dostatočné vedomosti o realite, o kt. hovorí text. nemôže je preto ani interpretovať
+		- Recipient má vedomosti realite ale neprenikne k porozum. textu. nejasný, ťažko zrozumiteľný text
+		- Recipient dokáže interpretovať, ale iterpret. nie je zhodná s autorovou. rozumie textu nie autorovi
+		- Recipinet interpretuje text v zhode s autorom a neusiluje sa o alternatívnu vlastnú interpret. nehodnotí kriticky
+
+
+
+	metódy hodnotenia kvality učebníc sa dajú rozdeliť do troch skupín:
+		- Experimentálna metóda – zisťovanie kvality učebnice pomocou pedagogického experimentu. Jedna skupina žiakov bude pracovať s novou učebnicou a druhá so staršou, už pouţívanou, za rovnakých podmienok (ciele vyučovania, počet ţiakov, vyučovacie postupy, rozvrh hodín a pod.). Po skončení experimentu sa zistia a porovnajú vedomosti, zručnosti a postoje ţiakov v jednotlivých skupinách.
+		- Expertné metódy – pouţívajú sa na hodnotenie primeranosti, metodické spracovanie, zaujímavosť, zloţitosť a iné vlastnosti učebnice na základe vyhlásení skupín pozorovateľov – expertov, učiteľov, ţiakov s pod..
+		- Štatistické metódy – týmito metódami sa skúmajú rôzne parametre učiva, ktoré sa získavajú meraním jednotlivých vlastností učiva v učebnici. Medzi takéto parametre patria napríklad:
+			1. priemerný rozsah textu – zisťuje sa počet slov v učebnici, ktorý pripadá na jednu vyučovaciu hodinu.
+			2. miera obťaţnosti textu - meriame jazykovú a obsahovú zloţitosť textu učebnice.
+			3. čitateľnosť textu
+			Prečo je dôleţité skúmať učebnice, čo je predmetom skúmania, a aké metódy sa
+			pouţívajú, nám pomôţe objasniť Průchova klasifikácia metód výskumu učebníc:
+		- Metódy kvantitatívne – sú metódy, ktoré pri analýzach vlastností učebníc pouţívajú rôzne štatistické postupy, ktorými sa zisťuje a porovnáva výskyt a mnoţstvo nejakých merateľných jednotiek učebnice, ktoré môţu byť verbálnymi alebo neverbálnymi zloţkami učebnice. Na meranie týchto jednotiek sa zostavujú vzorce pre výpočet presných hodnôt určitých parametrov učebnice, napr. vzorec pre vypočítanie miery obťaţnosti textu.
+		- Metódy obsahovej analýzy – sú metódy zamerané na zisťovanie a vyhodnocovanie kvalitatívnych vlastností učebníc, najmä ich obsahu.
+		- Metódy dopytovania – sú metódy, ktorými sa získavajú a vyhodnocujú výpovede o rôznych vlastnostiach učebníc a o ich fungovaní vo výchovno-vzdelávacom procese. Pouţívajú sa hlavne metódy dotazníkové a rozhovoru.
+		- Metódy observačné – t.j. rôzne typy pozorovania, sa pri výskume učebníc nepouţívajú často.
+		- Metódy testovacie – pouţívajú sa špeciálne testy, pre určité skupiny ţiakov, pomocou ktorých sa zisťuje efektívnosť práce s učebnicou.
+		- Metódy experimentálne – niektoré vlastnosti učebníc je moţné regulovať pozmenením, úpravou komunikačného a didaktického stvárnenia. Experimentálnymi metódami sa potom zisťuje, aký účinok vyvolávajú riadené zmeny
+		          uskutočnené v týchto učebniciach v porovnaní s tými, v ktorých realizované neboli.
+		- Metódy komparatívne – slúţia na porovnávanie dvoch alebo viacerých učebníc z určitého hľadiska. Porovnávané môţu byť učebnice rôznych ročníkov toho istého predmetu, učebníc rôznych predmetov toho istého ročníka, učebnice nové s učebnicami uţ pouţívanými.
+
+	- 3.2 Metódy merania obťaţnosti textu
+
+
+	Z výskumu vyplynulo, ţe pri písaní textu, či uţ učebnice a iného textu je vhodné dodrţiavať nasledovné princípy:
+		- pouţívať krátke vety
+		- preferovať jednoduché celky
+		- uprednostňovať bežné slová
+		- vyhýbať sa nepotrebným slovám
+		- pouţívať aktívne slovesá
+		- písať tak ako sa hovorí
+		- pouţívať pojmy, ktoré moţno opísať
+		- vyuţívať skúsenosti čitateľa
+		- vyuţívať variabilitu textu
+		- vyjadrovať sa adresne a presvedčivo
+
+
+ 13
+Edukačné publikácie
+(1) Edukačnou publikáciou je učebnica, učebný text a pracovný zošit.
+(2) Na vzdelávanie v školách sa používajú edukačné publikácie schválené ministerstvom školstva
+a iné edukačné publikácie a edukačný softvér, ktoré nie sú schválené ministerstvom školstva a sú
+v súlade s princípmi a cieľmi výchovy a vzdelávania.
+
+
+Jednoduché učebnice můžeme popsat jako elektronické verze svých papírových vzorů
+s absolutním minimem dalších rozšiřujících prvků a možností. Typicky si můžeme
+takovýto produkt představit jako elektronickou knihu předkládanou uživateli pomocí
+nenáročné čtečky.
+Komplexní učebnice ve svém obsahu zahrnují řadu multimediálních prvků, odkazů na ně
+a samozřejmě hypertext. Dle Lobaze (2008) je hypertext „počítačem prezentovaný text,
+který není omezen linearitou, a který odkazuje na další texty, obrazové či jiné dokumenty“
+(Lobaz, 2008, str. 4), ať už jsou uloženy kdekoliv. Tedy vnitřní hypertextové odkazy
+zpravidla odkazují na nějaké externí zdroje, ovšem komplexní učebnice obsahuje i odkazy
+směřující do vlastního obsahu nebo směřující do obsahu dalších učebnic.
+
+
+tři základní možnosti
+tvorby a užití elektronických knih (Crestani at al., 2005):
+•
+ elektronická kniha vytvořená ze zdroje existujícího pouze na papíře,
+•
+ elektronická kniha vytvořená v elektronické podobě, ale určená k tisku,
+•
+ elektronická kniha vytvořená v elektronické podobě pro elektronické využití.
+
+
+ Multimediální učebnice by měla být především učebnicí.
+Pedagogický slovník (Průcha, Mareš, Walterová 2001) chápe samotnou učebnici jako druh
+knižní publikace uzpůsobené k didaktické komunikaci.
+
+
+„Interaktivita je vlastnost systému
+umožňující aktivní přizpůsobení se uživateli. Systém například umožňuje výběr z variant
+postupu, reaguje na specifika uživatele, klade nebo zodpovídá otázky. Vysokou mírou
+interaktivity se často vyznačují multimediální výukové programy.“
+
+
+
+m ich činnosti, štruktúra poznávacieho procesu. Skupinu úloh, v ktorej každá úloha
+zvlášť, resp. viac úloh spolu plnia konkrétnu didaktickú funkciu v súlade s učebnými cieľmi,
+štruktúrou poznávacieho procesu a podmienkami učebného procesu, budeme nazývať
+systém úloh (viď [53]).
+Najvhodnejší postup pri tvorbe systému úloh je podľa D. Švedu [53] nasledovný:
+1. logicko - didaktická analýza učiva
+(komplexný rozbor učiva pozostáva z
+a. hľadania odpovede na otázku Čo učiť?, teda
+•
+ vyjasnenie logickej štruktúry učiva (pojmy, vety,
+spôsoby riešenia)
+•
+ formulácia učebných cieľov
+•
+ konkretizácia učebných cieľov
+b. hľadania odpovede na otázku Ako učiť? (výber metód a foriem
+vyučovania))
+2. stanovenie učebných cieľov a ich konkretizácia pomocou typových úloh
+3. vymedzenie postupnosti osvojovania jednotlivých elementov učiva
+4. tvorba samotného systému úloh, kde úlohy postupne reprezentujú konkrétne
+didaktické funkcie
+
+
+
+Každý systém úloh k danej téme by mal spĺňať požiadavky, ktoré vychádzajú
+zo zákonitosti poznávacieho procesu. Tieto požiadavky možno vyjadriť pomocou
+didaktických funkcií, ktoré plnia jednotlivé úlohy. Štvrtým kritériom sú didaktické funkcie
+úloh. Podľa D. Švedu [53] rozlišujeme nasledovné didaktické funkcie:
+1) úlohy na motiváciu učebnopoznávacej činnosti žiakov1
+2) úlohy na aktualizáciu učiva
+3) prípravné úlohy
+4) úlohy na osvojenie definície pojmu, formulácie vety a postupu riešenia
+5) úlohy na upevňovanie učiva
+6) úlohy na aplikáciu učiva mimo informatiky
+7) úlohy na aplikáciu učiva vo vnútri informatiky
+8) úlohy propedeutického charakteru
+9) úlohy na opakovanie a systemizáciu učiva
+
+
+Nedostatok úloh plniacich rôzne didaktické funkcie je hlavným problémom
+pri dopĺňaní zbierky úloh. Jedným z postupov na tvorbu úloh je preformulovávanie
+existujúcich úloh
+
+
+ preformulovávanie úloh ako na už spomínanú metódu na tvorbu
+chýbajúcich typov úloh, ako na metódu na zmenu kvality úlohy, ako na metódu
+na zvyšovanie resp. znižovanie náročnosti úlohy, ako na metódu na tvorbu neštandardných,
+divergentných úloh, ktoré sú tak potrebné pre rozvíjanie logického myslenia.
+
+
+Téma: Trigonometria
+Podtéma: Trigonometria
+Element: Sínusová a kosínusová veta (riešenie všeobecného trojuholníka)
+Funkcia: motivačné úlohy, úlohy na upevňovanie učiva, úlohy na aplikáciu učiva mimo matematiky
+Úroveň: nižšie konvergentné procesy
+vyššie konvergentné procesy
+
+
+Preformulovávanie úloh
+1. Zmena podmienky v zadaní úlohy
+2. Tvorba otočenej úlohy
+3. Zmena fabuly úlohy
+Prvé dve metódy ovplyvňujú zaradenie úlohy do zbierky úloh vzhľadom na tému,
+podtému, element učiva a takisto vzhľadom na didaktickú funkciu a poznávaciu úroveň.
+Posledná metóda väčšinou neovplyvňuje zaradenie úloh do zbierky, ale má dôležitý význam
+pri pochopení a osvojovaní si nových poznatkov.
+
+
+Piatym kritériom delenia úloh, ktoré sme použili v zbierke je úroveň poznávacích
+procesov podľa taxonómie M. Zelinu [71]:
+1) vnímanie
+2) pamäť
+3) nižšie konvergentné procesy
+4) vyššie konvergentné procesy
+5) hodnotiace myslenie
+6) tvorivé, divergentné myslenie
+
+
+V jednom z niekoľkých postupov riešenia úlohy 408 možno použiť Pytagorovu vetu.
+Z tohto dôvodu je daná úloha zaradená k elementu učiva Euklidove a Pytagorova veta
+v téme Planimetria a v rámci nej k podtéme Trojuholník. Zaradenie úlohy 408
+k didaktickým funkciám závisí od fázy vyučovacieho procesu, v ktorej môže byť úloha
+9
+použitá. Ak žiaci nepoznajú Pytagorovu vetu, môže táto úloha slúžiť na motiváciu
+učebnopoznávacej činnosti žiakov. Ak už žiaci ovládajú spomínanú vetu, možno úlohu
+použiť vo fáze upevňovania učiva. Keďže je spomínaná úloha slovnou úlohou z praxe, tak
+táto úloha môže plniť aj didaktickú funkciu aplikácie učiva mimo matematiky. Stupeň
+poznávacích procesov, ktoré úloha rozvíja vyplýva zo zvoleného postupu pri vyučovaní. Ak
+je úloha aplikovaná ako motivačná úloha, rozvíja vyššie konvergentné procesy, ale ak je
+zaradená k úlohám na upevňovanie učiva alebo k aplikačným úlohám t.j. už sa riešili úlohy
+podobného typu, tak rozvíja nižšie konvergentné procesy.
+
+Ako sa zmení zaradenie úlohy 408 podľa zvolených kritérií, ak by v úlohe nebola
+podmienka, že cesty sú na seba kolmé?
+Úlohu už nemožno riešiť pomocou Pytagorovej vety, ale je potrebné použiť kosínusovú
+vetu, teda zaradenie je nasledovné:
+
+
+ zmena zaradenia úlohy 408 v rámci témy Planimetria, podtémy
+Trojuholník a elementu učiva Euklidove a Pytagorova veta vzhľadom k didaktickej funkcii.
+Táto úloha plní v spomínanom zaradení propedeutickú funkciu ku kosínusovej vete.
+
+
+Toto preformulovávanie zväčša nemení zaradenie úlohy v rámci témy, podtémy a
+elementu učiva, ale je jednou z metód ako vytvárať otvorené, divergentné úlohy
+
+
+Pod pojmom fabula rozumieme dejovú osnovu, príbeh úlohy. Použitím tejto metódy
+preformulovávania úloh sa buď zaradenie úlohy v zbierke nezmení vôbec, alebo sa zmení
+zaradenie úlohy vzhľadom na didaktickú funkciu. Táto metóda preformulovávania úloh má
+dôležitý význam vo fáze osvojovania nových poznatkov. Zmena kontextu úlohy môže
+niekedy pomôcť pochopiť podstatu úlohy a odhaliť „skryté“ vzťahy a súvislosti.
