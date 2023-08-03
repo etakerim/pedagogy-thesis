@@ -1,0 +1,401 @@
+----------------------------------------------------------------------------------------------
+
+- Porozumenie textu
+		- Bloomova taxonómia - princíp: nižší cieľ je základom (predpokladom) pre dosiahnutie vyššieho cieľa
+		- 1. porozumenie - využívanie učiva bez vzťahu s iným učivom a vie čo sa komunikuje
+		- 2. prevod - pretváranie učiva so zachovaním jeho vernosti a presnosti (parafrázovanie, usporiadanie).
+					medzi symbolickým a prirodzeným jazykom
+		- 3. interpretácia - vysvetlneie učiva, pretvorenie učiva alebo zaujatie nového pohľadu naň
+		- 4. extrapolácia - rozšírenie pôvodných informácii na základe implikácii, zistenia dôsledkov, účinkov a podobne.
+				vyslovenie záverov na základe vyvovodzovania, zručnosť predpovedať priebeh udalosti
+		- porozumenie textu je psycholingvistická činnosť s 3 druhmi spojení:
+			- medzi javmi objektívnej reality a prvkami textu, kt. ich označujú
+			- medzi jednotlivými prvkami textu (slovami, vetami, nadvetnými útvarmi)
+			- medzi prvkami textu a prvkami vedomostnej štruktúry recipienta
+		- porozumenie má vzťahový charkater
+			- recipient identifikuje prvky textu, objektívnej reality a vlastnej vedomostnej štruktúry a dáva ich do vzťahov
+		- porozumenie textu nemá mechanický charakter - vyžaduje myšlienkovú aktivitu povahy riešenia problémovej úlohy
+		- text aktivizuje doterajšie vedomosti recipienta (musia tvoriť systém a byť usporiadané, inak je ich aktivizácia sťažená), a text
+			usúvsťažňuje dotarašie vedomosti s novými, čím rožširuje a prehlbuje doterajšie vedomosti.
+		- intertextovosť - texty nadväzujúce na seba najmä v tématickom celku
+		- Operácie pri porozumení textu:
+			- Elaborácia - recipient dáva informcácie obsiahnuté v texte do vzťahu so svojimi doterajšími vedomosťami (kt. aktvizuje)
+				- obsahom: idey, asociásie, predstavy integrujúce sa s textom.
+				- Typy elaborácie:
+					- Sémantické  vedomosti - spresnenie informácie
+					- Epizodické vedomosti - autentické zážitky recip.
+					- Hodnotiaci prvok - založený na doterajších vedom.
+					- Vizuálna predstava - verbálne komunikova
+					- Recipient nenašiel sopojenie s predch. vedomosťami - infor. o spracovaní textu (význam slova nepozná)
+			- Inferencia (vyvodzovania) - čiastkové dedukcie alebo závery s účelom prepájať predchádazjúce vedomosti s novými
+				informáciami obsiahnutými v recipovanom texte
+				- Vypĺňajú chýbajúce informcácie v texte (dieťa vybehlo+matka utekala = matka chcela zabrániť nehode)
+			- Tí, ktorí mali mali predch. podkladové informácie lepšie recipovali text
+		- Obtiažnosť textu = Pruchova modifikácia Nestlerovej metódy. Reliabilita testu
+
+
+Makroštuktúra - tématické okruhy, kapitoly, texty, ich hlavné myšlienky.
+			- Aby sa v nich čitaeteľ vedel orientovať - signály makroštrukúry (rozličné nadpisy, podnadpisy, významový súvis spolu, súhrn)
+			- Nadpisy - veľké nadpisy podľa hlavnej témy textu.
+				- Rozdelenie hlavnej témy na podtémy voľba malých nadpisov (efektívnosť v podobe otázky).
+				- Malé nadpisy môžu byť hlavné myšlienky samostatnej časti textu - iný typ písma, priestorové oddelenei, podčiarknutie
+			- Kľučové vety
+				- Každý text (alebo jeho časť) implicitne alebo explictne vyjadruje niečo sa zvykne nazývať hlavná myšlienka (nemusí byť priamo vyjadrená, vtedy si ju musí vyvodiť). Menej vypelý čitateľ stačí, aby ju našiel (uľahčiť, napr. umiestnením na začiatku textu a graficky zvýraznená)
+			- Otázky
+				- Provokujú čitateľa porovnávať predchádazjúce s novým, hľadať a nachádzať vzťahy v texte.
+				- Otázky pred textom - ak je ich viac a sú zoradené, tvoria plán vnímania čitateľa, nástroj organizácie vnímania. ČIteatľ si osobitne všíma tie časti v takom poradí ako na ne upozorňujú otázky
+				- Otázky za textom - uľahčujú osvojiť si, pochopiť a zapamätať si hlavné i vedľaj. info. v texte. Podnecujú zámerné i nezámerné učenie sa
+				- Otázky:
+					- 1.typu - doslovne si zapamätať. V texte je odpoveď priamo vyjadrená
+					- 2.typu - vyvodzovanie úsudku. V texte nie je odpoveď priamo vyjadrená ale možno ju vyvodiť z poskytnutých infomácii
+					- 3.typu - využívať predchádzajúce skúsenosti pri chápaní textu (nestimulujú osvojenie informácii z textu) (nemožno vyvodiť)
+				- Oddeliť otázky od samotného textu (priestorom, typom písma)
+				- Oddeliť podstatné otázky (zamerané na hlavné body) od skupiny vedľajších otázok
+			- Obrázky
+				- prostriedok zvýrazenie makroštruktúry
+				- organizovanie vnímania hlavných bodov, myšlienok niekedy lepšie ako hlavný text
+				- mimoriadne dôležité vhodné zladenie umiestnenia obrázku a k nemu prisluchajúcemu textu
+			- Typografické a grafické prostriedky
+				- Mladý K. - autor uvádza zásady, kt. môžu priaznivo alebo nepriaznivo pôsobiť na kvalitu učebnice
+				najmä z didaktickej , psychohygienickej a estetickej stránky.
+		- Skvalitnenie textov na úrovni mikroštruktúry
+			- problém významovej súvislosti medzi myšlienkami textu a spôsobom ich vyjadrenia.
+			- určenie vzťahov medzi jednot. myšlienkami - vetami v texte, vybrať vhodné pojmy, slová atď.
+			- sémantické konektory - signály
+			- podrobnosti (>2) vľahčujú chápanie hlavných myšlienok. Zdôvod: tredenie podrobností podľa charakterisktík danej triedy
+				- viac príkladov, lepšie pochopenie charakt. triedy
+			- chápanie pojmov -pojem (psych. hľ.) znamená predstavu človeka o tom, čo označuje. Niekedy nie je ľahké zaradiť do kat.
+			  	- neosté množiny
+			  	- najlepší príklad člena kategórie = prototyp (abstrakciou členov kategorie - niečo ako drozd)
+			  	- typickosť pojmu - nakoľko sa daný predmet vyznačuje určujúcimi vlastnostami  (kt maju vsetci členovai kateg.)
+			- náročnosť pojmov - zohľadniť vlastnosti pojmu, schopnosti, spôsobilosti, predchádzajúce vedomosti a zážitky dieťaťa
+				- taxonomické normy - ktoré pojmy sa u detí spájajú s názvom im nadradenej kategorie
+			- štruktúra viet - veľké problémy s chápaním niektorých syntaktických štruktúr
+				- ťažké na pochopenie - včlenenie vedľajšej vety prívlastkovej do vety hlavnej
+					namiesto toho vyjadriť myšleinku dvoma vetami
+					riziko je vynechanie konektorov (spáajajúcich slov) - znižuje sa kohezita textu - opatrne rozdeľovať vety
+				- vznik zvýšenej záťaže - tam je porušený princíp minimálnej vzdielenosti
+					- podmet vedľajšej vety sa má vzťahovať na odkaz, kt. 	sa nachádza pred touto vedľajšou vetou
+			- inferenčná záťaž textu - nakoľko si čitateľ musí sám vyvodzovať vzťahy z textu S.Kemper (1983)
+				- uľahčiť myšlienky kt. spolu súvisia nasleduju v texte po sebe
+				- priame vyjadrenie psychických a fyzických stavov osob ktore vykonavaju danu činnosť
+			- signály mikroštruktúry textu
+				- signály na uľachčenie lokálneho chapania textu, slova po slove, vetu, po vete, ich vzťahy
+				- jazykové signály - nie sú nositeľom významu pomáhajú pochopiť zmysel a súvislosti mikrozložike
+				- nejazykove - zvýraznenie kľúčových slov (typografia a graficka uprava)
+				- napr. lebo, nakolko, vzhladom, pretoze
+				- signaly sematickych väzieb (podla J.Pruchu)
+					- 1. iteráciu (opkoavanie toho isteho vyrazu)
+					- 2. kongruenciu (pouzitie slova, kt. tvar upozorňuje na význam určitého výrazu v texte)
+					- 3. substitúcia (nahradzovanie výrazu iným)
+					- 4. asociácia (upozornenie na slovo výrazom, kt. je s nim v asociacnom vzťahu)
+		- Kvantitativne charakteristiky textu
+				- "čo má text obsahovať" vs "koľko má čoho obsahovať"
+				- čitateľnosť textu - napr. dĺžka viet, výskyt ťažkých slov (nie sú v zoznamoch bežných slov)
+				- vzorce náročnosti podľa J.Pruchu:
+					1. syntakticky faktor - zložitosť vetnej stavby
+					2. lexikálny faktor - sémantikcá náročnosť tetxu
+				- Mikka - výpočet náročnosti - dĺžke samostatných viet (počet písmen), abstraktnosť opakujúcich sa pod. mien.
+				- čítania - komunikácia medzi autorom a čitateľom (psycholingvisktika)
+				- model spracovania textu
+
+
+- Taxomonómia porúch pri porozumení textu
+		- Neporozumenie slova
+			- neznáme slovo
+			- známe slovo, kt. v uvedenom kontexte nedáva zmysel
+		- Neporozumenie vety
+			- nemožná interpretácia
+			- len vágna, abstraktná intrepretácia
+			- viacero možných interpretácii
+			- interpretácia je v rozpore s vedomosťami recipienta
+		- Neporozumenie v akom vzťahu je jedna veta k druhej
+			- interpretácia jednej vety v rozpore s druhou
+			- nemožno nájsť spätosť medzi vetami
+			- viacero možných vzťahov medzi vetami
+		- Neporozumenie štruktúry textu
+			- nemožno nájsť hlavnú myšlienku časti alebo celého textu
+			- nepochopenie, prečo sa v texte vyskytujú isté časti
+	- Poruchy z hľadiska zhody medzi vedomosťami recipienta, obsahom textu a zámerom autora textu
+		- Recipient nemá dostatočné vedomosti o realite, o kt. hovorí text. nemôže je preto ani interpretovať
+		- Recipient má vedomosti realite ale neprenikne k porozum. textu. nejasný, ťažko zrozumiteľný text
+		- Recipient dokáže interpretovať, ale iterpret. nie je zhodná s autorovou. rozumie textu nie autorovi
+		- Recipinet interpretuje text v zhode s autorom a neusiluje sa o alternatívnu vlastnú interpret. nehodnotí kriticky
+
+
+metódy hodnotenia kvality učebníc sa dajú rozdeliť do troch skupín:
+		- Experimentálna metóda – zisťovanie kvality učebnice pomocou pedagogického experimentu. Jedna skupina žiakov bude pracovať s novou učebnicou a druhá so staršou, už pouţívanou, za rovnakých podmienok (ciele vyučovania, počet ţiakov, vyučovacie postupy, rozvrh hodín a pod.). Po skončení experimentu sa zistia a porovnajú vedomosti, zručnosti a postoje ţiakov v jednotlivých skupinách.
+		- Expertné metódy – pouţívajú sa na hodnotenie primeranosti, metodické spracovanie, zaujímavosť, zloţitosť a iné vlastnosti učebnice na základe vyhlásení skupín pozorovateľov – expertov, učiteľov, ţiakov s pod..
+		- Štatistické metódy – týmito metódami sa skúmajú rôzne parametre učiva, ktoré sa získavajú meraním jednotlivých vlastností učiva v učebnici. Medzi takéto parametre patria napríklad:
+			1. priemerný rozsah textu – zisťuje sa počet slov v učebnici, ktorý pripadá na jednu vyučovaciu hodinu.
+			2. miera obťaţnosti textu - meriame jazykovú a obsahovú zloţitosť textu učebnice.
+			3. čitateľnosť textu
+			Prečo je dôleţité skúmať učebnice, čo je predmetom skúmania, a aké metódy sa
+			pouţívajú, nám pomôţe objasniť Průchova klasifikácia metód výskumu učebníc:
+		- Metódy kvantitatívne – sú metódy, ktoré pri analýzach vlastností učebníc pouţívajú rôzne štatistické postupy, ktorými sa zisťuje a porovnáva výskyt a mnoţstvo nejakých merateľných jednotiek učebnice, ktoré môţu byť verbálnymi alebo neverbálnymi zloţkami učebnice. Na meranie týchto jednotiek sa zostavujú vzorce pre výpočet presných hodnôt určitých parametrov učebnice, napr. vzorec pre vypočítanie miery obťaţnosti textu.
+		- Metódy obsahovej analýzy – sú metódy zamerané na zisťovanie a vyhodnocovanie kvalitatívnych vlastností učebníc, najmä ich obsahu.
+		- Metódy dopytovania – sú metódy, ktorými sa získavajú a vyhodnocujú výpovede o rôznych vlastnostiach učebníc a o ich fungovaní vo výchovno-vzdelávacom procese. Pouţívajú sa hlavne metódy dotazníkové a rozhovoru.
+		- Metódy observačné – t.j. rôzne typy pozorovania, sa pri výskume učebníc nepouţívajú často.
+		- Metódy testovacie – pouţívajú sa špeciálne testy, pre určité skupiny ţiakov, pomocou ktorých sa zisťuje efektívnosť práce s učebnicou.
+		- Metódy experimentálne – niektoré vlastnosti učebníc je moţné regulovať pozmenením, úpravou komunikačného a didaktického stvárnenia. Experimentálnymi metódami sa potom zisťuje, aký účinok vyvolávajú riadené zmeny
+		          uskutočnené v týchto učebniciach v porovnaní s tými, v ktorých realizované neboli.
+		- Metódy komparatívne – slúţia na porovnávanie dvoch alebo viacerých učebníc z určitého hľadiska. Porovnávané môţu byť učebnice rôznych ročníkov toho istého predmetu, učebníc rôznych predmetov toho istého ročníka, učebnice nové s učebnicami uţ pouţívanými.
+
+	- 3.2 Metódy merania obťaţnosti textu
+
+
+	Z výskumu vyplynulo, ţe pri písaní textu, či uţ učebnice a iného textu je vhodné dodrţiavať nasledovné princípy:
+		- pouţívať krátke vety
+		- preferovať jednoduché celky
+		- uprednostňovať bežné slová
+		- vyhýbať sa nepotrebným slovám
+		- pouţívať aktívne slovesá
+		- písať tak ako sa hovorí
+		- pouţívať pojmy, ktoré moţno opísať
+		- vyuţívať skúsenosti čitateľa
+		- vyuţívať variabilitu textu
+		- vyjadrovať sa adresne a presvedčivo
+
+---------------------------------------------------------------------------------------------------------------------
+
+- Kedy žiak chce úlohy v učebnici riešiť?
+	- Ako difrencovať úlohy vzhľadom na individuálne osobitosti žiakov?
+	- Ako zoradiť úlohy v učebnici?
+
+	- Každé učivo nevieme sprostrekovať žiakovi, že samo od seba priťahuje jeho pozornosť. Dieťa má tendenciu podujať sa na riešenie takých úloh, o ktorých má dojem, že ich zvládne. Spravidla to, čo prekonáva bez výrazných problémov, v čom je dieťa úspešné, motivuje i ďalej sa učiť a naopak, príliš náročné úlohy odstrašujú. Preto je žiaduce aby boli úlohy \textit{primerané danýchm možnostiam dieťaťa}.
+	- Nevyhnutné je zladiť poznávacie možnosti dieťaťa zodpovedajúce jeho veku, individuálnym osobitostiam, predchádzajúcim skúsenostiam s daným podnetovým materiálom - úlohami.
+	- \textbf{Zohľadnenie vekových osobitostí }- na hranice v psychickom vývine upozornil S.L.Vygotskij a nazval ich vývinové limity. Definuje úroveň aktuálneho vývinu a zónu najbližšieho vývinu (úroveň, ktorú dieťa vie riešiť len s pomocou dospelého).
+			- Ak sú úlohy v učebnici príliš náročné, stavané skôr pre menšiu skupinu žiakov s reýchlejším tempom psychického vývinu, s nadpriemrnýcmi schopnosťami, potom sa zákonite musí zhoršiť prospech väčšinu detí, lebo na požiadavky úloh nestačia. Ak chceme prospech väčšej časti triedy udržať na úrovni, musíme zľaviť z nárokov (vo vyšších ročníkoch žiaci, kt. chýbajú základné poznatky)
+		- V škole sa má žiak niečo naučiť. Ak by sme mu dávali len také úlohy, kt. vie ľahko vyriešiť (primerane svojim schopn), jeho učenie by nedosiahlo žiadny pokrok.Treba zaradiť úlohy nielen vekprimerané, ake aj rozvíjajúce (vývin vyšších schopností)
+		- Zaraďovať úlohy - myslieť až potom konať (mladší žiaci)
+		- Rozdielmi v štruktúre (profile) poznávacích schopností rozumieme skutočnosť, že v danom štádiu vývinu dosahujú jednotilvé poznávacie schopnosti rôznu úroveň.
+		- Spôsob poznávania (poznaváci štýl) - v rôznych sitáciach rôzny a každému vyhovuje iný.
+	- \textbf{Zohľadňovať individuálne odlišnosti} pri tvorbe učebníc predpokladá diferenciáciu úloh podľa toho:
+		- akú \textit{celkovú úroveň} schopností si vyžaduje riešenie úlohy
+		- aký profil, resp. \textit{štruktúra} schopností sú potrebné na úspešné splnenie úlohy
+		- ktorý \textit{poznávací štýl} je optimálny na jej riešenie
+		- Z hľadisko celkovej úrovne schopností je žiaduce zaradiť v každej oblasti úlohy s tromi stupňami náročnosti - \textit{menej náročné, stredné, vysoko náročné}.
+		Prvá skupina úloh je pre žiakov s pomalším tempom vývinu alebo nižšou poznávacou kapacitou (alebo skutočnosť, že ich vedia riešiť žiaci priemerní žiaci o ročník nižšie), druhá pre priemerných žiakov, ktorých je najviac a tretia pre tých, ktorí sa vyvíjajú rýchlejšie alebo ich poznávacia kapacita je nadpriemerná (priemerní žiaci vo vyššom ročníku!.
+		- Takéto rozdelenie úloh, prirodzene neznamená, že by jeden žiak nemohol a nemal riešiť úlohy všetkých stupňov obtiažnosti. Menej náročné úlohy môžu slúžiť na opkaovanie učiva, hoci bystrejším žiakom stačí splniť menší počet a môžu rýchlejšie prejsť na stredne prípade vysoko náročné úlohy.
+		- Stimulovať vývoj zaostávajúcich schopností
+
+	- \textbf{Zohľadnenie predchádzajúcich skúseností} - každý nový podnet je atraktívny - až potiaľ, kým nezíska nepríjemnú skúsenosť
+		- Výber a zoradenie úloh (hierarchia úloh) prispôsobiť tak aby garantoval množstvo zážitkov úspechu
+		- úlohy v učebnici by mali byť primerané nielen schopnostiam žiaka, ale aj konkrétnym vedomostiam a spôsobilostiam
+		- \textbf{Nadobúdanie vedomostí} Stupeň náročnosti osvojovaním poznatkov závisí od ich \textbf{množstva a kvality} (informácii) - kvalita je od konkrétnemu k abstraktnému
+			- Na základe chápanie vzťahov sa rozvíjajú i schémy (tiež majú hierarchickú) organizáciu. Na rozdiel od pojmov, aj schémy majú svoju sieť, hierarchickú organizáciu
+			- Schémy narozdiel od pojmov reprezentujú nielen
+				- poznanie vo forme faktov (\textbf{deklaratívne poznatky}),
+				- ale tiež aj to, ako je možné tieto poznatky využívať (\textbf{procedurálne poznatky})
+				- a kedy daný spôsob využívania poznatkov realizovať (\textbf{kondicionálne poznatky})
+			- Schémy ako vedomosti obsahjúce najvyšší stupeň zovšeobecnenia stelesňujú poznatky typu
+			\textit{vedieť čo, vedieť ako, vedieť kedy ako}.
+		- \textbf{Osvojovanie spôsobilostí} - spôsobilosť je ovládanie určitej zložky činnosti, ktorá sa získava v priebehu cvičenia (motorické, senzomotorické, psychické), osvojovanie pozorovaním modelu činnosti
+			- Kroky:
+				- 1. Učenie faktov (informácie typu kto/čo/kde/kedy/prečo/ako)
+				- 2. Zvrat od poznania faktov ku skúsenosti ako ich využívať (kompilácia) - kvantititatívne zmeny (urýchlenie činnosti, ucelené vykonávanie činnosti, vynechanie slovného opisu/faktov)
+				- 3. Ladenie - ladiace mechanizmy (proces generalizácie - širšia aplikácia pravidiel postupu, diskriminácia - zužovanie pravidiel, posilňovanie - lepšie pravidlá sa posilňujú horšie oslabujú)
+		-  \textbf{Rozvíjanie schopností} - schopnosti stoja na najvyššom stupienku v hierarchii poznávania. Zo strany prostredia sa dajú ťažšie ovplyvňovať ako vedomosti, spôsobilosti.
+			- Rozvíjanie myslenia v kategoriách podľa S. Nickersona:
+				- Prístupy zdôrazňujúce kognitívne procesy (myseľ závisí od základných procesov: porovnávanie, zoraďovanie, klasifikácia, usudzovanie, predvídanie)
+				- Heuristicky orientované prístupy - cvičenie stratégii formulácie problému, hľadanie spôobov jeho zobrazenia, plánovanie riešenia
+				- Prístup súst. na vývin formálneho myslenia (Piaget) - učivo má byť primerané poznávacím schopnostiam žiaka
+				- Prísupy zdôr. jazyk a narábanie so symbolmi - rozv. mysl. písaním alebo program. pre PC
+
+
+
+
+- Prínos psychológie k riešeniu otázok obsahu a ďaľších problémov vzdelávania (Psychologické otázky/hľadisko)
+	- Čo sa žiak v danom čase naučí? vymedzenie vyučovacích cieľov, vyučovacieho obsahu v danom type školy, na danej vyučovacej hodine. štruktúta a kvantitatívne charakteristiky (preddimenzovanosť)
+	- Ako si žiak osvojuje učivo v danom čase? čo sa má naučiť, súvisí s tým ako sa to má naučiť, moderné vyučovacie metódy a formy práce  - problémové, skupinové vyučovanie)
+	- Kedy si má žiak osvojiť určité učivo daným spôsobom? v závislosti od učiva, vymedzeného času, chrakteristík žiaka a učiteľa, pružnosť vo vyučovaní
+	- V akom poradí si žiak osvojuje jednotlivé vedomosti, spôsobilosti? najprv jednoduchšie a potom zložitejšie - hierarchia vedomostí, že žiak postupuje na vyššie stupne až keď si osvojí nižšie, zoradenie do hierarchie podľa náročnosti
+	- Ako merať a hodnotiť stupeň zvládnutia učiva?  meranie spôsobitlostí vo výchovno-vzdelávacom procese, je predpokladomzistenia nakoľko žiaci zvládli učivo - ďalej postupvať v učive (vyučovaním ďaľších vedomostí v hierarchii) alebo pokračovať prehlbovaní doterajšieho učiva. spôsobilosti (fyzické, psychické) sú podmienkou nadobúdania množstva hlbokých vedomostí, podmienkou rozvoja psychických schopností
+		- Psychológia upozorňuje na tie vedomosti, spôsobilosti, schopnosti, ktoré umožňujú čo najväčší transfer, a prostredníctvom ktorých človek získa základ na široké množstvo aktivít pre ďaľšie učenie alebo v praktickom živote
+		- Psychológia poskytuje informácie o tom, ako dieťa daného veku a indiv. osobitostí vníma, pamätá si, myslí, ako si predstavuje svet vcelku i po častiach (neprimerané učivo)
+		- Psychológia umožňuje čoraz presnejšie zostaviť hierarchiu vedomostí, spôsobilostí, schopností a zistiť, ktoré si má osvojiť najskôr
+
+Efektívne učenie podľa Skinnera za podmienok:
+	- Poznať konkrétne ciele výchovy a vzdelávania
+	- Umožniť žiakom postupovať svojim vlastným tempom, nežiadať rovnako rýchle napredovanie
+	- Motivácia žiakov - tvorba vzdelávacích programov s často správnou odpoveďou, o ktorej sa hneď dozvie.
+
+
+
+Každý systém úloh k danej téme by mal spĺňať požiadavky, ktoré vychádzajú
+zo zákonitosti poznávacieho procesu. Tieto požiadavky možno vyjadriť pomocou
+didaktických funkcií, ktoré plnia jednotlivé úlohy. Štvrtým kritériom sú didaktické funkcie
+úloh. Podľa D. Švedu [53] rozlišujeme nasledovné didaktické funkcie:
+1) úlohy na motiváciu učebnopoznávacej činnosti žiakov1
+2) úlohy na aktualizáciu učiva
+3) prípravné úlohy
+4) úlohy na osvojenie definície pojmu, formulácie vety a postupu riešenia
+5) úlohy na upevňovanie učiva
+6) úlohy na aplikáciu učiva mimo informatiky
+7) úlohy na aplikáciu učiva vo vnútri informatiky
+8) úlohy propedeutického charakteru
+9) úlohy na opakovanie a systemizáciu učiva
+
+
+Nedostatok úloh plniacich rôzne didaktické funkcie je hlavným problémom
+pri dopĺňaní zbierky úloh. Jedným z postupov na tvorbu úloh je preformulovávanie
+existujúcich úloh
+
+
+Téma: Trigonometria
+Podtéma: Trigonometria
+Element: Sínusová a kosínusová veta (riešenie všeobecného trojuholníka)
+Funkcia: motivačné úlohy, úlohy na upevňovanie učiva, úlohy na aplikáciu učiva mimo matematiky
+Úroveň: nižšie konvergentné procesy
+vyššie konvergentné procesy
+
+
+
+Piatym kritériom delenia úloh, ktoré sme použili v zbierke je úroveň poznávacích
+procesov podľa taxonómie M. Zelinu [71]:
+1) vnímanie
+2) pamäť
+3) nižšie konvergentné procesy
+4) vyššie konvergentné procesy
+5) hodnotiace myslenie
+6) tvorivé, divergentné myslenie
+
+
+ reformulovávanie úloh ako na už spomínanú metódu na tvorbu
+chýbajúcich typov úloh, ako na metódu na zmenu kvality úlohy, ako na metódu
+na zvyšovanie resp. znižovanie náročnosti úlohy, ako na metódu na tvorbu neštandardných,
+divergentných úloh, ktoré sú tak potrebné pre rozvíjanie logického myslenia.
+
+
+V jednom z niekoľkých postupov riešenia úlohy 408 možno použiť Pytagorovu vetu.
+Z tohto dôvodu je daná úloha zaradená k elementu učiva Euklidove a Pytagorova veta
+v téme Planimetria a v rámci nej k podtéme Trojuholník. Zaradenie úlohy 408
+k didaktickým funkciám závisí od fázy vyučovacieho procesu, v ktorej môže byť úloha
+9
+použitá. Ak žiaci nepoznajú Pytagorovu vetu, môže táto úloha slúžiť na motiváciu
+učebnopoznávacej činnosti žiakov. Ak už žiaci ovládajú spomínanú vetu, možno úlohu
+použiť vo fáze upevňovania učiva. Keďže je spomínaná úloha slovnou úlohou z praxe, tak
+táto úloha môže plniť aj didaktickú funkciu aplikácie učiva mimo matematiky. Stupeň
+poznávacích procesov, ktoré úloha rozvíja vyplýva zo zvoleného postupu pri vyučovaní. Ak
+je úloha aplikovaná ako motivačná úloha, rozvíja vyššie konvergentné procesy, ale ak je
+zaradená k úlohám na upevňovanie učiva alebo k aplikačným úlohám t.j. už sa riešili úlohy
+podobného typu, tak rozvíja nižšie konvergentné procesy.
+
+Ako sa zmení zaradenie úlohy 408 podľa zvolených kritérií, ak by v úlohe nebola
+podmienka, že cesty sú na seba kolmé?
+Úlohu už nemožno riešiť pomocou Pytagorovej vety, ale je potrebné použiť kosínusovú
+vetu, teda zaradenie je nasledovné:
+
+
+ zmena zaradenia úlohy 408 v rámci témy Planimetria, podtémy
+Trojuholník a elementu učiva Euklidove a Pytagorova veta vzhľadom k didaktickej funkcii.
+Táto úloha plní v spomínanom zaradení propedeutickú funkciu ku kosínusovej vete.
+
+
+Toto preformulovávanie zväčša nemení zaradenie úlohy v rámci témy, podtémy a
+elementu učiva, ale je jednou z metód ako vytvárať otvorené, divergentné úlohy
+
+
+Pod pojmom fabula rozumieme dejovú osnovu, príbeh úlohy. Použitím tejto metódy
+preformulovávania úloh sa buď zaradenie úlohy v zbierke nezmení vôbec, alebo sa zmení
+zaradenie úlohy vzhľadom na didaktickú funkciu. Táto metóda preformulovávania úloh má
+dôležitý význam vo fáze osvojovania nových poznatkov. Zmena kontextu úlohy môže
+niekedy pomôcť pochopiť podstatu úlohy a odhaliť „skryté“ vzťahy a súvislosti.
+
+
+---------------------------------------------------------------------------------------------------------
+procedurálny charakter
+
+Štátny vzdelávací program je záväzný dokument, ktorý stanovuje všeobecné ciele vzdelávania a kľúčové kompetencie, ku ktorým má vzdelávanie smerovať. Ciele vzdelávania sú postavené tak, aby sa zabezpečil vyvážený rozvoj osobnosti žiakov. Štátny vzdelávací program vymedzuje aj rámcový obsah vzdelávania. Je východiskom pre tvorbu školského vzdelávacieho programu, v ktorom sa zohľadňujú aj špecifické podmienky a potreby regiónu.
+
+Algoritmické riešenie problémov – analýza problému
+
+Vlastnosti a vzťahy: platí – neplatí, a/alebo/nie (neformálne)
+Procesy: krokovanie sekvencie a opakovania, rozhodovanie o pravdivosti tvrdenia
+
+Žiak vie/dokáže
+ uvažovať o obmedzeniach, ktoré súvisia s riešením úlohy,
+ identifikovať opakujúce sa vzory,
+ uvažovať o hraničných prípadoch (na úrovni cyklov),
+ rozhodovať o pravdivosti/nepravdivosti tvrdenia (výroku)
+ vyberať prvky alebo možnosti podľa pravdivosti tvrdenia,
+ popisovať vzťahy medzi informáciami vlastnými slovami,
+ uvádzať kontra príklad, v ktorom niečo neplatí, nefunguje,
+ uvažovať o rôznych riešeniach.
+
+
+
+Algoritmické riešenie problémov – jazyk na zápis riešenia
+
+Vlastnosti a vzťahy: chybný zápis, konštrukcie jazyka ako postupnosti príkazov
+Procesy: zostavovanie programu v jazyku na zápis algoritmov, spustenie programu
+
+Žiak vie/dokáže
+ používať jazyk na popis riešenia problému – aplikovať pravidlá, konštrukcie jazyka.
+
+
+
+
+Algoritmické riešenie problémov – pomocou postupnosti príkazov
+Pojmy: príkaz, parameter príkazu, postupnosť príkazov
+Vlastnosti a vzťahy: ako súvisia príkazy, poradie príkazov a výsledok, pravidlá jazyka pre zostavenie sekvencie príkazov
+Procesy: zostavenie a upravenie príkazu/príkazov, vyhodnotenie postupnosti príkazov, úprava sekvencie príkazov (pridanie, odstránenie príkazu, zmena poradia príkazov)
+
+Žiak vie/dokáže
+ riešiť problém skladaním príkazov do postupnosti,
+ aplikovať pravidlá konštrukcie jazyka pre zostavenie postupnosti príkazov,
+ interpretovať postupnosť príkazov,
+ hľadať chybu v postupnosti príkazov a opraviť ju.
+
+
+
+
+Algoritmické riešenie problémov – pomocou cyklov
+
+Pojmy: opakovanie, počet opakovaní, telo cyklu
+Vlastnosti a vzťahy: ako súvisí počet opakovaní s výsledkom
+Procesy: zostavovanie, upravovanie tela cyklu, nastavenie počtu opakovaní
+
+Žiak vie/dokáže
+ rozpoznať opakujúce sa vzory pri riešení zadaného problému,
+ rozpoznať, aká časť algoritmu sa má vykonať pred, počas a po skončení cyklu,
+ stanovovať počet opakovaní pomocou hodnoty,
+ riešiť problémy, ktoré vyžadujú známy počet opakovaní,
+ zapisovať riešenie problému s cyklom pomocou jazyka,
+ interpretovať algoritmy s cyklami.
+
+
+
+Algoritmické riešenie problémov – interpretácia zápisu riešenia
+
+Vlastnosti a vzťahy: jazyk – vykonanie programu
+Procesy: krokovanie, čo sa deje v počítači v prípade chyby v programe
+
+Žiak vie/dokáže
+ realizovať návod, postup, algoritmus riešenia úlohy – interpretovať ho, krokovať riešenie, simulovať činnosť vykonávateľa.
+
+
+
+Algoritmické riešenie problémov – hľadanie, opravovanie chýb
+
+Vlastnosti a vzťahy: chyba v postupnosti príkazov (zlý príkaz, chýbajúci príkaz, vymenený príkaz alebo príkaz navyše), riešenie, ktoré lepšie spĺňa stanovené kritérium v zadanom probléme
+Procesy: hľadanie chyby
+
+Žiak vie/dokáže
+ rozpoznať, že program pracuje nesprávne,
+ hľadať chybu vo vlastnom nesprávne pracujúcom programe a opraviť ju,
+ interpretovať návod, v ktorom je chyba,
+ diskutovať a argumentovať o správnosti riešenia (svojho aj cudzieho),
+ diskutovať o rôznych postupoch a výstupoch riešenia (porovnávať riešenia konkrétneho problému od rôznych žiakov z hľadiska dĺžky výsledku, trvania, veľkosti kódu/zápisu),
+ dopĺňať, dokončovať, modifikovať rozpracované riešenie,
+ navrhovať vylepšenie riešenia.
+
+
+
+POSTUPY, RIEŠENIE PROBLÉMOV, ALGORITMICKÉ MYSLENIE
+
+problém, algoritmus, algoritmy z bežného života, spôsoby zápisu algoritmov,  etapy riešenia problému, rozbor problému, algoritmus, program, ladenie,  programovací jazyk, syntax, spustenie programu, logické chyby, chyby počas behu programu,  pojmy, príkazy (priradenie, vstup, výstup), riadiace štruktúry (podmienené príkazy, cykly), premenné, typy, množina operácií.
+
+zanalyzujú problém, navrhnú algoritmus riešenia problému, zapíšu algoritmus v zrozumiteľnej formálnej podobe, overia správnosť algoritmu,  budú riešiť problémy pomocou algoritmov, budú vedieť ich zapísať do programovacieho jazyka, vyhľadajú a opravia chyby,  porozumejú hotovým programom, určia vlastnosti vstupov, výstupov a vzťahy medzi nimi, budú vedieť ich testovať a modifikovať,  budú riešiť úlohy pomocou príkazov s rôznymi obmedzeniami použitia príkazov, premenných, typov a operácií,  použijú základné typy používaného programovacieho jazyka,  rozpoznajú a odstránia syntaktické chyby, opravia chyby
+
+vzniknuté počas behu programu, identifikujú miesta programu, na ktorých môže dôjsť k chybám počas behu programu.
