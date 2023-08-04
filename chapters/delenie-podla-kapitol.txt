@@ -1,47 +1,3 @@
- Preformulovávanie úloh ako na už spomínanú metódu na tvorbu
-chýbajúcich typov úloh, ako na metódu na zmenu kvality úlohy, ako na metódu
-na zvyšovanie resp. znižovanie náročnosti úlohy, ako na metódu na tvorbu neštandardných,
-divergentných úloh, ktoré sú tak potrebné pre rozvíjanie logického myslenia.
-
-
-V jednom z niekoľkých postupov riešenia úlohy 408 možno použiť Pytagorovu vetu.
-Z tohto dôvodu je daná úloha zaradená k elementu učiva Euklidove a Pytagorova veta
-v téme Planimetria a v rámci nej k podtéme Trojuholník. Zaradenie úlohy 408
-k didaktickým funkciám závisí od fázy vyučovacieho procesu, v ktorej môže byť úloha
-9
-použitá. Ak žiaci nepoznajú Pytagorovu vetu, môže táto úloha slúžiť na motiváciu
-učebnopoznávacej činnosti žiakov. Ak už žiaci ovládajú spomínanú vetu, možno úlohu
-použiť vo fáze upevňovania učiva. Keďže je spomínaná úloha slovnou úlohou z praxe, tak
-táto úloha môže plniť aj didaktickú funkciu aplikácie učiva mimo matematiky. Stupeň
-poznávacích procesov, ktoré úloha rozvíja vyplýva zo zvoleného postupu pri vyučovaní. Ak
-je úloha aplikovaná ako motivačná úloha, rozvíja vyššie konvergentné procesy, ale ak je
-zaradená k úlohám na upevňovanie učiva alebo k aplikačným úlohám t.j. už sa riešili úlohy
-podobného typu, tak rozvíja nižšie konvergentné procesy.
-
-Ako sa zmení zaradenie úlohy 408 podľa zvolených kritérií, ak by v úlohe nebola
-podmienka, že cesty sú na seba kolmé?
-Úlohu už nemožno riešiť pomocou Pytagorovej vety, ale je potrebné použiť kosínusovú
-vetu, teda zaradenie je nasledovné:
-
-
- zmena zaradenia úlohy 408 v rámci témy Planimetria, podtémy
-Trojuholník a elementu učiva Euklidove a Pytagorova veta vzhľadom k didaktickej funkcii.
-Táto úloha plní v spomínanom zaradení propedeutickú funkciu ku kosínusovej vete.
-
-
-Toto preformulovávanie zväčša nemení zaradenie úlohy v rámci témy, podtémy a
-elementu učiva, ale je jednou z metód ako vytvárať otvorené, divergentné úlohy
-
-
-Pod pojmom fabula rozumieme dejovú osnovu, príbeh úlohy. Použitím tejto metódy
-preformulovávania úloh sa buď zaradenie úlohy v zbierke nezmení vôbec, alebo sa zmení
-zaradenie úlohy vzhľadom na didaktickú funkciu. Táto metóda preformulovávania úloh má
-dôležitý význam vo fáze osvojovania nových poznatkov. Zmena kontextu úlohy môže
-niekedy pomôcť pochopiť podstatu úlohy a odhaliť „skryté“ vzťahy a súvislosti.
-
-
-
-
 
 ---------------------------------------------------------------------------------------------------------
 procedurálny charakter
@@ -139,3 +95,13 @@ problém, algoritmus, algoritmy z bežného života, spôsoby zápisu algoritmov
 zanalyzujú problém, navrhnú algoritmus riešenia problému, zapíšu algoritmus v zrozumiteľnej formálnej podobe, overia správnosť algoritmu,  budú riešiť problémy pomocou algoritmov, budú vedieť ich zapísať do programovacieho jazyka, vyhľadajú a opravia chyby,  porozumejú hotovým programom, určia vlastnosti vstupov, výstupov a vzťahy medzi nimi, budú vedieť ich testovať a modifikovať,  budú riešiť úlohy pomocou príkazov s rôznymi obmedzeniami použitia príkazov, premenných, typov a operácií,  použijú základné typy používaného programovacieho jazyka,  rozpoznajú a odstránia syntaktické chyby, opravia chyby
 
 vzniknuté počas behu programu, identifikujú miesta programu, na ktorých môže dôjsť k chybám počas behu programu.
+
+
+----
+CP
+typy údajov – ich použitie a obmedzenia,  pravidlá vyhodnocovania výrazov – priorita operácií, výrazy so štandardnými funkciami,  premenná – názov, hodnota, vzťah s pamäťou,  jednorozmerné polia – prvky, indexy, usporiadané hodnoty,  textový súbor – ako postupnosť znakov a riadkov, koniec súboru,  zložený a jednoduchý typ údajov.
+
+syntax jazyka – rezervované slová, identifikátory, konštanty, oddeľovače,  prostriedky jazyka pre interakciu – získanie vstupu, zrealizovanie výstupu,  cyklus s pevným počtom opakovaní, cyklus s podmienkou – počítadlo cyklu, telo cyklu, vnorené príkazy,  vetvenie – podmienený príkaz, podmienka, telo vetvy, vnorené príkazy,  podprogram – definovanie, hodnotové parametre, nerekurzívne volanie, návratová hodnota, lokálne premenné.
+
+
+chyby: syntaktické, logické, chyby vzniknuté za behu,  analýza problému – vzťahy medzi vstupom a výstupom,  vstupné obmedzenia – pre ktoré hodnoty algoritmus správne pracuje
