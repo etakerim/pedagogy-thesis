@@ -1,83 +1,9 @@
+(s.8)
+Pri napĺňaní zbierky úloh sme sa stretli s mnohými problémami. Snáď najväčším problémom je nedostatok úloh, ktoré by plnili rôzne didaktické funkcie
 
-		Z výskumu vyplynulo, ţe pri písaní textu, či uţ učebnice a iného textu je vhodné dodrţiavať nasledovné princípy:
-			- pouţívať krátke vety
-			- preferovať jednoduché celky
-			- uprednostňovať bežné slová
-			- vyhýbať sa nepotrebným slovám
-			- pouţívať aktívne slovesá
-			- písať tak ako sa hovorí
-			- pouţívať pojmy, ktoré moţno opísať
-			- vyuţívať skúsenosti čitateľa
-			- vyuţívať variabilitu textu
-			- vyjadrovať sa adresne a presvedčivo
+Zadávaním skupiny úloh, ktoré žiaci riešia v určitom poradí, sa zároveň stanovuje systém ich činnosti, štruktúra poznávacieho procesu. Skupinu úloh, v ktorej každá úloha zvlášť, resp. viac úloh spolu plnia konkrétnu didaktickú funkciu v súlade s učebnými cieľmi, štruktúrou poznávacieho procesu a podmienkami učebného procesu, budeme nazývať systém úloh
 
-
-
----------------------------------------------------------------------------------------------------------------------
-
-- Kedy žiak chce úlohy v učebnici riešiť?
-	- Ako difrencovať úlohy vzhľadom na individuálne osobitosti žiakov?
-	- Ako zoradiť úlohy v učebnici?
-
-	- Každé učivo nevieme sprostrekovať žiakovi, že samo od seba priťahuje jeho pozornosť. Dieťa má tendenciu podujať sa na riešenie takých úloh, o ktorých má dojem, že ich zvládne. Spravidla to, čo prekonáva bez výrazných problémov, v čom je dieťa úspešné, motivuje i ďalej sa učiť a naopak, príliš náročné úlohy odstrašujú. Preto je žiaduce aby boli úlohy \textit{primerané danýchm možnostiam dieťaťa}.
-	- Nevyhnutné je zladiť poznávacie možnosti dieťaťa zodpovedajúce jeho veku, individuálnym osobitostiam, predchádzajúcim skúsenostiam s daným podnetovým materiálom - úlohami.
-	- \textbf{Zohľadnenie vekových osobitostí }- na hranice v psychickom vývine upozornil S.L.Vygotskij a nazval ich vývinové limity. Definuje úroveň aktuálneho vývinu a zónu najbližšieho vývinu (úroveň, ktorú dieťa vie riešiť len s pomocou dospelého).
-			- Ak sú úlohy v učebnici príliš náročné, stavané skôr pre menšiu skupinu žiakov s reýchlejším tempom psychického vývinu, s nadpriemrnýcmi schopnosťami, potom sa zákonite musí zhoršiť prospech väčšinu detí, lebo na požiadavky úloh nestačia. Ak chceme prospech väčšej časti triedy udržať na úrovni, musíme zľaviť z nárokov (vo vyšších ročníkoch žiaci, kt. chýbajú základné poznatky)
-		- V škole sa má žiak niečo naučiť. Ak by sme mu dávali len také úlohy, kt. vie ľahko vyriešiť (primerane svojim schopn), jeho učenie by nedosiahlo žiadny pokrok.Treba zaradiť úlohy nielen vekprimerané, ake aj rozvíjajúce (vývin vyšších schopností)
-		- Zaraďovať úlohy - myslieť až potom konať (mladší žiaci)
-		- Rozdielmi v štruktúre (profile) poznávacích schopností rozumieme skutočnosť, že v danom štádiu vývinu dosahujú jednotilvé poznávacie schopnosti rôznu úroveň.
-		- Spôsob poznávania (poznaváci štýl) - v rôznych sitáciach rôzny a každému vyhovuje iný.
-	- \textbf{Zohľadňovať individuálne odlišnosti} pri tvorbe učebníc predpokladá diferenciáciu úloh podľa toho:
-		- akú \textit{celkovú úroveň} schopností si vyžaduje riešenie úlohy
-		- aký profil, resp. \textit{štruktúra} schopností sú potrebné na úspešné splnenie úlohy
-		- ktorý \textit{poznávací štýl} je optimálny na jej riešenie
-		- Z hľadisko celkovej úrovne schopností je žiaduce zaradiť v každej oblasti úlohy s tromi stupňami náročnosti - \textit{menej náročné, stredné, vysoko náročné}.
-		Prvá skupina úloh je pre žiakov s pomalším tempom vývinu alebo nižšou poznávacou kapacitou (alebo skutočnosť, že ich vedia riešiť žiaci priemerní žiaci o ročník nižšie), druhá pre priemerných žiakov, ktorých je najviac a tretia pre tých, ktorí sa vyvíjajú rýchlejšie alebo ich poznávacia kapacita je nadpriemerná (priemerní žiaci vo vyššom ročníku!.
-		- Takéto rozdelenie úloh, prirodzene neznamená, že by jeden žiak nemohol a nemal riešiť úlohy všetkých stupňov obtiažnosti. Menej náročné úlohy môžu slúžiť na opkaovanie učiva, hoci bystrejším žiakom stačí splniť menší počet a môžu rýchlejšie prejsť na stredne prípade vysoko náročné úlohy.
-		- Stimulovať vývoj zaostávajúcich schopností
-
-	- \textbf{Zohľadnenie predchádzajúcich skúseností} - každý nový podnet je atraktívny - až potiaľ, kým nezíska nepríjemnú skúsenosť
-		- Výber a zoradenie úloh (hierarchia úloh) prispôsobiť tak aby garantoval množstvo zážitkov úspechu
-		- úlohy v učebnici by mali byť primerané nielen schopnostiam žiaka, ale aj konkrétnym vedomostiam a spôsobilostiam
-		- \textbf{Nadobúdanie vedomostí} Stupeň náročnosti osvojovaním poznatkov závisí od ich \textbf{množstva a kvality} (informácii) - kvalita je od konkrétnemu k abstraktnému
-			- Na základe chápanie vzťahov sa rozvíjajú i schémy (tiež majú hierarchickú) organizáciu. Na rozdiel od pojmov, aj schémy majú svoju sieť, hierarchickú organizáciu
-			- Schémy narozdiel od pojmov reprezentujú nielen
-				- poznanie vo forme faktov (\textbf{deklaratívne poznatky}),
-				- ale tiež aj to, ako je možné tieto poznatky využívať (\textbf{procedurálne poznatky})
-				- a kedy daný spôsob využívania poznatkov realizovať (\textbf{kondicionálne poznatky})
-			- Schémy ako vedomosti obsahjúce najvyšší stupeň zovšeobecnenia stelesňujú poznatky typu
-			\textit{vedieť čo, vedieť ako, vedieť kedy ako}.
-		- \textbf{Osvojovanie spôsobilostí} - spôsobilosť je ovládanie určitej zložky činnosti, ktorá sa získava v priebehu cvičenia (motorické, senzomotorické, psychické), osvojovanie pozorovaním modelu činnosti
-			- Kroky:
-				- 1. Učenie faktov (informácie typu kto/čo/kde/kedy/prečo/ako)
-				- 2. Zvrat od poznania faktov ku skúsenosti ako ich využívať (kompilácia) - kvantititatívne zmeny (urýchlenie činnosti, ucelené vykonávanie činnosti, vynechanie slovného opisu/faktov)
-				- 3. Ladenie - ladiace mechanizmy (proces generalizácie - širšia aplikácia pravidiel postupu, diskriminácia - zužovanie pravidiel, posilňovanie - lepšie pravidlá sa posilňujú horšie oslabujú)
-		-  \textbf{Rozvíjanie schopností} - schopnosti stoja na najvyššom stupienku v hierarchii poznávania. Zo strany prostredia sa dajú ťažšie ovplyvňovať ako vedomosti, spôsobilosti.
-			- Rozvíjanie myslenia v kategoriách podľa S. Nickersona:
-				- Prístupy zdôrazňujúce kognitívne procesy (myseľ závisí od základných procesov: porovnávanie, zoraďovanie, klasifikácia, usudzovanie, predvídanie)
-				- Heuristicky orientované prístupy - cvičenie stratégii formulácie problému, hľadanie spôobov jeho zobrazenia, plánovanie riešenia
-				- Prístup súst. na vývin formálneho myslenia (Piaget) - učivo má byť primerané poznávacím schopnostiam žiaka
-				- Prísupy zdôr. jazyk a narábanie so symbolmi - rozv. mysl. písaním alebo program. pre PC
-
-
-
-
-- Prínos psychológie k riešeniu otázok obsahu a ďaľších problémov vzdelávania (Psychologické otázky/hľadisko)
-	- Čo sa žiak v danom čase naučí? vymedzenie vyučovacích cieľov, vyučovacieho obsahu v danom type školy, na danej vyučovacej hodine. štruktúta a kvantitatívne charakteristiky (preddimenzovanosť)
-	- Ako si žiak osvojuje učivo v danom čase? čo sa má naučiť, súvisí s tým ako sa to má naučiť, moderné vyučovacie metódy a formy práce  - problémové, skupinové vyučovanie)
-	- Kedy si má žiak osvojiť určité učivo daným spôsobom? v závislosti od učiva, vymedzeného času, chrakteristík žiaka a učiteľa, pružnosť vo vyučovaní
-	- V akom poradí si žiak osvojuje jednotlivé vedomosti, spôsobilosti? najprv jednoduchšie a potom zložitejšie - hierarchia vedomostí, že žiak postupuje na vyššie stupne až keď si osvojí nižšie, zoradenie do hierarchie podľa náročnosti
-	- Ako merať a hodnotiť stupeň zvládnutia učiva?  meranie spôsobitlostí vo výchovno-vzdelávacom procese, je predpokladomzistenia nakoľko žiaci zvládli učivo - ďalej postupvať v učive (vyučovaním ďaľších vedomostí v hierarchii) alebo pokračovať prehlbovaní doterajšieho učiva. spôsobilosti (fyzické, psychické) sú podmienkou nadobúdania množstva hlbokých vedomostí, podmienkou rozvoja psychických schopností
-		- Psychológia upozorňuje na tie vedomosti, spôsobilosti, schopnosti, ktoré umožňujú čo najväčší transfer, a prostredníctvom ktorých človek získa základ na široké množstvo aktivít pre ďaľšie učenie alebo v praktickom živote
-		- Psychológia poskytuje informácie o tom, ako dieťa daného veku a indiv. osobitostí vníma, pamätá si, myslí, ako si predstavuje svet vcelku i po častiach (neprimerané učivo)
-		- Psychológia umožňuje čoraz presnejšie zostaviť hierarchiu vedomostí, spôsobilostí, schopností a zistiť, ktoré si má osvojiť najskôr
-
-Efektívne učenie podľa Skinnera za podmienok:
-	- Poznať konkrétne ciele výchovy a vzdelávania
-	- Umožniť žiakom postupovať svojim vlastným tempom, nežiadať rovnako rýchle napredovanie
-	- Motivácia žiakov - tvorba vzdelávacích programov s často správnou odpoveďou, o ktorej sa hneď dozvie.
-
-
+Najvhodnejší postup pri tvorbe systému úloh je podľa D. Švedu [53] nasledovný: 1. logicko - didaktická analýza učiva (komplexný rozbor učiva pozostáva z a. hľadania odpovede na otázku Čo učiť?, teda • vyjasnenie logickej štruktúry učiva (pojmy, vety, spôsoby riešenia) • formulácia učebných cieľov • konkretizácia učebných cieľov b. hľadania odpovede na otázku Ako učiť? (výber metód a foriem vyučovania)) 2. stanovenie učebných cieľov a ich konkretizácia pomocou typových úloh 3. vymedzenie postupnosti osvojovania jednotlivých elementov učiva 4. tvorba samotného systému úloh, kde úlohy postupne reprezentujú konkrétne didaktické funkcie.
 
 Každý systém úloh k danej téme by mal spĺňať požiadavky, ktoré vychádzajú
 zo zákonitosti poznávacieho procesu. Tieto požiadavky možno vyjadriť pomocou
@@ -118,7 +44,12 @@ procesov podľa taxonómie M. Zelinu [71]:
 6) tvorivé, divergentné myslenie
 
 
- reformulovávanie úloh ako na už spomínanú metódu na tvorbu
+
+
+
+
+
+ Preformulovávanie úloh ako na už spomínanú metódu na tvorbu
 chýbajúcich typov úloh, ako na metódu na zmenu kvality úlohy, ako na metódu
 na zvyšovanie resp. znižovanie náročnosti úlohy, ako na metódu na tvorbu neštandardných,
 divergentných úloh, ktoré sú tak potrebné pre rozvíjanie logického myslenia.
@@ -158,6 +89,9 @@ preformulovávania úloh sa buď zaradenie úlohy v zbierke nezmení vôbec, ale
 zaradenie úlohy vzhľadom na didaktickú funkciu. Táto metóda preformulovávania úloh má
 dôležitý význam vo fáze osvojovania nových poznatkov. Zmena kontextu úlohy môže
 niekedy pomôcť pochopiť podstatu úlohy a odhaliť „skryté“ vzťahy a súvislosti.
+
+
+
 
 
 ---------------------------------------------------------------------------------------------------------
