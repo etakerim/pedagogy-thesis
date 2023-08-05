@@ -149,35 +149,128 @@ V informatike je ŠVP rozdelený na 5 okruhov: algoritmické riešenie problémo
 \subsection{Algoritmické riešenie problémov}
 Algoritmizácia a programovanie reprezentuje až 70\% váhy výslednej známky maturitnej skúšky a najväčší tématický okruh v ŠVP informatiky pre stredné školy, ktorý dostáva v rámcových učebných osnovách ŠkVP najväčší podiel z časovej dotácie až približne tretinu (\cite{cp_2023}). Nemusíme sa pozerať len na formálne dokumenty, aby sme si uvedomili, že programovanie sa stáva v dnešnom technologickom svete a informačnej revolúcii nepostrádateľnou digitálnou kompetenciou pre život.
 
-ŠVP vyčleňuje 8 tématických celkov pre algoritmizáciu (\cite{statny_2023}):
+ŠVP vyčleňuje 8 tématických celkov algoritmizácie (\cite{statny_2023}):
 \begin{itemize}[noitemsep,topsep=0pt]
-\item Analýza problému: 
-\item Jazyk na zápis riešenia:
-\item Postupnosť príkazov:
-\item Nástroje na interakciu:
-\item Premenné:
-\item Cykly:
-\item Vetvenie:
-\item Interpretácia zápisu riešenia: 
+\item \textbf{Analýza problému}: naplánovanie algoritmické riešenie problému rozdelením na menšie časti a opísať ideu v prirodzenom jazyku. Identifikovanie vstupných informácií, očakávaných výstupov a akcií. 
+\item \textbf{Jazyk na zápis riešenia}: používanie konštrukcie programovacieho jazyka, vytvárať a interpretovať zápisy podľa pravidiel syntaxe.
+\item \textbf{Postupnosť príkazov}: skladanie príkazy do poradia na riešenie probému.
+\item \textbf{Nástroje na interakciu}: načítanie neznámej hodnoty na vstupe a zobrazenie výstupu. Ošetrenie prípustného rozsahu alebo formátu hodnôt.
+\item \textbf{Premenné}: priradenie do pomenovanej premennej a ich použitie v aritmetike.
+\item \textbf{Cykly}: odhalenie repetitívnych vzorov so známym a neznámym počtom opakovaní. Akumulovanie čiastkových výsledkov v tele cyklu a kombinovanie cyklov s vetvením.
+\item \textbf{Vetvenie}: stanovenie logickej platnosti vlastnej podmienky obsahujúcej boolovské operácie.
+\item \textbf{Interpretácia zápisu riešenia}: odladenie programu krokovaním a opravovanie chýb v existujúcich programoch.
 \end{itemize}
 
-Cieľové požiadavky na maturitnú skúšku sú témy ešte rozšírené o vnorené príkazy cyklu a vetvenia, podprogramy s parametrami, lokálnými premennými, návratovou hodnotou a nerekurzívnym volaním. Navyše sa pridávajú jednorozmerné polia, textové súbory, zložené údajové štruktúry a použitie generátora náhodných čísel (\cite{cp_2023}).
+Výstižne sa základné pojmy z povinných tématických celkov programovania dajú zhrnúť podľa štruktúr vývojového diagramu na \textbf{sekvenciu príkazov, vstupy, výstupy, podmienky a cykly}. V cieľových požiadavkách na maturitnú skúšku sú témy ešte rozšírené o vnorené príkazy cyklu a vetvenia, \textbf{podprogramy} s parametrami, lokálnými premennými, návratovou hodnotou a nerekurzívnym volaním. Navyše sa pridávajú \textbf{jednorozmerné polia, textové súbory, zložené údajové štruktúry} a použitie \textbf{generátora náhodných čísel} (\cite{cp_2023}).
 
-\subsection{Existujúce učebnice}
-Zbierka úloh pre 3. ročník gymnázia \cite{busek_zbierka_1987}
-Matematika pre 3. ročník gymnázia \cite{sedivy_matematika_1986}
+\subsection{Existujúce učebnice a zbierky úloh}
+%TODO
+Matematika pre 3. ročník gymnázia (\cite{sedivy_matematika_1986})
 
-{abcPython} - {Pracovné} listy pre {Python} \cite{blaho_abcpython_2019}
-Metodiky k pracovným listom pre {Python} \cite{blaho_metodiky_2019}
-Programujeme v {Pythone}: učebnica informatiky pre stredné školy \cite{kucera_programujeme_2016}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{assets/premenne-ucebnica-mat.jpg}
+\caption{Premenné}
+\end{figure}
+
+Zbierka úloh pre 3. ročník gymnázia (\cite{busek_zbierka_1987})
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.48\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/zbierka-mat-vetvenie.jpg}
+\caption{Vetvenie}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.48\textwidth}
+\centering
+\includegraphics[width=0.9\textwidth]{assets/zbierka-mat-cyklus.jpg}
+\caption{Cyklus}
+\end{subfigure}
+\caption{Zbierka úloh z matematiky}
+\end{figure}
+
+Skúsiš to s mikropočítačom?: Poznávame a programujeme (\cite{tatchellova_skusis_1990})
+
+Skúsiš programovať?: Basic a strojový kód (\cite{wattsova_skusis_1991})
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{assets/kniha-premenne.jpg}
+\caption{Premenné}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{assets/program-kozmicke-bane.jpg}
+\caption{Ukážka riešeného programu}
+\end{figure}
+
+
+Algoritmy a programovanie v Pascale: nielen pre maturantov z predmetu informatika \cite{hedvigova_algoritmy_2020}
+výraz s premennou, údajové typy, vetvenie, cyklus, cyklus v cykle, procedúry, funkcie, rekurzia, jednorozmerné polia, textový súbor, vyhľadávanie a triedenie polí, reťazce znakov, 51 úlohy a 30 úlohy pre náročnejších na opakovanie, nie je zaradené, niektoré príbehy sa opakujú
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/cykly-bez-deja-pascal.png}
+\caption{Cyklus bez deja}
+\end{subfigure}
+\begin{subfigure}[b]{\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/uloha-subory-pascal.png}
+\caption{Úloha opakovania na súbory}
+\end{subfigure}
+\caption{Pascal}
+\end{figure}
+
+
+Kuchárka {KSP} - {Korešpondenčný} seminár z programovania (\cite{noauthor_kucharka_2022})
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{assets/susenie-oblecenia.png}
+\caption{Úloha s príbehom na binárne vyhľadávanie}
+\end{figure}
+
+
+Programujeme v Pythone: učebnica informatiky pre stredné školy (\cite{kucera_programujeme_2016}) - grafické príkazy, premenné a náhodné hodnoty, opakovanie častí programu, podprogramy, klikanie myšou a ovládanie klávesnicou, podmienené príkazy, časovač, tvorba jednoduchých hier 
+
+Učebnica vychádza z potrieb aktívnych učiteľov, ktorí sa stretávajú v Klube učiteľov informatiky vedeným autorom. Autor učebnice vyučuje 15 rokov informatiku na 1. súkromnom gymnáziu v Bratislave. praktických úloh, využíva grafické prostredie knižnice tkinter. Študenti sa na začiatku naučia kresliť grafické útvary, používať cyklus a vetvenie, ovládať program klávesnicou a myšou. V závere budú tvoriť animácie a jednoduché hry. Učebnica obsahuje aj súbor úloh na opakovanie a ukážku záverečného testu. 
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.6\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/kucera-python.png}
+\caption{Kreslenie obdĺžníkov}
+\end{subfigure}
+\begin{subfigure}[b]{0.39\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/uloha-turtle.png}
+\caption{Korytnačia grafika na cyklus}
+\end{subfigure}
+\caption{Pascal}
+\end{figure}
+
+
+Pracovné listy
+abcPython - Pracovné listy pre Python (\cite{blaho_abcpython_2019})
+Metodiky k pracovným listom pre Python (\cite{blaho_metodiky_2019})
+
+Pracovné listy pre programovanie v Pythone pre stredné školy. Listy sú určené pre žiakov pričom nepredpokladáme žiadny výklad učiteľa. K dispozícii sú aj metodické materiály ku všetkým vyučovacím hodinám. 20 vyučovacích hodín: interaktívny režim REPL výrazy, premenné, výpisy ... prechod na grafiku v tkinter - kreslenie, náhoda, výrazy v cykle, elipsy, vetvenie, podprogramy, kreslenie myšou.
+
 Python a korytnačia grafika: \cite{meszarosova_python_2017}
+- metodika pracovných listov pre stredné školy: pohyb korytnačky, kreslenie korytnačkou, premenné,  for cyklus, funkcie, funkcie s parametrami, poloha korytnačky, náhodná poloha, vetvenie a projekt, prehľad príkazov vykresleni pohľadnice
 
-Kuchárka {KSP} - {Korešpondenčný} seminár z programovania \cite{noauthor_kucharka_2022}
-The {Nature} of {Code}: {Simulating} {Natural} {Systems} with {Processing} \cite{shiffman_nature_2012}
 
-Skúsiš programovať?: {Basic} a strojový kód \cite{wattsova_skusis_1991}
-Skúsiš to s mikropočítačom?: {Poznávame} a programujeme \cite{tatchellova_skusis_1990}
 
-Algoritmy a programovanie v {Pascale}: nielen pre maturantov z predmetu informatika \cite{hedvigova_algoritmy_2020}
+
+
+
+
+
 
 
