@@ -164,111 +164,86 @@ Algoritmizácia a programovanie reprezentuje až 70\% váhy výslednej známky m
 Výstižne sa základné pojmy z povinných tématických celkov programovania dajú zhrnúť podľa štruktúr vývojového diagramu na \textbf{sekvenciu príkazov, vstupy, výstupy, podmienky a cykly}. V cieľových požiadavkách na maturitnú skúšku sú témy ešte rozšírené o vnorené príkazy cyklu a vetvenia, \textbf{podprogramy} s parametrami, lokálnými premennými, návratovou hodnotou a nerekurzívnym volaním. Navyše sa pridávajú \textbf{jednorozmerné polia, textové súbory, zložené údajové štruktúry} a použitie \textbf{generátora náhodných čísel} (\cite{cp_2023}).
 
 \subsection{Existujúce učebnice a zbierky úloh}
-%TODO
-Matematika pre 3. ročník gymnázia (\cite{sedivy_matematika_1986})
+V prehľade edukačných publikácií, vrátane elektronických, sa upriamime na porovnanie usporiadania uvedenia jednotlivých pojmov, typické formulácie úloh a grafickú úpravu textu. Už učebnica z matematiky pre 3.ročník stredných škol (\cite{sedivy_matematika_1986}) a nadväzujúca zbierka úloh (\cite{busek_zbierka_1987}) z roku 1987 rozoberajú tému algoritmov približne v šírke danej dnešným ŠVP informatiky len s okrajovým doplnením o programovanie v jazyku Basic. 
 
-Zbierka úloh pre 3. ročník gymnázia (\cite{busek_zbierka_1987})
+Kapitole algoritmy sa venuje 36 strán (z 344 celkovo), kde sa koncepty v poradí: premenné, podienené príkazy, príkazy cyklu a overovanie správnosti, aplikujú na vývojových diagramoch. Slovné úlohy si zachovávajú ráz príznačne matematický svojim znením  aj výpočtovým zameraním. Pokyny sú v rozkazovacom spôsobe 2. osoby množného čísla, ale namiesto ustáleného výrazu ,,vypočítajte príklad'' sa vyskytuje ,,zostavte algoritmus''. Objavujú sa tu ,,evergreeny'' na poli programovacích cvičení, napríklad určenie najväčšieho čísla na vstupe spomedzi troch, premena jednotiek časových úsekov, nájdenie najväčšieho spoločného deliteľa alebo vypísanie členov rekurentnej postupnosti vyjadrenej vzorcom. Útržky zo zbierky úloh (Obr.~\ref{fig:matematika-slovne-ulohy}) ukazujú bežný spôsob číslovania úloh s predsunutým označením.
 
 \begin{figure}[h]
 \centering
 \begin{subfigure}[b]{0.48\textwidth}
 \centering
-\includegraphics[width=\textwidth]{assets/zbierka-mat-vetvenie.jpg}
-\caption{Vetvenie}
+\fbox{\includegraphics[width=\textwidth]{assets/zbierka-mat-vetvenie.jpg}}
+\caption{Úlohy na podmienený výraz}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.48\textwidth}
 \centering
-\includegraphics[width=0.9\textwidth]{assets/zbierka-mat-cyklus.jpg}
-\caption{Cyklus}
+\fbox{\includegraphics[width=0.9\textwidth]{assets/zbierka-mat-cyklus.jpg}}
+\caption{Úlohy na príkaz cyklu}
 \end{subfigure}
-\caption{Zbierka úloh z matematiky}
+\caption{Ukážky z kapitoly algoritmy v zbierke úloh z matematiky pre 3. ročník~SŠ}
+\label{fig:matematika-slovne-ulohy}
 \end{figure}
 
-Skúsiš to s mikropočítačom?: Poznávame a programujeme (\cite{tatchellova_skusis_1990})
-
-Skúsiš programovať?: Basic a strojový kód (\cite{wattsova_skusis_1991})
+Odlišný prístup ku grafickej úprave majú knihy zo série ,,Skúsiš to s ...'', v rámci ktorej boli uvedené knihy programovania pre mikropočítače v Basicu a strojovom kóde (\cite{tatchellova_skusis_1990}, \cite{wattsova_skusis_1991}). Cieľové miesta pôsobenia knihy neboli v čase vydania zrejme školy, ale skôr počítačové krúžky ako voľnočasové aktivity. Tieto dve knihy sa nápadite odlišujú pestrofarebnými ilustráciami až takmer komiksovým podtónom, kde sú hlavnými hrdinami roboti v ľudskom a hmyzom stvárnení a mimozemšťania. Krátke odseky výkladového textu sú obohatené o motivovanie každého príkazu jednoduchým príkladom priamo pobádajúcim na odskúšanie (Obr.~\ref{fig:skusis-prog-premenne}). Funkčné bloky kódu rozsiahlejších programov sú priebežne vysveľlované textom so svorkami (Obr.~\ref{fig:skusis-prog-kozmicke-bane}), čo môže slúžiť ako dobrý model na prezentovanie riešení v zbierke.
 
 \begin{figure}[h]
 \centering
 \begin{subfigure}[b]{0.55\textwidth}
 \centering
 \includegraphics[width=\textwidth]{assets/kniha-premenne.jpg}
-\caption{Premenné}
+\caption{Výkladový text o premenných s hlavolamami}
+\label{fig:skusis-prog-premenne}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.44\textwidth}
 \centering
 \includegraphics[width=\textwidth]{assets/program-kozmicke-bane.jpg}
-\caption{Ukážka riešeného programu}
+\caption{Opis kódu program počítačovej hry}
+\label{fig:skusis-prog-kozmicke-bane}
 \end{subfigure}
-\caption{Zbierka úloh z matematiky}
+\caption{Bohato ilustrovaná kniha o programovaní v jazyku Basic}
 \end{figure}
 
-
-Algoritmy a programovanie v Pascale: nielen pre maturantov z predmetu informatika \cite{hedvigova_algoritmy_2020}
-výraz s premennou, údajové typy, vetvenie, cyklus, cyklus v cykle, procedúry, funkcie, rekurzia, jednorozmerné polia, textový súbor, vyhľadávanie a triedenie polí, reťazce znakov, 51 úlohy a 30 úlohy pre náročnejších na opakovanie, nie je zaradené, niektoré príbehy sa opakujú
+Učebné texty na webe pod názvom: ,,Algoritmy a programovanie v Pascale: nielen pre maturantov z predmetu informatika'', tvoria obsiahly prierez prvkov programovacieho jazyka konkrétne: výraz s premennou, údajové typy, vetvenie, cyklus, cyklus v cykle, procedúry, funkcie, rekurzia, jednorozmerné polia, textový súbor, vyhľadávanie a triedenie polí, reťazce znakov (\cite{hedvigova_algoritmy_2007}). Učebnica je prehľadne štruktúrovaná. Z obsahu sa hypertextom smeruje na kapitoly, kde je každý nový pojem typograficky zvýraznený podčiarknutím, príkazy jazyka sú odlíšené neproporcionálnym rezom a farbou písma. Po jadre kapitoly nasledujú obvykle 2 vzorové príklady s riešeniami, spravidla 3 priebežné programátorské úlohy (Obr.~\ref{fig:uloha-pascal}), otázky na opakovanie teórie, a úlohy na precvičovanie celej témy. Na konci učebnice je umiestnenéých 51 jednoduchších úloh na opakovanie a 30 úloh pre náročnejších, ktorým však chýba zmyslupná organizácia náročnosti.
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}[b]{\textwidth}
-\centering
-\includegraphics[width=\textwidth]{assets/cykly-bez-deja-pascal.png}
-\caption{Cyklus bez deja}
-\end{subfigure}
-\begin{subfigure}[b]{\textwidth}
-\centering
-\includegraphics[width=\textwidth]{assets/uloha-subory-pascal.png}
-\caption{Úloha opakovania na súbory}
-\end{subfigure}
-\caption{Pascal}
+\fbox{\includegraphics[width=0.8\textwidth]{assets/uloha-pascal.png}}
+\caption{Riešený príklad z vetvenia nasledovaný úlohami na samostatnú prácu}
+\label{fig:uloha-pascal}
 \end{figure}
 
-
-Kuchárka {KSP} - {Korešpondenčný} seminár z programovania (\cite{noauthor_kucharka_2022})
+Slovné úlohy s príbehom, ktorý nastoluje problém, sú prítomné v súťažiach ako sú Olympiáda v Informatike, organizovanú Národným inštitútom vzdelávania a mládeže, alebo Zenit, Korešpondenčný seminár (KSP) a Letné školy, organizovné občianskym združením Trojsten. Vzorové riešenia zadaní vychádzajú v príručkách po skončení kôl. Keďže úlohy bývajú nad rámec základného učiva, tak na vysvetlenie často sa vyskytujúcich algoritmov vznikla tzv. Kuchárka KSP (\cite{noauthor_kucharka_2022}). Ukážka na Obr.~\ref{fig:ksp-oblecenie} ilustruje predlohu pre zadanie z KSP, ktorá sa vyzančuje okrem popisu situácie cez krátky dej, jasným stanovením vstupov a výstupov.  
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{assets/susenie-oblecenia.png}
-\caption{Úloha s príbehom na binárne vyhľadávanie}
+\fbox{\includegraphics[width=0.8\textwidth]{assets/susenie-oblecenia.png}}
+\caption{Úloha letnej školy KSP na binárne vyhľadávanie s úvodným príbehom}
+\label{fig:ksp-oblecenie}
 \end{figure}
 
+Uvedenie programovacieho jazyka \emph{Python} do výučby informatiky na stredných školách znamenal dopyt po nových učebných materiáloch, ktoré preložia zápisy hlavne z dosiaľ používaného jazyku Pascal. Populatitu nadobudol Python vďaka odstráneniu deklarácie typu premenných a čitateľnejšiemu zápisu, pretože odsadením nahrádza označenie blokov kľúčovými slovami (\emph{begin} a \emph{end}) alebo zloženými zátvorkami. Medzi učebnicami Pythonu prevláda trend predstavovať programovanie cez procedurálne kreslenie cez modul \emph{tkinter}, \emph{turtle}, niekedy \emph{pygame}. V grafickom programovaní sa pojem cyklu prestavuje oveľa skorej ako podmienky, presne naopak než v textovom móde.
 
-Programujeme v Pythone: učebnica informatiky pre stredné školy (\cite{kucera_programujeme_2016}) - grafické príkazy, premenné a náhodné hodnoty, opakovanie častí programu, podprogramy, klikanie myšou a ovládanie klávesnicou, podmienené príkazy, časovač, tvorba jednoduchých hier 
-
-Učebnica vychádza z potrieb aktívnych učiteľov, ktorí sa stretávajú v Klube učiteľov informatiky vedeným autorom. Autor učebnice vyučuje 15 rokov informatiku na 1. súkromnom gymnáziu v Bratislave. praktických úloh, využíva grafické prostredie knižnice tkinter. Študenti sa na začiatku naučia kresliť grafické útvary, používať cyklus a vetvenie, ovládať program klávesnicou a myšou. V závere budú tvoriť animácie a jednoduché hry. Učebnica obsahuje aj súbor úloh na opakovanie a ukážku záverečného testu. 
+Kučera a Výbošťok dali dohromady trojdielnu sériu učebníc ,,Programujeme v Pythone'', v slovenskom a anglickom jazyku so zodpovedajúcimi príručkami pre učiteľov a testami k učebnici. Vypracovali aj zbierku 64 riešených úloh k maturite z informatiky ,,Maturujeme v Pythone''. Vychádzali z potrieb aktívnych učiteľov z Klubu učiteľov vedeného autorom. Osnova prvého diela učebnice začína grafickými príkazmi (Obr.~\ref{fig:kucera-kreslenie-python}) a ďalej sa skladá z premenných, opakovaní častí programu, podprogramov, klikania myšou a ovládaním klávesnicou, podmienených príkazov, časovača a snaženie sa zavŕši tvorbou jednoduchých hier (\cite{kucera_programujeme_2016}). 
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}[b]{0.6\textwidth}
+\begin{subfigure}[b]{0.55\textwidth}
 \centering
 \includegraphics[width=\textwidth]{assets/kucera-python.png}
 \caption{Kreslenie obdĺžníkov}
+\label{fig:kucera-kreslenie-python}
 \end{subfigure}
-\begin{subfigure}[b]{0.39\textwidth}
+\begin{subfigure}[b]{0.44\textwidth}
 \centering
 \includegraphics[width=\textwidth]{assets/uloha-turtle.png}
-\caption{Korytnačia grafika na cyklus}
+\caption{Cyklus a korytnačia grafika}
+\label{fig:turtle-graphics}
 \end{subfigure}
-\caption{Pascal}
+\caption{Úlohy na programovanie grafiky v jazyku Python}
 \end{figure}
 
+Blaho a Salanci pripravili pracovné listy \emph{abcPython} na 20 vyučovacích hodín, kde nepočítajú s výkladom učiteľa. Dostupné sú aj metodické materiály ku listom. Preberajú sa postupne témy kde sa prelína textový a grafický režim: interaktívny zadávanie príkazov, výrazy, premenné, výpisy, kreslenie, náhoda, výrazy v cykle, elipsy, vetvenie, podprogramy, kreslenie myšou (\cite{blaho_abcpython_2019}, \cite{blaho_metodiky_2019}). 
 
-Pracovné listy
-abcPython - Pracovné listy pre Python (\cite{blaho_abcpython_2019})
-Metodiky k pracovným listom pre Python (\cite{blaho_metodiky_2019})
-
-Pracovné listy pre programovanie v Pythone pre stredné školy. Listy sú určené pre žiakov pričom nepredpokladáme žiadny výklad učiteľa. K dispozícii sú aj metodické materiály ku všetkým vyučovacím hodinám. 20 vyučovacích hodín: interaktívny režim REPL výrazy, premenné, výpisy ... prechod na grafiku v tkinter - kreslenie, náhoda, výrazy v cykle, elipsy, vetvenie, podprogramy, kreslenie myšou.
-
-Python a korytnačia grafika: \cite{meszarosova_python_2017}
-- metodika pracovných listov pre stredné školy: pohyb korytnačky, kreslenie korytnačkou, premenné,  for cyklus, funkcie, funkcie s parametrami, poloha korytnačky, náhodná poloha, vetvenie a projekt, prehľad príkazov vykresleni pohľadnice
-
-
-
-
-
-
-
-
-
-
+Mészárosová vytvorila metodickú príručku pre vyučovanie základov programovania, kde cez Python rozvíja na rozpätí 16 vyučovacích hodín korytnačiu grafiku (Obr.~\ref{fig:turtle-graphics}). Využíva tým oboznámenosť žiakov s korytnačkami v jazkyu Logo z druhého stupňa základnej školy. Rovnako sa začína predstavením grafickými pokynov na pohyb a kreslenie korytnčkou. Nasledujú premenné, for cyklus, funkcie, funkcie s parametrami, poloha korytnačky, náhodná poloha, vetvenie a na upevnenie zručností slúži projekt kreslenia pohľadnice (\cite{meszarosova_python_2017}).
