@@ -1,4 +1,3 @@
-
 \subsection{Náhodné čísla}
 Pri tvorbe simulácií sú náhodné čísla nepostrádateľné. Umožňujú vniesť variabilitu a rôznorodosť do inak statických scén. Nesmierne poslúžia v hrách, kde dovoľujú modelovať napríklad pravdepodobnosť výskytu monštier, či pokladov.
 
@@ -6,34 +5,72 @@ Pri tvorbe simulácií sú náhodné čísla nepostrádateľné. Umožňujú vni
 \subsubsection*{1. Hádzanie kockou}
 Vytvorte simuláciu hodu kockou. Po stlačení klávesy Enter sa nakreslí kocka s padnutým číslom.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-HOĎ<ENTER>
+HOĎ@\fbox{<ENTER>}@
+\end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
 +-------+
 | #   # |
 |   #   |
 | #   # |
 +-------+
 \end{code}
+\end{tabular}
+\vspace{-2em}
 
 \subsubsection*{2. Hádaj číslo}
 Náhodne vyber číslo s rozsahu medzi 0 a 100 a nechaj hráča hádať dokým neuhádne. Pri tom mu poskytni nápovedy, či je jeho tip priveľa alebo primalo. Zakomponuj rôzne obtiažnosti s možnosťou nastavenia rozsahu alebo maximálnym počtom tipov.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Hádaj číslo: 8
+Hádaj číslo: @\fbox{8}@
+Hádaj číslo: @\fbox{18}@
+Hádaj číslo: @\fbox{13}@
+\end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
 Málo
-Hádaj číslo: 18
 Veľa
-Hádaj číslo: 13
 Výborne. Uhádol si!
 \end{code}
+\end{tabular}
+\vspace{-2em}
 
 \subsubsection*{3. Opakovanie násobilky}
 Vďaka tvojej tabuľke malej násobilky sa malý školáci mohli naučiť násobiť. Ako dobre to vedia, musíš teraz odtestovať. Vygeneruj dve čísla od 1 do 10 do príkladu na násobenie. Over správnosť žiačikovej odpovede.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Koľko je ____ x _____?
-= _____
-Správne - len tak ďalej / Nesprávne - hádaj znovu
-Chceš ďalší príklad?
+Koľko je @\fbox{\phantom{vstup}}@ x @\fbox{\phantom{vstup}}@?
+= @\fbox{\phantom{vstup}}@
+Chceš ďalší príklad (a / n)?  @\fbox{\phantom{vstup}}@
 \end{code}
- 
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
+Správne - len tak ďalej / Nesprávne - hádaj znovu
+\end{code}
+\end{tabular}
+\vspace{-2em}

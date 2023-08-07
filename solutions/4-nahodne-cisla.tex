@@ -3,7 +3,6 @@
 
 \begin{solution}
 import random
-
 input("HOĎ")
 kocka = random.randint(1, 6)
 
@@ -48,9 +47,7 @@ elif kocka == 6:
 \subsubsection*{2. Hádaj číslo}
 \begin{solution}
 import random
-
 hadaj = random.randint(1, 100)
-
 while True:
 	tip = int(input("Hádaj číslo: "))
 	if tip > hadaj:
@@ -66,11 +63,10 @@ while True:
 \subsubsection*{3. Opakovanie násobilky}
 \begin{solution}
 import random
-
 while True:
     x = random.randint(1, 10)
     y = random.randint(1, 10)
-    print(f"\nKoľko je {x} x {y}?")
+    print(f"Koľko je {x} x {y}?")
     vysledok = int(input("= "))
 
     while vysledok != x * y:
