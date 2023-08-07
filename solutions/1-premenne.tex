@@ -1,0 +1,181 @@
+%TODO časti kódu (otázky a odpovede číslovaný zoznam) 
+\subsection{Premenné}
+\subsubsection*{1. Pozdrav}
+\begin{solution}
+meno = input("Ako sa voláš?: ")
+print("Ahoj ", meno)
+print("Dovidenia ", meno)
+\end{solution}
+
+\subsubsection*{2. Básnik}
+\begin{solution}
+slovo = input("Napíš slovo, ktoré sa rýmuje so slovom strach: ")
+print("Tu je báseň:")
+print("Z počítačov mával som vždy strach"
+print("teraz som však šťastný ako", slovo, ".")
+\end{solution}
+
+\subsubsection*{3. Pozvánka}
+\begin{solution}
+meno = input("Meno kamaráta: ")
+cas = input("Čas oslavy: ")
+vec = input("Prinesie okrem darčeku: ")
+
+print(f"Ahoj {meno},")
+print(f"pozývam ťa na moju narodeninovú párty.")
+print(f"Bude sa konať 12.4. o {cas}.")
+print("Nezabudni priniesť {vec} a pekný darček.")
+print("Teším sa na teba! :)")
+\end{solution}
+
+\subsubsection*{4. Teplota vo Farenheitoch}
+\begin{solution}
+f = input("Vonku je °F: ")
+f = float(f)
+c = (5 / 9) * (f - 32)
+print(f"Doma by bolo na teplomeri {c:.2f}°C.")
+\end{solution}
+
+\subsubsection*{5. Hlboká roklina}
+\begin{solution}
+g = 9.81
+t = input("Čas do dopadu kameňa: ")
+t = int(t)
+h = (g * (t ** 2)) / 2
+print("Hĺbka rokliny je", h, "metrov")
+\end{solution}
+
+\subsubsection*{6. Vedro s vodou}
+\begin{solution}
+pi = 3.14159
+v = input("Výška vedra (cm): ")
+d = input("Priemer dna (cm): ")
+v = int(v)
+d = int(d)
+V = pi * ((d / 2) ** 2)
+V = V / 1000
+print("Do vedra sa zmestí", V, "litrov vody.")
+\end{solution}
+
+\subsubsection*{7. Cesta autom}
+\begin{solution}
+km = input("Dĺžka cesty (km): ")
+odchod = input("Odchod z domu (hodina): ")
+prichod = input("Príchod do hotela (hodina): ")
+
+km = float(km)
+odchod = int(odchod)
+prichod = int(prichod)
+hod = prichod - odchod
+
+print(f"Auto pôjde priemernou rýchlosťou {km / hod:.2f} km/h.")
+\end{solution}
+
+\subsubsection*{8. Kúpalisko}
+\begin{solution}
+dlzka = input("Dĺžka bazéna (m): ")
+sirka = input("Šírka bazéna (m): ")
+hlbka = input("Hĺbka bazéna (m): ")
+okraj = input("Hĺbka hladiny od okraja (cm): ")
+cena = input("Cena za m^3 vody v eurách: ")
+
+dlzka = float(dlzka)
+sirka = float(sirka)
+hlbka = float(hlbka)
+okraj = int(okraj)
+cena = float(cena)
+V = dlzka * sirka * (hlbka - (okraj / 100))
+V *= 1000
+cena = cena * V
+
+print(f"Na bazén sa minie {V} litrov vody
+print(f"Voda bude to stáť {cena} eur.")
+\end{solution}
+
+\subsubsection*{9. Maľovanie}
+\begin{solution}
+# Získaj z klávesnice rozmery miestnosti
+print("Rozmery miestnosti")
+dlzka = input("Dĺžka (cm): ")
+sirka = input("Širka (cm): ")
+vyska = input("Výška (cm): ")
+
+# Premeň z písmen na čísla
+dlzka = int(dlzka)
+sirka = int(sirka)
+vyska = int(vyska)
+
+# Získaj z klávesnice rozmery okna a výdatnosť farby
+print("Rozmery okna")
+sirkaOkna = input("Širka (cm): ")
+vyskaOkna = input("Výška (cm): ")
+vydatnost = input("Výdatnosť farby (m^2/kg): ")
+
+# Premeň z písmen na čísla
+sirkaOkna = int(sirkaOkna)
+vyskaOkna = int(sirkaOkna)
+vydatnost = float(vydatnost)
+
+# Spočítaj plochy stien, stropu a odpočítaj plochu okna
+S\_miestnost = (dlzka * sirka) + 2 * (vyska * sirka) + 2 * (vyska * dlzka)
+S\_okno = okno\_sirka * okno\_vyska
+
+S = (S\_miestnost - S\_okno) / 10000
+kg\_farba = S / vydatnost
+
+print(f"Maľovať budeš plochu {S:.2f} m2."
+print(f"Kúp {kg\_farba:.2f} kg farby.")
+\end{solution}
+
+\subsubsection*{10. Chemikálie}
+\begin{solution}
+m1 = int(input("Hmotnosť roztoku č.1 (m1)?"))
+w1 = int(input("Hmotnostný zlomok roztoku č.1 (w1)?"))
+m2 = int(input("Hmotnosť roztoku č.2 (m2)?"))
+w2 = int(input("Hmotnostný zlomok roztoku č.2 (w2)?"))
+
+m3 = m1 + m2
+w3 = (m1 * w1 + m2 * w_2) / m3
+
+print(f"Výsledný roztok má hmotnosť", m3, "g")
+print(f"Hmotnostný zlomok rozpustenej látky je", w3 * 100, "%")
+\end{solution}
+
+\subsubsection*{11. Brzdenie}
+\begin{solution}
+import math
+
+print("Vlaková súprava")
+v = int(input("- Rýchlosť (km/h): "))
+lokomotiva = float(input("- Hmotnosť lokomotívy (t): "))
+vagon = float(input("- Hmotnosť vagóna (t): "))
+pocet_vagonov = int(input("- Počet vagónov: "))
+F_b = int(input("- Brzdná sila (N/t): "))
+
+# Premeň jednotky na základné SI
+v /= 3.6
+lokomotiva *= 1000
+vagon *= 1000
+F_b /= 1000
+
+# Hmotnosť súpravy je hmotnosť lokomotívy a všetkých vagónov
+m = lokomotiva + (pocet_vagonov * vagon)
+
+# Vypočítaj celkovú kinetickú energiu, tá je rovnaká ako práca
+# ktorú musia brzdy vykonať na zabrzdenie.
+W = 0.5 * m * (v ** 2)
+
+# Celková sila pôsobiaca proti pohybu vlaku
+F = F_b * m
+
+# Z definície práce W = F * s, vypočítaj dráhu potrebnú na zastavenie
+s = W / F
+
+# Vypočítaj čas potrebný na zastavenie pre rovnomerný spomalený pohyb
+a = F / m
+t = math.sqrt(2 * s / a)
+
+print(f"Vlaková súprava má hmotnosť {int(m / 1000)} ton.")
+print(f"V rýchlosti {int(v * 3.6)} km/h zabrzdí na vzdialnosť {int(s)} metrov.")
+print(f"Brzdenie bude trvať {int(t)} sekúnd.")
+\end{solution}

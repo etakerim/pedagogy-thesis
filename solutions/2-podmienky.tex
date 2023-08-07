@@ -1,0 +1,218 @@
+\subsection{Podmienky}
+
+\subsubsection*{1. Heslo}
+\begin{solution}
+print("Stoj! Povedz Heslo!")
+pokus = input("? ")
+if pokus == "tajne heslo":
+    print("Vstúp, priateľ")
+else:
+    print("Zmizni kade ľahšie")
+\end{solution}
+
+\subsubsection*{2. Najväčšie číslo}
+\begin{solution}
+x = int(input("1.skóre: "))
+y = int(input("2.skóre: "))
+z = int(input("3.skóre: "))
+
+najviac = x
+poradie = 1
+if y > najviac:
+    najviac = y
+    poradie = 2
+if z > najviac:
+    najviac = z
+    poradie = 3
+
+print(f"Najväčie skóre {najviac} bodov má {poradie} hráč.")
+\end{solution}
+
+\subsubsection*{3. Vhodné oblečenie}
+
+\begin{solution}
+pocasie = input("Ako je vonku?: "))
+miesto = input("Kam ideš?: "))
+
+if pocasie == "slnečno"
+	povinne = "šiltovka"
+if pocasie == "zamračené":
+	povinne = "mikina"
+if počasie == "dážď":
+	povinne = "vetrovka"
+	
+if miesto == "ihrisko":
+	odporucanie = "tepláky"
+if miesto == "škola"
+	odporucanie = "košela"
+
+print("Určite si nezabudni", povinne, "a tiež si vezmi", odporucanie, ".")
+\end{solution}
+
+\subsubsection*{4. Morský vánok}
+\begin{solution}
+stupen = input("Sila vetra na Beaufortovej stupnici: ")
+stupen = int(stupen)
+
+if stupen == 0:
+	nazov = "bezvetrie"
+	rychlost = 0
+	vlny = 0
+elif stupen == 1:
+	nazov = "vánok"
+	rychlost = 2
+	vlny = 0.1
+elif stupen == 2:
+	nazov = "slabý vietor"
+	rychlost = 5
+	vlny = 0.2
+
+# Doplň ostatné stupne podľa Beafortovej stupnice
+
+print(f"Vietor sa nazýva {nazov}.")
+print(f"Vietor má rýchlosť {rychlost} kt.")
+print(f"Očakávaná výška vĺn je {vlny} m.")
+\end{solution}
+
+\subsubsection*{5. Pokazený rozpis}
+\begin{solution}
+min = int(input("Trvanie (min.): "))
+
+hod = min // 60
+dni = hod // 24
+hod -= dni * 24
+min -= (hod * 60) + (dni * 24 * 60)
+
+print("=", end=" ")
+if dni > 0:
+    print(f"{dni} d.", end=" ")
+if hod > 0:
+    print(f"{hod} hod.", end=" ")
+
+print(f"{min} min.")
+\end{solution}
+
+\subsubsection*{6. Hovoriaca kalkulačka}
+\begin{solution}
+print("Som hovorica kalkulačka a rada počítam!")
+a = int(input("Povedz mi prvé číslo: "))
+b = int(input("Potrebujem ďašie číslo: "))
+cinnost = input("Chceš ich sčítať alebo odčítať: ")
+
+if cinnost == "sčítať":
+    print(f"Výsledok tvojho príkladu: {a} plus {b} je {a + b}")
+elif cinnost == "odčítať":
+    print(f"Výsledok tvojho príkladu: {a} mínus {b} je {a - b}")
+else:
+    print(f"Neviem čo znamená '{cinnost}'")
+\end{solution}
+
+\subsubsection*{7. Chaos v lístkoch}
+\begin{solution}
+print("Popíš mi svoju cestu s MHD")
+zony = int(input("Koľko zón prejdeš?:"))
+minuty = int(input("Koľko minút má trvať cesta?:"))
+
+if zony == 2 and minuty <= 30:
+	cena = 0.55
+elif zony == 3 and minuty <= 60:
+	cena = 0.80
+elif zony == 4 and minuty <= 60:
+	cena = 1.00
+elif zony == 5 and minuty <= 90:
+	cena = 1.25
+elif zony == 6 and minuty <= 90:
+	cena = 1.50
+elif zony == 7 and minuty <= 120:
+	cena = 1.65
+
+print("Zlavnený lístok stojí {cena:.2f} eur.")
+\end{solution} 
+
+\subsubsection*{8. Kvadratická rovnica}
+\begin{solution}
+import math
+print("Koeficienty kvadratickej rovnice:")
+a = float(input("a = "))
+b = float(input("b = "))
+c = float(input("c = "))
+
+if a == 0:
+	print("Ide o lineárnu rovnicu")
+else:
+	print(f"{a:g}x^2 + {b:g}x + {c:g} = 0")
+	D = b ** 2 - 4 * a * c
+	if D < 0:
+		print("Kvadratická rovnica nemá riešenie v R")
+	elif D > 0:
+		x1 = (-b - math.sqrt(D)) / (2 * a)
+		x2 = (-b + math.sqrt(D)) / (2 * a)
+		print(f"x1 = {x1}")
+		print(f"x2 = {x2}")
+	elif D == 0:
+		x = -b / (2 * a)
+		print(f"x = {x}")
+		Vx = -b / (2 * a)
+		Vy = c - ((b ** 2) / (4 * a))
+		print(f"V[{Vx}; {Vy}]")
+\end{solution}
+
+\subsubsection*{9. Trojuholníky}
+\begin{solution}
+import math
+
+print("Zadajte strany ľubovolného trojuholníka:")
+a = input("a = ")
+b = input("b = ")
+c = input("c = ")
+
+a = float(a)
+b = float(b)
+c = float(c)
+
+if a + b <= c:
+	print("Pre trojuholník neplatí trojuholníková nerovnosť")
+	print("a + b <= c")
+	print(f"{a} + {b} <= {c}")
+elif a + c <= b:
+	print("Pre trojuholník neplatí trojuholníková nerovnosť")
+	print("a + c <= b")
+	print(f"{a} + {c} <= {b}")
+elif b + c <= a:
+	print("Pre trojuholník neplatí trojuholníková nerovnosť")
+	print("b + c <= a")
+	print(f"{b} + {c} <= {a}")
+else:
+	alpha = math.acos((a**2 - b**2 - c**2) / (-2*b*c))
+	beta = math.acos((b**2 - a**2 - c**2) / (-2*a*c))
+	gamma = math.acos((c**2 - a**2 - b**2) / (-2*a*b))
+
+	va = c * math.sin(beta)
+	vb = a * math.sin(gamma)
+	vc = b * math.sin(alpha)
+
+	alpha = math.degrees(alpha)
+	beta = math.degrees(beta)
+	gamma = math.degrees(gamma)
+
+    print(f"\nStrany: a = {a}; b = {b}; c = {c}")
+    print(f"Uhly: alpha = {alpha}°; beta = {beta}°; gamma = {gamma}°")
+    print(f"Výšky: v(a) = {va}; v(b) = {vb}; v(c) = {vc}")
+    print(f"O = {a + b + c}")
+    print(f"S = {a * va * 0.5}")
+
+        print("Trojuholník je:", end=" ")
+        if a == b == c:
+            print("Rovnostranný", end=", ")
+        elif a == b or b == c or c == a:
+            print("Rovnoramenný", end=", ")
+        else:
+            print("Rôznostranný", end=", ")
+
+	if alpha < 90 and beta < 90 and gamma > 90:
+		print("Ostrouhlý")
+	elif alpha > 90 or beta > 90 or gamma > 90:
+		print("Tupouhlý")
+	else:
+        print("Pravouhlý")
+\end{solution}

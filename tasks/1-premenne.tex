@@ -1,171 +1,288 @@
 \subsection{Premenné}
-\textbf{Premenná} je ako krabička slúžiaca na odkladanie informácií, ktoré si potrebujeme pre vykonanie danej činnosti zapamätať. Podľa účelu sa líšia svojim *dátovým typom*, ktorý sa vytvorí, keď do premennej niečo vložíme (*priradenie*) a určuje to, čo sa vo vnútri nachádza.
+\underline{\textbf{Premenná}} je taká krabička na odkladanie čísel alebo slov, ktoré si potrebujeme zapamätať na dokončenie činnosti. Premenné sa líšia svojim \underline{\textbf{dátovým typom}}. Premenná dostane svoj typ cez \underline{\textbf{priradenie}}, čiže vtedy keď prvýkrát do nej niečo uložíme. Typ hovorí o tom, čo sa vo vnútri premennej nachádza.
 
-Základné stavebné kamene, z ktorých vyskladáme opis zložitejších javov sú:
-
-\begin{itemize}
-\itemsep0pt
-\item \textbf{Logická hodnota} (\textit{bool}) - Boolean môže mať len dve hodnoty - pravda (\textit{True}) alebo nepravda (\textit{False})
-\item \textbf{Celé číslo} (\textit{int}) - Do integer-u ukladáme ľubovolné kladné a záporné celé čísla (napr. \textit{97})
-\item \textbf{Desatinné číslo} (\textit{float}) - Líšia sa od celých čísel spôsobom uloženia (napr. \textit{3.14159})
-\item \textbf{Reťazec} (\textit{str}) - Označujeme ich úvodzovkami alebo apostrofmi a väčšinou predstavujú text napísaný na klávesnici alebo zobrazený na obrazovke. (napr. \textit{"Učím sa programovať!"})
+Základné typy premenných sú:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \underline{\textbf{Logická hodnota}} (\textit{bool}) - môže mať len dve hodnoty - pravda (\textit{True}) alebo nepravda (\textit{False})
+\item \underline{\textbf{Celé číslo}} (\textit{int}) - ukladáme sem ľubovolné kladné a záporné celé čísla (\textit{97})
+\item \underline{\textbf{Desatinné číslo}} (\textit{float}) - Líšia sa od celých čísel spôsobom uloženia (\textit{3.14159})
+\item \underline{\textbf{Reťazec}} (\textit{str}) - Označujeme ich úvodzovkami alebo apostrofmi a väčšinou predstavujú text napísaný na klávesnici alebo zobrazený na obrazovke \textit{``Učím sa programovať!''}).
 \end{itemize}
 
 \subsubsection*{1. Pozdrav}
-Vytvor program, ktorý ťa po vložení mena pozdraví. Zameň pozdrav a zároveň nechaj program sa rozlučiť.
+Skladáš si stavebnicu robotického domáceho miláčika, ktorý je takmer dokonalý. Má telo, končatiny, hlavu a vie kráčať po stole. Keby však sa naučil aj hovoriť, to by bol potom poriadny spoločník. Každý dobrý rozhovor sa začína pozdravom. Napíš program, ktorý ťa pozdraví po napísaní mena na klávesnici. Doplň tiež, aby sa program s tebou aj rozlučil.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Ako sa voláš?: ______
-Ahoj ______
+Ako sa voláš?: @\fbox{\phantom{meno}}@
 \end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code} 
+Ahoj @\fbox{\phantom{meno}}@
+\end{code}
+\end{tabular}
+\vspace{-2em}
 
 \subsubsection*{2. Básnik}
-Vytváraš básničky na počkanie. Dnes sa ti ťažko premýšľa nad kreatívnymi textami, tak si chceš ušetriť námahu tým, že budeš meniť len rým.
+Rozkríklo sa, že píšeš pekné básničky na rôzne príležitosti. Prichádza ti čím ďalej viac prosieb od kamarátov a známych, či im nevytoríš peknú rýmovačku. Vymýšať kreatívne texty je niekedy veľká námaha, tak ti napadne, že stačí meniť len rým. Napíš program, ktorý za teba slovo vloží do predlohy básne.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Napíš slovo, ktoré sa rýmuje so slovom strach: _____
-Tu je báseň:
-Z počítačov mával som vždy strach
-teraz som však šťastný ako _____.
+Napíš slovo rýmujuce sa so slovom strach: @\fbox{\phantom{slovo}}@
 \end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em} 
+\begin{code}
+Tu je báseň:
+Z počítačov mával som vždy strach,
+teraz som však šťastný ako @\fbox{\phantom{slovo}}@.
+\end{code}
+\end{tabular}
+\vspace{-2em}
 
 \subsubsection*{3. Pozvánka}
-Každému kamarátovi chceš poslať pozvánku na svoju narodeninovú oslavu. Okrem mena v správe potrebuješ meniť aj čas konania oslavy (nie všetci chodia načas), vec, ktorú priniesie a jedlo, ktoré bude mať prichystané.
+Organizuješ budúci víkend velkolepú narodeninovú párty a rozposielaš na ňu pozvánky. Okrem mena hosťa potrebuješ meniť aj čas konania oslavy. Máš totiž skúsenosti, že nie všetci chodia načas. Každý pozvaný si má priniesť okrem darčeku aj jednu špeciálnu vec. Napíš program, ktorý doplní takúto pozvánku na mieru.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Meno kamaráta: _____
-Čas oslavy: _____
-Prines: _____
-Jedlo: ______
-
-Ahoj _____,
-pozývam ťa na moju narodeninovú oslavu, ktorá sa bude konať 12.4. o _____. Nezabudni priniesť _____ a pekný darček. Na večeru ťa čaká _____ a samozrejme lahodná torta. Teším sa na teba! :)
+Meno kamaráta: @\fbox{\phantom{vstup}}@
+Čas oslavy: @\fbox{\phantom{vstup}}@
+Prinesie okrem darčeku: @\fbox{\phantom{vstup}}@
 \end{code}
+\end{tabular}
 
-\subsubsection*{4. Prevod jednotiek teploty}
-Prišiel si na návštevu v Amerike a keď ideš von nevieš ako sa máš obliecť, lebo na teplomere vidíš len stupne Fahrenheita ($F$). Premeň ich na stupne Celzia ($C$).
-
-$$ C = (F - 32) \cdot (5 / 9) $$
-
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em} 
 \begin{code}
-Vonku je °F: _____
-Doma by to bolo _____°C.
+Ahoj @\fbox{\phantom{vstup}}@,
+pozývam ťa na moju narodeninovú párty.
+Bude sa konať 12.4. o @\fbox{\phantom{vstup}}@. 
+Nezabudni priniesť @\fbox{\phantom{vstup}}@ a pekný darček.
+Teším sa na teba! :)
 \end{code}
+\end{tabular}
+\vspace{-2em}
+
+\subsubsection*{4. Teplota vo Farenheitoch}
+Prišiel si na dovolenku do Spojených štátov amerických. Obliekaš sa na krátky výlet von, ale nevieš ako sa máš obliecť. Na teplomeroch sú napísané len stupne Fahrenheita. Napíš program, ktorý ich premení na stupne Celzia s presnosťou na dve desatinné miesta.
+
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
+\begin{code}
+Vonku je °F: @\fbox{\phantom{vstup}}@
+\end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em} 
+\begin{code}
+Doma by bolo na teplomeri @\fbox{\phantom{vstup}}@°C.
+\end{code}
+\end{tabular}
+\vspace{-2em}
 
 \subsubsection*{5. Hlboká roklina}
-Stojíš na útese nad hlbokým údolím a rozmýšlaš ako odmerať jej hĺbku (*h*). Vtom ťa osvietia tvoje dávne vedomosti z fyziky. Zoberieš do ruky kameň a pustíš ho z ruky do rokliny.
-Zároveň spustíš stopky a zmeriaš čas dopadu. Rýchlosť zvuku rachotu pri náraze na zem môžeme zanedbať. Na kameň sa ohybuje sa nadol rovnomerným spomaleným pohybom. Pôsobí naň tiažové zrýchlenie: $g = 9.81$.
-$$ h = (gt^2)\;/\; 2 $$
+Stojíš nad hlbokým údolím za zábradlím a uvažuješ ako odmerať jeho hĺbku. Vtom si spomenieš na svoje vedomosti z fyziky. Zoberieš si do ruky povaľúci sa kameň a pustíš ho priamo do rokliny. Zároveň stlačíš stopky, ktorými zmeriaš čas do dopadu v sekundách. Kameň padá nadol voľným pádom. Stopky zastaviš pri započutí rachotu z nárazu. Pri výpočte zanedbáme rýchlosť zvuku, ktorou sa rachot rožšíri až k nám.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Čas dopadu kameňa (s): ________
-Hĺbka rokliny je potom _______ metrov.
+Čas do dopadu kameňa: @\fbox{\phantom{vstup}}@
 \end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
+Hĺbka rokliny je @\fbox{\phantom{vstup}}@ metrov.
+\end{code}
+\end{tabular}
+\vspace{-2em}
 
 \subsubsection*{6. Vedro s vodou}
-Do nádrže z dažďovou vodou napršalo cez noc veľa vody. Jediný spôsob ako zúžitkovať zachytenú vodu je preniesť ju vo vedre valcového tvaru. Naberieme vždy len toľko vody koľko budeme potrebovať, preto je dobré poznať objem vedra. Rozmery vedra dokážeme odmerať pravítkom. Objem valcového vedra $V$ s výškou $v$ a priemerom podstavy $d$ sa vypočíta ako:
-$$ V = \pi \cdot (d\;/\;2)^2 \cdot v $$
+V rodinnom dome ste ekologicky uvedomelí, lebo zachytávate ďaždovú vodu z odkvapu na polievanie záhrady. Minulú noc vám napršalo do nádrže veľa vody. Keď bude o pár dní suchšie mama ťa pošle poliať rastliny uzavretým vedrom valcového tvaru. To naplníš vždy až po okraj. Zaujíma ťa, aký objem naberieš na jedno naplnenie. Rozmery valcového vedra vieš odmerať pravítkom. Napíš program, ktorý zráta koľko sa zmestí vody do rôzne veľkých vedier.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Výška vedra (cm): ________
-Priemer dna (cm): ________
-
-Do vedra sa zmestí _______ litrov vody.
+Výška vedra (cm): @\fbox{\phantom{vstup}}@
+Priemer dna (cm): @\fbox{\phantom{vstup}}@
 \end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
+Do vedra sa zmestí @\fbox{\phantom{vstup}}@ litrov vody.
+\end{code}
+\end{tabular}
+\vspace{-2em}
 
 \subsubsection*{7. Cesta autom}
-Plánuješ trasu na výlet autom a chceš zistiť akou rýchlosťou musíte priemerne ísť, aby ste stihli navštíviť všetky miesta a prišli večer včas do hotela.
+Tešíš sa na očakávaný výlet autom po Európe. Pri plánovaní trasy chceš zistiť akou rýchlosťou musíte priemerne cestovať, aby ste od rána stihli navštíviť všetky miesta. Večer však musíte prísť včas do hotela, aby vás ubytovali. Napíš program, ktorý ti s tým pomôže.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Dĺžka cesty (km): ____
-Odchod z domu (hodina): ____
-Príchod do hotela (hodina): ____
-
-Pôjdete priemerne ____ km/h.
+Dĺžka cesty (km): @\fbox{\phantom{vstup}}@
+Odchod z domu (hodina): @\fbox{\phantom{vstup}}@
+Príchod do hotela (hodina): @\fbox{\phantom{vstup}}@
 \end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
+Auto pôjde priemernou rýchlosťou @\fbox{\phantom{vstup}}@ km/h.
+\end{code}
+\end{tabular}
+\vspace{-2em}
 
 \subsubsection*{8. Kúpalisko}
-Začína sa letná sezóna a prevádzka kúpaliska musí pred otvorením plne napustiť bazény v areáli. Všetky sú kvádrového tvaru a poznáme ich rozmery. Zaujíma nás spotrebovaná voda na konkrétny bazén a cena, ktorú za ňu zaplatíme.
+Začína sa horúca letná sezóna. Prevádzka kúpaliska musí pred otvorením napustiť bazény. Všetky bazény v areáli sú kvádrového tvaru, ktorých rozmery poznáme. Vedúceho kúpaliska zaujíma spotrebovaná voda pre bazén, keď bude napustený pod okraj. Voda nie je zadarmo, preto si chcú pripraviť dosť peňazí, aby za ňu zaplatili.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Dĺžka bazéna (m): ____
-Šírka bazéna (m): ____
-Hĺbka bazéna (m): ____
-Hĺbka hladiny od okraja (cm): ____
-Cena za m^3 vody v eurách: _____
-
-Na bazén sa minie ____ litrov vody a bude to stáť ____ eur.
+Dĺžka bazéna (m): @\fbox{\phantom{vstup}}@
+Šírka bazéna (m): @\fbox{\phantom{vstup}}@
+Hĺbka bazéna (m): @\fbox{\phantom{vstup}}@
+Hĺbka hladiny od okraja (cm): @\fbox{\phantom{vstup}}@
+Cena za m^3 vody v eurách: @\fbox{\phantom{vstup}}@ 
 \end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
+Na bazén sa minie @\fbox{\phantom{vstup}}@ litrov vody.
+Voda bude to stáť @\fbox{\phantom{vstup}}@ eur.
+\end{code}
+\end{tabular}
+\vspace{-2em}
 
 \subsubsection*{9. Maľovanie}
-Sťahuješ sa s rodičmi do nového bytu a dali ti za úlohu vymalovať si izbu. Myslíš si, že nástroj na rýchle počítanie množstva farby by sa hodil aj profesionálnym maliarom, preto vytvoríš program na vypočítanie plochy stien a stropu bez okna a podlahy.
+Sťahuješ sa s rodičmi do nového bytu. Dali ti za úlohu kúpiť si farbu na vymaľovanie izby. Nástroj na rýchle počítanie množstva farby by sa hodil asi aj profesionálnym maliarom. Vytvor program na vypočítanie plochy stien a stropu bez okna a podlahy.
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
 Rozmery miestnosti
-Dĺžka (cm): ____
-Šírka (cm): ____
-Výška (cm): ____
+Dĺžka (cm): @\fbox{\phantom{vstup}}@
+Šírka (cm): @\fbox{\phantom{vstup}}@
+Výška (cm): @\fbox{\phantom{vstup}}@
 Rozmery okna
-Šírka (cm): ____
-Výška (cm): ____
-Výdatnosť farby (m^2/kg): ____
-
-Maľovať budeš plochu ____ m^2. Kúp ____ kg farby.
+Šírka (cm): @\fbox{\phantom{vstup}}@
+Výška (cm): @\fbox{\phantom{vstup}}@
+Výdatnosť farby (m^2/kg): @\fbox{\phantom{vstup}}@
 \end{code}
+\end{tabular}
 
-\subsubsection*{11. Pokladnička}
-Do banky vložíme peniaze (vklad)  a každý rok sa nám na nich pripočítava úrok. V banke necháme peniaze určitý počet rokov. Vypočítajte ako sumu dostaneme pri výbere.
-
-Napíš program, ktorý nám umožní na vstupe napísať rôzne sumy peňazí, úrokové miery a obdobie sporenia a na výstupe vypíše nasporenú sumu. Vyberte si, či použijete jednoduché alebo zložené úročenie - vzorec nájdite na internete alebo v zošite matematiky. Spustenie programu môže vyzerať nasledovne (pri jednoduchom úročení):
-
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
 \begin{code}
-Vklad (euro): ____
-Úrok (%): ___
-Dĺžka sporenia (rok): ___
-
-Na konci sporenia si v banke vyberieš _____ eur.
+Maľovať budeš plochu @\fbox{\phantom{vstup}}@ m^2. 
+Kúp @\fbox{\phantom{vstup}}@ kg farby.
 \end{code}
+\end{tabular}
+\vspace{-2em}
 
-\subsubsection*{12. Chemikálie}
-Napíš program na výpočet zmiešavania dvoch roztokov. Každý roztok je opísaný svojou hmotnosťou ($m$) v gramoch a hmotnostným zlomkom rozpustenej látky v rozpúštadle ($w$) v percentách.
- 
-Roztoky vo vzorci sú rozlíšené dolným indexom, napr. . Na vstupe sú zadané všetky premenné s indexami 1 a 2. Premenné s indexom 3 je potrebné vypočítať v programe.  Percentá je potrebné prerátať na pomer z celku vydelením 
-100-mi.
+\subsubsection*{10. Chemikálie}
+Chemici v laboratóriu bežne zmiešavajú roztoky, aby dosiahli správny pomer želanej látky. Roztoky sú opísané svojou hmotnosťou ($m$) a hmotnostným zlomkom rozpustenej látky v rozpúštadle ($w$). Viaceré látky odlíšime dolným indexom ($m_1$).  Hmotnosť sa uvádza v gramoch a hmotnostný zlomok v percentách. Napíš program na opísanie vlastností výsledného roztoku. Na výpočet použi tieto rovnice:
+\begin{align*}
+m_3 &= m_1 + m_2 \\
+m_3 \cdot w_3 &= m_1 \cdot w_1 +  m_2 \cdot w_2
+\end{align*}
 
-Na výpočet v programe využiješ rovnice:
-$$m_3 = m_1 + m_2$$
-$$m_3 \cdot w_3 = m_1 \cdot w_1 +  m_2 \cdot w_2$$
-
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-m1 (hmotnosť roztoku č.1)? ___
-w1 (hmotnostný zlomok roztoku č.1)? ___
-m2 (hmotnosť roztoku č.2)? ___
-w2 (hmotnostný zlomok roztoku č.2)? ___
-
-Výsledný roztok má hmotnosť ___ g.
-Hmotnostný zlomok rozpustenej látky je ___ %.
+Hmotnosť roztoku č.1 (m1)? @\fbox{\phantom{vstup}}@
+Hmotnostný zlomok roztoku č.1 (w1)? @\fbox{\phantom{vstup}}@
+Hmotnosť roztoku č.2 (m2)? @\fbox{\phantom{vstup}}@
+Hmotnostný zlomok roztoku č.2 (w2)? @\fbox{\phantom{vstup}}@
 \end{code}
+\end{tabular}
 
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
+Výsledný roztok má hmotnosť @\fbox{\phantom{vstup}}@ g.
+Hmotnostný zlomok rozpustenej látky je @\fbox{\phantom{vstup}}@ %.
+\end{code}
+\end{tabular}
+\vspace{-2em}
 
-\subsubsection*{13. Brzdenie}
-V poslednej dobe je na trati viacej nebezpečných zrážok. Rušňovodiči ťa požiadali, aby si zistil ako rýchlo pred prekážkou dokáže vlaková súprava zastaviť pri danej rýchlosti.
+\subsubsection*{11. Brzdenie}
+V poslednej dobe sa objavuje na trati viac nebezpečných zrážok. Rušňovodiči ťa požiadali, aby si zistil ako rýchlo a ďaleko pred prekážkou dokáže vlak zastaviť. Vlaková súprava ide pred brzdením svojou stálou rýchlosťou v kilometroch za hodinu. Hmotnosť vlaku tvorí súčet hmotností lokomotívy a všetkých vagónov. Brzdy na kolesách majú spoločnú brzdnú silu uvedenú v Newtonoch na tonu. V programe využiješ nasledovné fyzikálne vzťahy:
 
 \begin{itemize}
 \itemsep0pt
-\item Kinetická energia pohybujúceho sa vlaku (práca potrebná na zabrzdenie): $ W = E_k = \frac{1}{2} \cdot m \cdot v^2 $
-\item Brzdná dráha pri brzdnej sile $F_b$: $ s = \frac{W}{F_b \cdot m} $
-\item Čas potrebný na zastavenie vlaku pri rovnomernom spmalenom pohybe: $ t = \sqrt{\frac{2 \cdot s}{F / m}} $
+\item Kinetická energia pohybujúceho sa vlaku (práca potrebná na zabrzdenie): \\ $ W = E_k = \frac{1}{2} \cdot m \cdot v^2 $
+\item Brzdná dráha pri brzdnej sile $F_b$: $s = \frac{W}{F_b \cdot m} $
+\item Čas na zastavenie vlaku pri rovnomernom spomalenom pohybe: $ t = \sqrt{\frac{2 \cdot s}{F / m}} $
 \end{itemize}
 
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
 Vlaková súprava
-- Rýchlosť (km/h): ____
-- Hmotnosť lokomotívy (t): ____
-- Hmotnosť vagóna (t): ____
-- Počet vagónov: ____
-- Počet miest na vagón: ____
-- Zaplnenosť vlaku (%): ____
-- Brzdná sila (N/t): ____
+- Rýchlosť (km/h): @\fbox{\phantom{vstup}}@
+- Hmotnosť lokomotívy (t): @\fbox{\phantom{vstup}}@
+- Hmotnosť vagóna (t): @\fbox{\phantom{vstup}}@
+- Počet vagónov: @\fbox{\phantom{vstup}}@
+- Brzdná sila (N/t): @\fbox{\phantom{vstup}}@
+\end{code}
+\end{tabular}
 
-V rýchlosti ____ km/h zabrzdí súprava s hmotnosťou ____ t na vzdialnosť _____ m a bude to trvať ____ s.
-\end{code} 
+\vspace{-2em}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
+Vlaková súprava má hmotnosť @\fbox{\phantom{vstup}}@ ton.
+V rýchlosti @\fbox{\phantom{vstup}}@ km/h zabrzdí na vzdialnosť @\fbox{\phantom{vstup}}@ metrov.
+Brzdenie bude trvať @\fbox{\phantom{vstup}}@ sekúnd.
+\end{code}
+\end{tabular}
+\vspace{-2em}
+ 

@@ -56,17 +56,13 @@ Počas zvnútorňovania edukačného textu dochádza k postupu od jeho porozumen
 
 Na objasnenie nových konceptov je teda prospešné, ak sú úvadzané východiskové situácie povedomé a autorova predstava sa zhoduje s čitateľovou. Čítaním môže nastať neporozumenie v tzv. \textbf{mikroštruktúre textu}, to sú slová, vety, vzťahy medzi vetami, či štruktúra textu. Neznámym slovám dokážeme predchádzať ich vhodným výberom usúdenej z náročnosti pojmu. Taxonomické normy zachytávajú typickosť pojmov, tým že ho spájajú s názvom nadradenej kategórie. Zložité vety odkazujúce sa vedľajšou vetou na vzdialené slová a včlenené prívlastkové vety by mali byť radšej rozdelené na dve vety. Pozornosť treba venovať neopomenutiu podstatných spájajúcich slov. 
 
-\textbf{Zložitosť textu} sa opisuje kvantitatívnymi charakteristikami, prejavujúce sa v čitateľnosti a náročnosti texu. \textbf{Čitateľnosť} sa zvykne merať dĺžkou viet alebo výskytom neobvyklách slov. Najbežnejším ohodnotením čitateľnosti je \emph{Flesch skóre} (Vzorec~\ref{equ:flesh-score}) s rozmedzím od 0 (náročné akademické články po 100 pre (zrozumiteľné jedenásťročným deťom). Ďalšou mierou je \emph{Fog index} v prijateľnom rozsahu pre stredné školy do skóre 14 (Vzorec~\ref{equ:fog-index}) (\cite{drahosova_hodnotenie_2014}). 
+\textbf{Zložitosť textu} sa opisuje kvantitatívnymi charakteristikami, prejavujúce sa v čitateľnosti a náročnosti texu. \textbf{Čitateľnosť} sa zvykne merať dĺžkou viet alebo výskytom neobvyklách slov. Jednou z mnohých mier čitateľnosti je Gunning \emph{Fog index} v prijateľnom rozsahu pre stredné školy do skóre 14 (Vzorec~\ref{equ:fog-index}) (\cite{drahosova_hodnotenie_2014}). 
 
 \textbf{Náročnosť} textu vychádza z lexikálnych a syntaktických faktorov, ktoré pokladajú na škálu zložitosť toho čo je povedané a akým spôsobom je to zapísané. \emph{Průchová modifikácia Nestlerovej metódy} zisťuje obtiažnosť na vzorkách výkladového textu učebnice zohľadnením syntaktickej a sémantickej náročnosti  v bodovom rozpätí pod 20 bodov (nízka obtiažnosť) a nad 60 bodov (vysoká obtiažnosť) (Vzorec \ref{equ:nestler-method}) (\cite{drahosova_hodnotenie_2014}). Textu vyjadrujeme tiež inferenčnú záťaž, teda nutnosť vyvodzovania vzťahov čitateľom, sa znižuje umiestnením podobných myšlienok za sebou (\cite{pavlovkin_ziak_1989}).
 
 \begin{ceqn}\begin{align}
-206.835 - 1.015 \cdot \left(\frac{\sum slova}{\sum vety}\right) - 84.6 \cdot \left(\frac{\sum slabiky}{\sum slova}\right)
-\label{equ:flesh-score}
-\end{align}\end{ceqn}
-
-\begin{ceqn}\begin{align}
-0.4 \cdot (\text{(priemer slov vo vete)} + \text{(percento slov nad 2 slabiky)})
+0.4 \cdot \left(\left(\frac{\sum slova}{\sum vety}\right) + 
+\left(\frac{\sum \text{slova nad 2 slabiky}}{\sum slova}\cdot 100\right)\right)
 \label{equ:fog-index}
 \end{align}\end{ceqn}
 
@@ -107,14 +103,13 @@ Naplnenie tématického celku náročnosťou odstupňovaními úlohami s rozmani
 \item \textbf{Funkcia}: didaktické požiadavky na poznávací proces. Prípustné je ak úloha napĺňa niekoľkých didaktických funkcií (napr. slovná úloha na upevnenie učiva s aplikáciou poznatkov mimo matematiky). Úlohy na základe didaktickej funkcie podľa D.~Švedu sú (\cite{sveda_ulohy_1992}):
 \begin{enumerate}[label=\alph*),noitemsep,topsep=0pt]
 \item úlohy na motiváciu učebnopoznávacej činnosti žiakov
-\item úlohy na aktualizáciu učiva
-\item prípravné úlohy
-\item úlohy na osvojenie definície pojmu
-\item formulácie vety a postupu riešenia
+\item úlohy na aktualizáciu skôr osvojeného učiva
+\item prípravné úlohy predchádazjúce vysloveniu definície pojmu a riešeniu základných úloh 
+\item úlohy na osvojenie definície pojmu, formulácie vety a postupu riešenia
 \item úlohy na upevňovanie učiva
 \item úlohy na aplikáciu učiva mimo informatiky
 \item úlohy na aplikáciu učiva vo vnútri informatiky
-\item úlohy propedeutického charakteru
+\item úlohy propedeutického charakteru k nasledujúcim elementom učiva v tematickom celku
 \item úlohy na opakovanie a systemizáciu
 \end{enumerate}
 
@@ -124,7 +119,7 @@ Naplnenie tématického celku náročnosťou odstupňovaními úlohami s rozmani
 \item pamäť
 \item nižšie konvergentné procesy
 \item vyššie konvergentné procesy
-\item hodnotiace myslenie,
+\item hodnotiace myslenie
 \item tvorivé, divergentné myslenie
 \end{enumerate}
 \end{itemize}
@@ -132,7 +127,7 @@ Naplnenie tématického celku náročnosťou odstupňovaními úlohami s rozmani
 Klasifikácia úlohy podľa uvedených kritérii je náročná a subjektívna, lebo pri zaradení záleží od mnohých okolností ako sú formulácia úlohy, vedomosti a skúsenosti žiakov, podmienok vyučovania a organizačného prístupu učiteľa (\cite{mindakova_tvorba_2008}). 
 
 \subsection{Preformulovávanie úloh}
-Často sa vyskytujúci nedostatok systému úloh je neúplnosť pestrosti didaktického zamerania cvičení. Preformulovaním dosiahneme úpravy kategórii úlohy, či zvýšenie alebo zníženie jej obtiažnosti. Doplnenie chýbajúcich typových úloh sa môže realizovať rozličnými kreatívnymi prístupmi, z ktorých vyzdvihujeme tri systematické metódy (\cite{mindakova_tvorba_2008}):
+Často sa vyskytujúci nedostatok systému úloh je neúplnosť pestrosti didaktického zamerania cvičení. Ukázalo sa, že nedostatok úloh vo fáze aktualizácie učiva, v prípravnej fáze alebo vo fáze osvojovania učiva sa dá prekonať vytvorením nových úloh vo forme jednoduchých otázok alebo iným zaradením podľa témy, podtémy a elementu učiva. Preformulovaním navyše dosiahneme úpravy kategórii úlohy, či zvýšenie alebo zníženie jej obtiažnosti. Doplnenie chýbajúcich typových úloh sa môže realizovať rozličnými kreatívnymi prístupmi, z ktorých vyzdvihujeme tri systematické metódy (\cite{mindakova_tvorba_2008}):
 
 \begin{enumerate}[label=\alph*),noitemsep,topsep=0pt]
 \item \textbf{Zmena podmienky v zadaní}: najčastejšie zmení tému, podtémy, element učiva, čím môže mať vplyv na fáze vyučovacieho procesu, kedy sa úloha osvedčí použiť, napr. z motivačnej na aplikačný typ. Konkrétnosti dopadu na úlohu závisia od presného textu zadania, ale zmeniť podtému úlohy z ,,Príkazy'' na ,,Cyklus'' vieme pridaním požiadavky viacnásobne duplikovať obrazca vedľa seba. Zmenou formátu vstupu programu, z viacerých údajov na jednom riadku rozdelením na viac riadkov, sa úloha dostane z podtémy ,,Reťazce'' do ,,Vstupy programu''.

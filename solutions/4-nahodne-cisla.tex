@@ -1,0 +1,84 @@
+\subsection{Náhodné čísla}
+\subsubsection*{1. Hádzanie kockou}
+
+\begin{solution}
+import random
+
+input("HOĎ")
+kocka = random.randint(1, 6)
+
+if kocka == 1:
+	print("+-------+")
+	print("|       |")
+    print("|   #   |")
+	print("|       |")
+	print("+-------+")
+elif kocka == 2:
+	print("+-------+")
+    print("| #     |")
+    print("|       |")
+    print("|     # |")
+    print("+-------+")
+elif kocka == 3:
+	print("+-------+"
+	print("| #     |")
+	print("|   #   |")
+	print("|     # |")
+	print("+-------+")
+elif kocka == 4:
+	print("+-------+")
+	print("| #   # |")
+	print("|       |")
+	print("| #   # |")
+	print("+-------+")
+elif kocka == 5:
+	print("+-------+")
+	print("| #   # |")
+	print("|   #   |")
+	print("| #   # |")
+	print("+-------+")
+elif kocka == 6:
+	print("+-------+")
+	print("| #   # |")
+	print("| #   # |")
+	print("| #   # |")
+	print("+-------+")
+\end{solution}
+
+\subsubsection*{2. Hádaj číslo}
+\begin{solution}
+import random
+
+hadaj = random.randint(1, 100)
+
+while True:
+	tip = int(input("Hádaj číslo: "))
+	if tip > hadaj:
+		print("Veľa")
+	elif tip < hadaj:
+        print("Málo")
+    else:
+        print("Uhádol si")
+        break
+\end{solution}
+
+
+\subsubsection*{3. Opakovanie násobilky}
+\begin{solution}
+import random
+
+while True:
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    print(f"\nKoľko je {x} x {y}?")
+    vysledok = int(input("= "))
+
+    while vysledok != x * y:
+        print("Nesprávne - hádaj znovu")
+        vysledok = int(input("= "))
+
+    print("Správne - len tak ďalej")
+    pokracuj = input("Chceš ďaľší príklad? (a / n): ")
+    if pokracuj == 'n':
+        break
+\end{solution}

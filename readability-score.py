@@ -1,29 +1,27 @@
-\thispagestyle{empty}
-\chapter{Príloha}
-\pagenumbering{arabic}
-\renewcommand*{\thepage}{A-\arabic{page}}
-
-Postup na výpočet fog indexu:
-\begin{solution}
 import pyphen
 from nltk.tokenize import sent_tokenize, RegexpTokenizer
 
 word_tokenizer = RegexpTokenizer(r"\w+")
 dic = pyphen.Pyphen(lang="sk_SK")
 
+
 def count_syllables(word: str) -> int:
     return len(dic.inserted(word).split("-"))
+
 
 def fog_index(text: str) -> float:
     sentences = sent_tokenize(text)
     words = word_tokenizer.tokenize(text)
     long_words = [w for w in words if count_syllables(w) > 2]
+
     psv = len(words) / len(sentences)
     ds = (len(long_words) / len(words)) * 100
+
     score = 0.4 * (psv + ds)
     return score
+
 
 if __name__ == "__main__":
     text = input("> ")
     print(f"Fog index: {fog_index(text):.2f}")
-\end{solution}
+
