@@ -1,26 +1,31 @@
 \subsection{Súbory}
-\underline{\textbf{Súbor}} je zoskupením súvisiacich údajov, ktoré sú uložené na disku počítača. Oproti načítavaniu vstupu z klávesnice majú výhodu hlavne pri spracovaní a uchovaní veľkého množstva dát. Súbory sa dajú: \textit{vytvoriť} / \textit{vymazať}, \textit{otvoriť} / \textit{zatvoriť}, \textit{čítať} / \textit{zapisovať}. Podľa typu uchovávaných údajov (označované \textit{príponou}) súbory rozdeľujeme na:
+\underline{\textbf{Súbor}} je zoskupením súvisiacich údajov, ktoré sú uložené na disku počítača. Oproti načítavaniu vstupu z klávesnice majú výhodu hlavne pri spracovaní a uchovaní veľkého množstva dát. Súbory sa dajú: 
+\begin{itemize}[noitemsep]
+\item \underline{vytvoriť} alebo \underline{vymazať}
+\item \underline{otvoriť} alebo \underline{zatvoriť}
+\item \underline{čítať} alebo \underline{zapisovať}
+\end{itemize}.
 
-\begin{itemize}
-\itemsep0pt
+Podľa typu uchovávaných údajov (označované \underline{\textbf{príponou}}) súbory rozdeľujeme na:
+\begin{itemize}[noitemsep]
 \item \textbf{Textové súbory} - .txt, .csv, .html, .py
 \item \textbf{Obrazové súbory} - .bmp, .png, .jpg, .gif, .svg, .pdf
 \item \textbf{Zvukové súbory} - .wav, .mp3, .midi
 \item \textbf{Video súbory} - .avi, .mp4, .mkv
 \item \textbf{Spustiteľné súbory} - .exe, .elf
 \end{itemize}
-
-V tejto kapitole budeme pre jednoduchosť pracovať s textovými súbormi:
+V tejto kapitole budeme pre jednoduchosť pracovať s textovými súbormi.
 
 \subsubsection*{1. Prepisovanie}
-Pri prepisovaní dlhých textov na vstup programu sa často mýliš a príde ti to zbytočne zdĺhavé. Načítaj články u zadaní z predchádajúcej kapitoly zo súboru, ktorého názov si na začiatku vypýtaš. Pri úlohe "veľa opakovania" ulož záznam o ceste robota do nového súboru.
+Príde ti zbytočne prepisovať dlhé články na vstup programu a vždy sa pomýliš. Načítaj články pre každú úlohu z predošlej kapitoly zo súboru. Uprav programy tak, aby si najprv vypýtali názov súboru. V úlohe ,,veľa opakovania'' ulož záznam o ceste robota do nového súboru.
 
 
 \subsubsection*{2. Turistika}
-Na víkend sa črtajú ideálne podmienky na horskú turistiku. Nenecháš nič na náhodu a pripravíš si detailný plán s výškovým profilom trasy. Na každých desať metrov trasy si do súboru poznačíš aktuálnu nadmorskú výšku. Zisti celkové stúpanie a klesanie počas celého výletu spolu s najvyššou a najnižšou nadmorskou výškou. Vypíš aj celkovú dĺžku túry v kilometroch a trvanie prechodu horami v hodinách.
+Na víkend sa črtajú ideálne podmienky na horskú turistiku. Nenecháš nič na náhodu a pripravíš si detailný plán s výškovým profilom trasy. Na každých desať metrov trasy si do súboru poznačíš nadmorskú výšku z mapy. Zisti celkové stúpanie a klesanie počas celého výletu spolu s najvyššou a najnižšou nadmorskou výškou. Vypíš aj celkovú dĺžku túry v kilometroch a trvanie prechodu horami v hodinách.
 
-\begin{minipage}{.35\textwidth}
-\textbf{Vzorový obsah súboru (trasa.txt):}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Obsah súboru:} &
+\vspace{-3em}
 \begin{code}
 348
 351
@@ -29,33 +34,41 @@ Na víkend sa črtajú ideálne podmienky na horskú turistiku. Nenecháš nič 
 395
 401
 396
-383
-381
-367
-361
 \end{code}
-\end{minipage}
-\hfill
-\begin{minipage}{.45\textwidth}
-\textbf{Turistika:}
-\begin{code}
-Trasa je v súbore: ______
+\end{tabular}
 
-Trasa: 0.140 km - 0 h 21 min
-Stúpanie: 53 m
-Klesanie: 40 m
-Najnižšie miesto trasy: 361 m
-Najvyššie miesto trasy: 401 m
+\vspace{-2em}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
+\begin{code}
+Trasa je v súbore s názvom: @\fbox{\phantom{vstup}}@
 \end{code}
-\end{minipage}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
+Trasa: @\fbox{0.140 km}@ - @\fbox{0}@ h @\fbox{21}@ min
+Stúpanie: @\fbox{53}@ m
+Klesanie: @\fbox{40}@ m
+Najnižšie miesto trasy: @\fbox{361}@ m
+Najvyššie miesto trasy: @\fbox{401}@ m
+\end{code}
+\end{tabular}
+\vspace{-2em}
+
 
 \subsubsection*{3. Vedomostný kvíz}
-Bifľovanie ti vôbec nepríde ako zábava. Keby existoval spôsob, ktorým si opakovanie poznatkov spríjemniť. Včera si zo smútku nad vidinou takto premárneho času pri jedení čokolády a čipsov pozeral kvízovú reláciu. Prišlo ti to neuveriteľne poučné. Polož náhodnú otázku s možnostami zo súboru kvízových otázok a bodovo ohodnoť správnu odpoveď. Všetky kvízové otázky s možnosťami sa však nezmestia do pamäti programu, preto vždy vyber náhodnu otázku priamo zo súboru.
+Bifľovanie ti vôbec nepríde prínosné. Keby existoval spôsob, akým si opakovanie učiva spríjemniť. Včera si zo smútku nad vidinou takto premárneho času, pri jedení čokolády a čipsov, pozeral kvízovú reláciu. Prišlo ti to neuveriteľne poučné. Polož náhodnú otázku s možnostami zo súboru kvízových otázok a bodovo ohodnoť správnu odpoveď. Všetky kvízové otázky s možnosťami sa však nezmestia do pamäti programu. Náhodnu otázku vyber priamo zo súboru.
 
-\paragraph{Obsah súboru (kviz.txt):}
-
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Obsah súboru:} &
+\vspace{-3em}
 \begin{code}
-Otázka: V ktorom roku sa začala Francúzska revolúcia?
+Otázka: V ktorom roku začala Francúzska revolúcia?
   A: 1763
   B: 1813
   C: 1789
@@ -67,11 +80,23 @@ Otázka: Al2O3 je?
   C: hydroxid sodný
 Odpoveď: B
 \end{code}
+\end{tabular}
 
-\paragraph{Kvíz:}
-
+\vspace{-2em}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Ukážka:} &
+\vspace{-3em}
 \begin{code}
-Súbor s kvízovými otázkami: kviz.txt
+Trasa je v súbore s názvom: @\fbox{\phantom{vstup}}@
+\end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Kvíz:} &
+\vspace{-3em}
+\begin{code}
+Súbor s kvízovými otázkami: @\fbox{kviz.txt}@
 Kvízové otázky pripravené.
 Ideme na to!
 
@@ -80,109 +105,79 @@ A: 1763
 B: 1813
 C: 1789
 D: 1654
-Aká je správna odpoveď?: C
-Správne! Máš 1 bodov. / Nabudúce si to lepšie premysli. Skúsime niečo iné.
+Aká je správna odpoveď?: @\fbox{C}@
+Správne! Máš 1 bodov. 
+(alebo) Nabudúce si to lepšie premysli. Skúsime niečo iné.
 \end{code}
+\end{tabular}
+\vspace{-2em}
 
 
 \subsubsection*{4. Narodeniny}
 Darčeky k narodeninám zvykneš kupovať na poslednú chvílu. Potrebuješ mať prehľad aspoň na mesiac dopredu, kto bude mať narodeniny, aby si stihol vybrať niečo výnimočné. Zo súboru načítaj ľudí, ktorí majú sviatok v požadovaný mesiac v roku.
 
-\paragraph{Obsah súboru (narodeniny.csv):}
-
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Obsah súboru:} &
+\vspace{-3em}
 \begin{code}
 Jožko Mrkvička, 15.3.2002
 Katka Krátka, 2.7.1993
 Martinko Klingáč, 12.11.1995
 Iveta Novotná, 27.2.2001
-...
 \end{code}
+\end{tabular}
 
-\paragraph{Oslavy:}
-
+\vspace{-2em}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Zobraz narodeniny pre mesiac v roku: 3.2019
-
-Narodeniny: Marec 2019
-15.3. - Jožko Mrkvička - 17 rokov
+Zobraz narodeniny pre mesiac v roku: @\fbox{3.2019}@
 \end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
+Narodeniny: @\fbox{Marec 2019}@
+@\fbox{15.3. - Jožko Mrkvička - 17 rokov}@
+\end{code}
+\end{tabular}
+\vspace{-2em}
 
 
 \subsubsection*{5. Cestovné poriadky}
-Z celoštátneho rýchlika prestupujú v okresných mestách cestujúci na miestne autobusy.  Podľa času odchodu a trvania cesty zisti, ktorý autobus stihnú a vypíš najbližší spoj s najmenším čakaním medzi vlakom a autobusom. Daj pozor, pretože prvý časový údaj v riadku s odchodmi autobusu je v skutočnosti trvanie cesty vlakom, kým sa dostaneš do stanice, odkiaľ odchádza ten autobus.
+Z celoštátneho rýchlika prestupujú cestujúci v okresných mestách na miestne autobusy. Podľa času odchodu a trvania cesty zisti, ktorý autobus stihnú. Vypíš najbližší spoj s najmenším čakaním medzi vlakom a autobusom. Daj pozor! Prvý časový údaj v riadku s odchodom autobusu je trvanie cesty vlakom  do stanice, odkiaľ odchádza ten autobus.
 
-\paragraph{Obsah súboru (cp.csv):}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Obsah súboru:} &
+\vspace{-3em}
 \begin{code}
 vlak,9:15,10:45,12:15,14:30,16:15,18:20
 bus,1:00,11:00,13:00,15:00,17:00
 bus,1:45,9:30,12:08,16:33
-...
 \end{code}
+\end{tabular}
 
-\paragraph{Cestovné poriadky:}
+\vspace{-2em}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Vstup:} &
+\vspace{-3em}
 \begin{code}
-Čas: 10:00
-Trvanie cesty vlakom: 1:00
+Čas: @\fbox{10:00}@
+Trvanie cesty vlakom: @\fbox{1:00}@
+\end{code}
+\end{tabular}
 
+\vspace{-2em}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.7\linewidth}}
+\textbf{\small Výstup:} &
+\vspace{-3em}
+\begin{code}
 Najbližší spoje (vlak, autobus):
-12:15 - 13:15, 15:00 -
+@\fbox{12:15 - 13:15, 15:00 -}@
 \end{code}
-
-\subsubsection*{6. Pripomienky v kalendári}
-Po čase zistíš, že jednoduchšie by bolo, ak by sa ti týždeň pred kamarátovými narodeninami objavila pripomienka v tvojom osobnom elektronickom kalendári. Máš veľa kontaktov, nechceš ich však všetky prepisovať ručne. Zistiš, že zoznam narodenín môžeš do kalendárovej aplikácie vložiť vo formáte \textit{iCalendar (.ics)}. Preveď súbor s menami a dátumami narodenia do tejto podoby.
-
-\textbf{Pozri:}
-\begin{itemize}
-\itemsep0pt
-\item \textbf{iCalendar - súborový formát}: \url{https://cs.wikipedia.org/wiki/ICalendar}, 
-\item \textbf{iCalendar - podrobný popis [EN]}: \url{https://icalendar.org/RFC-Specifications/iCalendar-RFC-5545/}
-\end{itemize}
- 
-
-\paragraph{Pripomienky (narodeniny.ics)}
-\begin{code}
-BEGIN:VCALENDAR
-PRODID:Programatorsky kruzok
-VERSION:2.0
-...
-BEGIN:VEVENT
-DTSTAMP:20190811T100534Z
-UID:1
-SUMMARY:Jožko Mrkvička narodeniny
-CATEGORIES:Narodeniny
-RRULE:FREQ=YEARLY
-DTSTART;VALUE=DATE:20020315
-DTEND;VALUE=DATE:20020316
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-DESCRIPTION:
-ACTION:DISPLAY
-TRIGGER:-P7D
-END:VALARM
-END:VEVENT
-...
-END:VCALENDAR
-\end{code}
-
-\subsubsection*{7. Spisovateľ}
-Každý nemôže mať doma vlastného Hviezdoslava. Nebolo by ale úžastné, keby si mohol tvoriť básne alebo prózu s podobným štýlom ako jeden z velikánov literatúry? Vzrušujúcejšie by bolo naučiť počítač umeleckému cíteniu. Najprv musíš zhromaždiť, čo najväčší počet ukážok tvorby autora, a tým zhromaždiť pravdepodobnosti následnosti \textit{n-gramov} (písmen, slabík, slov) do \textit{Markovovho reťazca}. Potom náhodne vygeneruj nový text v štýle autora. Žiaľ, vytvorené myšlienky zrejme nebudú dávať poväčšinou významovo zmysel.
-
-\textbf{Pozri:}
-\begin{itemize}
-\itemsep0pt
-\item \textbf{Diela slovenskej literatúry}: \url{https://zlatyfond.sme.sk/}, 
-\item \textbf{Anglické texty}: \url{https://archive.org/search.php?query=subject%3A%22Literature%22}, 
-\item \textbf{Stavové automaty vizuálne [EN]} \url{http://setosa.io/ev/markov-chains/}, 
-\item \textbf{Tvorba slov pravdepodobnosťou - str.7 [EN]} \url{http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf}
-\end{itemize}
-
-\begin{code}
-Chcem písať ako: Dostojevskij
-Dĺžka n-gramu: 2
-Počet znakov výsledného textu: 100
-
-Spracúvam korpus tvorby autora ...
-Spočítavam maticu prechodových stavov ...
-Generujem originálny text ...
-Ani v tmi, že páliciu neď si predtým opohľadíka do do nia nehľadík, hľadal nediva ulic
-\end{code} 
+\end{tabular}
+\vspace{-2em}

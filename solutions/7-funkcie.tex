@@ -1,32 +1,25 @@
 \subsection{Funkcie}
 
 \subsubsection*{1. Vraky}
-
 \begin{solution}
 import random
 import math
-
 MIERKA = 15
 VRAK_X = random.randint(0, MIERKA)
 VRAK_Y = random.randint(0, MIERKA)
 
-
 def vzdialenost(x, y):
     return math.hypot(x - VRAK_X, y - VRAK_Y)
-
-
+  
 def nasiel(x, y):
     return x == VRAK_X and y == VRAK_Y
 
-
 print("Sonar hlási potopený parník na dohľad!")
-
 while True:
     suradnice = input("Tvoje súradnice?: ")
     suradnice = suradnice.split(",")
     x = int(suradnice[0])
     y = int(suradnice[1])
-
     if nasiel(x, y):
         print("Našiel si vrak. Dobrá práca!")
         break
@@ -36,17 +29,14 @@ while True:
 
 
 \subsubsection*{2. Lietadlo}
-
 \begin{solution}
 from math import sin, cos, acos, radians
-
 def letime(x, y):
     POLOMER_ZEME = 6371.11
     uhol = acos(sin(x[0]) * sin(y[0]) +
                 cos(x[0]) * cos(y[0]) * cos(abs(x[1] - y[1])))
     obluk = POLOMER_ZEME * uhol
     return obluk
-
 
 start = input("Pozícia: ")
 ciel = input("Cieľ: ")
@@ -61,7 +51,6 @@ ciel = [
     radians(float(ciel[0])),
     radians(float(ciel[1]))
 ]
-
 vzdielenost = letime(start, ciel)
 print(f"\nVzdialenosť: {vzdielenost:.2f} km")
 \end{solution}
@@ -90,7 +79,6 @@ def sifruj(sprava, kluc):
 
     return sifra
 
-
 def desifruj(sifra, kluc):
     sprava = ""
     A = ord("A")
@@ -111,26 +99,20 @@ def desifruj(sifra, kluc):
 
     return sprava
 
-
 retazec = input("Zadaj správu: ")
 kluc = input("Vlož tajný kľúč: ")
 akcia = input("Čo spraviť (šifruj / dešifruj): ")
 s = ""
-
 if akcia == "šifruj":
     print("Zašifrovaná správa: ", end="")
     s = sifruj(retazec, kluc)
-
 elif akcia == "dešifruj":
     print("Dešifrovaná správa: ", end="")
     s = desifruj(retazec, kluc)
-
 print(s)
 \end{solution}
 
-
 \subsubsection*{4. Pascalov trojuholník}
-
 \begin{solution}
 def pascalov_trojuholnik(n):
     row = [1, 1]
@@ -150,61 +132,13 @@ def pascalov_trojuholnik(n):
             row[j] = row[j] + row[j - 1]
         row.append(1)
 
-
 vyska = int(input("Zadajte výšku Pascalovho trojuholníka: "))
 pascalov_trojuholnik(vyska)
 \end{solution}
 
-
-\subsubsection*{5. Bublikové triedenie}
-
-\begin{solution}
-def bublinkove_triedenie(zoznam, stlpec):
-    for i in range(len(zoznam) - 1):
-        for j in range(len(zoznam) - i - 1):
-            if zoznam[j][stlpec] > zoznam[j + 1][stlpec]:
-                x = zoznam[j]
-                zoznam[j] = zoznam[j + 1]
-                zoznam[j + 1] = x
-
-
-subor = open("ziaci.csv", "r")
-hlavicka = []
-ziaci = []
-
-for riadok in subor:
-    riadok = riadok.strip()
-    if not hlavicka:
-        hlavicka = riadok.split(",")
-    else:
-        ziaci.append(riadok.split(","))
-
-subor.close()
-
-kriterium = input("Triediť podľa stĺpca: ")
-stlpec = 0
-
-for i in range(len(hlavicka)):
-    if hlavicka[i].strip() == kriterium:
-        stlpec = i
-
-bublinkove_triedenie(ziaci, stlpec)
-for nadpis in hlavicka:
-    print(f"{nadpis:20s}", end=":")
-print()
-
-for ziak in ziaci:
-    for nadpis in ziak:
-        print(f"{nadpis:20s}", end=":")
-    print()
-\end{solution}
-
-
-\subsubsection*{6. Štatistika}
-
+\subsubsection*{5. Štatistika}
 \begin{solution}
 import math
-
 def priemer(zoznam):
     sucet = 0
     for prvok in zoznam:
@@ -214,7 +148,6 @@ def priemer(zoznam):
 def modus(zoznam):
     nazvy = []
     vyskyty = []
-
     # Zisti koľkokrát sa čo vyskytuje
     for prvok in zoznam:
         index = -1
@@ -261,7 +194,6 @@ def smerodajna_odchylka(zoznam):
 
     return math.sqrt(sucet / len(zoznam))
 
-
 subor = input("Súbor s bytmi v lokalite: ")
 ceny = []
 vymery = []
@@ -283,14 +215,12 @@ print(f"{'Modus':25s}:{modus(ceny):15.2f}:{modus(vymery):15.2f}:")
 print(f"{'Smerodajná odchýlka':25s}:{smerodajna_odchylka(ceny):15.2f}:{smerodajna_odchylka(vymery):15.2f}:")
 \end{solution}
 
-
-\subsubsection*{7. Rímske čísla}
+\subsubsection*{6. Rímske čísla}
 \begin{solution}
 def rimske_na_arabske(rimske):
     TABULKA = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
     arabske = []
     vysledok = 0
-
     for symbol in rimske:
         arabske.append(TABULKA[symbol])
 
@@ -302,16 +232,13 @@ def rimske_na_arabske(rimske):
         else:
             vysledok += arabske[i]
             i += 1
-
     return vysledok
-
 
 cislo = input("Zadaj rímske číslo: ")
 print(rimske_na_arabske(cislo))
 \end{solution}
 
-
-\subsubsection*{8. Základný tvar zlomku}
+\subsubsection*{7. Základný tvar zlomku}
 \begin{solution}
 def nsd(a, b):
     # Najväčší spoločný deliteľ
@@ -387,5 +314,4 @@ elif akcia == '*':
     print(f"{vypis(a)} * {vypis(b)} = {vypis(nasobit(a, b))}")
 elif akcia == '/':
     print(f"{vypis(a)} / {vypis(b)} = {vypis(delit(a, b))}")
-
 \end{solution}

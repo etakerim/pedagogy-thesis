@@ -66,39 +66,6 @@ for riadok in range(vyska):
         print("*" + " " * dute + "*")
 \end{solution}
 
-\begin{solution}
-vyska = int(input("Veľkosť: "))
-
-if vyska < 3 or vyska \% 2 != 1:
-    print("Neviem vytvoriť taký smaragd")
-
-else:
-    vyska = (vyska // 2) + 1
-
-    # Horná časť
-    for riadok in range(vyska):
-        medzery = vyska - riadok - 1
-        dute = 2 * riadok - 1
-
-        print(" " * medzery, end="")
-        if riadok == 0:
-            print("*")
-        else:
-            print("*" + " " * dute + "*")
-
-    # Dolná časť
-    for riadok in range(1, vyska):
-        medzery = riadok
-        dute = 2 * (vyska - riadok) - 3
-
-        print(" " * medzery, end="")
-        if riadok == vyska - 1:
-            print("*")
-        else:
-            print("*" + " " * dute + "*")
-\end{solution}
-
-
 \subsubsection*{6. Mriežka slov}
 \begin{solution}
 n = int(input("Počet riadkov a stĺpcov: "))
@@ -109,7 +76,6 @@ for riadok in range(n):
         print(slovo, end=" ")
     print()
 \end{solution}
-
 
 \subsubsection*{7. Rám}
 \begin{solution}
@@ -126,7 +92,6 @@ for riadok in range(n):
     print()
 \end{solution}
 
-
 \subsubsection*{8. Malá násobilka}
 \begin{solution}
 for i in range(1, 11):
@@ -134,7 +99,6 @@ for i in range(1, 11):
         print(f"{i * j:3d}", end=" ")
     print()
 \end{solution}
-
 
 \subsubsection*{9. Sporenie}
 \begin{solution}
