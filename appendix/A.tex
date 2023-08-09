@@ -1,9 +1,9 @@
 \thispagestyle{empty}
-\chapter{Príloha}
+\chapter{Kvantitatívne vlastnosti textu}
 \pagenumbering{arabic}
 \renewcommand*{\thepage}{A-\arabic{page}}
 
-Postup na výpočet fog indexu:
+Na výpočet počtu slov, viet a fog indexu sme použili tento program:
 \begin{solution}
 import pyphen
 from nltk.tokenize import sent_tokenize, RegexpTokenizer
@@ -25,5 +25,7 @@ def fog_index(text: str) -> float:
 
 if __name__ == "__main__":
     text = input("> ")
+    print(f"Počet slov: {len(word_tokenizer.tokenize(text))}")
+    print(f"Počet viet: {len(sent_tokenize(text))}")
     print(f"Fog index: {fog_index(text):.2f}")
 \end{solution}

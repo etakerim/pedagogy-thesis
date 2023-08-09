@@ -1,0 +1,60 @@
+\subsubsection*{1.6. Vedro s vodou}
+\begin{solution}
+pi = 3.14159
+v = input("Výška vedra (cm): ")
+d = input("Priemer dna (cm): ")
+v = int(v)
+d = int(d)
+V = pi * ((d / 2) ** 2)
+V = V / 1000
+print("Do vedra sa zmestí", V, "litrov vody.")
+\end{solution} 
+
+\subsubsection*{2.6. Hovoriaca kalkulačka}
+\begin{solution}
+print("Som hovorica kalkulačka a rada počítam!")
+a = int(input("Povedz mi prvé číslo: "))
+b = int(input("Potrebujem ďašie číslo: "))
+cinnost = input("Chceš ich sčítať alebo odčítať: ")
+
+if cinnost == "sčítať":
+    print(f"Výsledok tvojho príkladu: {a} plus {b} je {a + b}")
+elif cinnost == "odčítať":
+    print(f"Výsledok tvojho príkladu: {a} mínus {b} je {a - b}")
+else:
+    print(f"Neviem čo znamená '{cinnost}'")
+\end{solution}
+
+\subsubsection*{3.3. Pyramída}
+\begin{solution}
+vyska = int(input("Výška pyramídy: "))
+for riadok in range(vyska):
+    medzery = vyska - riadok - 1
+    hviezdy = 2 * riadok + 1
+    print(" " * medzery + "*" * hviezdy)
+\end{solution}
+
+\subsubsection*{4.2. Hádaj číslo}
+\begin{solution}
+import random
+hadaj = random.randint(1, 100)
+while True:
+	tip = int(input("Hádaj číslo: "))
+	if tip > hadaj:
+		print("Veľa")
+	elif tip < hadaj:
+        print("Málo")
+    else:
+        print("Uhádol si")
+        break
+\end{solution}
+
+\subsubsection*{6.1. Prepisovanie}
+\begin{solution}
+nazov_suboru = input("Názov súboru")
+subor = open(nazov_suboru, "r")
+for riadok in subor:
+    riadok = riadok.strip()
+    ...
+subor.close()
+\end{solution}

@@ -27,9 +27,9 @@ Našiel si vrak. Dobrá práca!
 
 
 \subsubsection*{2. Cézarová šifra}
-Na cestách po lodných pokladoch ťa odpočúvajú piráti, ktorí ťa chcú predbehnúť a obohatiť sa. Na utajenie svojej polohy a správ s pevninou musíš svoje informácie šifrovať. 
+Na cestách po lodných pokladoch ťa odpočúvajú piráti, ktorí ťa chcú predbehnúť a obohatiť sa. Na utajenie svojej polohy a správ s pevninou musíš informácie zašifrovať. 
 
-Funkcia \verb|sifruj(sprava, kluc)| zašifruje text správy tak, že posunie každé písmeno abecedy podľa písmena \verb|kluc|. Čiže napríklad správa \emph{``ABC"} sa s kľúčom \emph{``B''} zmení na \emph{``BCD''}. 
+Funkcia \verb|sifruj(sprava, kluc)| zašifruje text správy tak, že posunie každé písmeno abecedy podľa písmena \verb|kluc|. Čiže správa \emph{``ABC"} sa s kľúčom \emph{``B''} zmení na \emph{``BCD''}. 
 
 Funkcia \verb|desifruj(sifra, kluc)| bude fungovať opačne. Pre lepšiu bezpečnosť podporuj aj dlhšie kľúče než len jedno písmeno. Každé písmeno bude potom vyjadrovať posun od začiatku abecedy písmena, s ktorým sa stretne. Správa \emph{``AVE CEZAR''} s kľúčom \emph{``BCD''} bude \emph{``BXH DGCBT''}.
 
@@ -75,7 +75,7 @@ Súbor s bytmi v lokalite: @\fbox{\phantom{vstup}}@
 \textbf{\small Výstup:} &
 \vspace{-3em}
 \begin{code}
-                    : Cena (eur)  				:   Výmera(m^2) :
+                    : Cena (eur)  	:   Výmera(m^2) :
 Priemer             : @\fbox{\phantom{vstup}}@    :   @\fbox{\phantom{vstup}}@ :
 Medián              : @\fbox{\phantom{vstup}}@    :   @\fbox{\phantom{vstup}}@ :
 Modus               : @\fbox{\phantom{vstup}}@    :   @\fbox{\phantom{vstup}}@ :
@@ -85,37 +85,10 @@ Smerodajná odchýlka : @\fbox{\phantom{vstup}}@    :   @\fbox{\phantom{vstup}}@
 \vspace{-2em}
 
 
-\subsubsection*{5. Lietadlo}
-Pilota v kokpite lietadla počas letu zaujíma ako ďaleko je ešte od pristátia. Zo zemepisných súradníc aktuálnej polohy a súradníc cieľa vypočítaj medzi nimi najkratšiu vzdialenosť. Napíš na tento účel funkciu \verb|letime(x, y)|. Zem nie je placka, preto rátaj so sférickým povrchom zemegule (Nápoveda: \underline{\textbf{Ortodróma}}).
-\begin{align*}
-\theta &= \arccos(\sin(90° - \alpha_1) \cdot \sin(90° - \alpha_2) + \cos(90° - \alpha_1) \cdot \cos(90° - \alpha_2) \cdot \cos(|\beta_1 - \beta_2|)) \\
-d &= (r \cdot \theta \cdot \pi)\;/\;180
-\end{align*}
-
-\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
-\textbf{\small Vstup:} &
-\vspace{-3em}
-\begin{code}
-Pozícia: @\fbox{42.990967}@ @\fbox{-71.463767}@
-Cieľ: @\fbox{48.53682}@ @\fbox{-13.855231}@
-\end{code}
-\end{tabular}
-
-\vspace{-2em}
-\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
-\textbf{\small Výstup:} &
-\vspace{-3em}
-\begin{code}
-Vzdialenosť: @\fbox{4416.21}@ km
-\end{code}
-\end{tabular}
-\vspace{-2em}
-
-
-\subsubsection*{6. Rímske čísla}
+\subsubsection*{5. Rímske čísla}
 Od archeológov si dostal dlhý zoznam rímskych čísel. Nájdené boli v novobjavených podzemených historických pamiatkach. Tažko sa v nich dá vyznať a je na tebe, aby si ich premenil na ,,normálne'' arabské čísla. Poslali ti aj tabuľku pravidiel prevodu medzi rímskymi a arabskými ciframi. Napíš pre archeológov funkciu \verb|rimske_na_arabske(rimske)|.
 
-\subsubsection*{7. Základný tvar zlomku}
+\subsubsection*{6. Základný tvar zlomku}
 Zlomky sú vhodné na presné výpočty s častami z celku. Vytvor jednoduchú kalkulačku, ktorá umožňuje dva zlomky sčítať, odčítať, násobiť a deliť. Výsledok vždy zjednoduš na základný tvar.
 
 \begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
@@ -141,7 +114,7 @@ Výsledok:
 \vspace{-2em}
 
 
-\subsubsection*{8. Hra Poklad}
+\subsubsection*{7. Hra Poklad}
 Povráva sa, že na strašidelnom hrade v Karpatoch je bludisko so siedmimi tajomnými komnatami. Každá má meno a je v nej truhlica s pokladom. Mapa bludiska je náhodne poskladaná, uložená v pamäti počítača, ale nie je nakreslená na obrazovke. Hráč musí zistiť, ako sú komnaty navzájom pospájané. Na začiatku hry sa ocitne v náhodne vybranej komnate. Jeho úlohou je zhromaždiť všetky truhlice do spoločnej komnate. Môže však spraviť iba ohraničený počet krokov.
 
 \begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
@@ -170,39 +143,7 @@ Ešte stále si 4.komnate
 \end{tabular}
 \vspace{-2em}
 
-\subsubsection*{9. Databáza}
-Do školy vo veľkom meste si objednali počítač na uloženie a prehliadanie záznamov o žiakoch. Rok čo rok maturanti odchádzajú a prváci prichádzajú. Potrebujú teda tabuľky i upravovať. Napíš databázový systém, ktorý bude umožňovať vytvárať a mazať tabuľky. Každá tabuľka bude vo vlastnom \underline{\textbf{csv}} súbore. Riadky sa budú dať tiež vkladať a mazať.  Upravovať chceme aj políčk v tabuľkách. Neskôr ulož do databázy napríklad aj informácie o knihách zo školskej knižnice.
-
-Nápady na rozšírenie: \url{https://cstack.github.io/db_tutorial/}
-
-\begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
-\textbf{\small Ukážka možností:} &
-\vspace{-3em}
-\begin{code}
-DATABÁZA> NOVÁ TABUĽKA žiaci: meno, priezvisko, dátum narodenia
-DATABÁZA> TABUĽKY
-žiaci
-DATABÁZA> OTVOR TABUĽKU žiaci
-ŽIACI> VLOŽ Ružena, Kvetinková, 1998-11-15
-ŽIACI> ZOBRAZ
-   +----+---------+-------------+-----------------+
-   | id |  meno   |  priezvisko | dátum narodenia |
-   +----+---------+-------------+-----------------+
-   | 1  |  Ružena | Kvetinková  |  2005-11-15     |
-   +----+---------+-------------+-----------------+
-ŽIACI> UPRAV 1 NASTAV priezvisko: Sedmokrásková
-ŽIACI> ZOBRAZ: ZORAĎ PODĽA priezvisko
-...
-ŽIACI> ZOBRAZ: HĽADAJ PODĽA priezvisko: Sedmokrásková
-...
-ŽIACI> ZMAŽ 1
-ŽIACI> ZMAŽ TABUĽKU žiaci
-DATABÁZA> SKONČI
-\end{code}
-\end{tabular}
-\vspace{-2em}
-
-\subsubsection*{10. Kalkulačka}
+\subsubsection*{8. Kalkulačka}
 Moderné vedecké kalkulačky sú skoro zázrak. Buď tým, že sa mimo akademickej pôdy skoro vôbec nepoužívajú, alebo zložitosťou ich fungovania. Dokážu rozlíšiť, či má prednosť násobenie alebo sčítanie, zatiaľ čo vezmú do úvahy zátvorky. Nemôže byť pre nich nič jednoduchšie ako prijsť na to, čo je číslo a čo operátor. Vytvor program kalkuačky, ktorá sa bude správať ako vrecková vedecká kalkulačka, teda s infixovým zápisom (Nápoveda: \underline{\textbf{Shunting yard algorithm}}).
 
 \begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}

@@ -27,37 +27,7 @@ while True:
     print(f"Od vraku si {vzdialenost(x, y):.3f} námornych míľ")
 \end{solution}
 
-
-\subsubsection*{2. Lietadlo}
-\begin{solution}
-from math import sin, cos, acos, radians
-def letime(x, y):
-    POLOMER_ZEME = 6371.11
-    uhol = acos(sin(x[0]) * sin(y[0]) +
-                cos(x[0]) * cos(y[0]) * cos(abs(x[1] - y[1])))
-    obluk = POLOMER_ZEME * uhol
-    return obluk
-
-start = input("Pozícia: ")
-ciel = input("Cieľ: ")
-
-start = start.split(" ")
-start = [
-    radians(float(start[0])),
-    radians(float(start[1]))
-]
-ciel = ciel.split(" ")
-ciel = [
-    radians(float(ciel[0])),
-    radians(float(ciel[1]))
-]
-vzdielenost = letime(start, ciel)
-print(f"\nVzdialenosť: {vzdielenost:.2f} km")
-\end{solution}
-
-
-\subsubsection*{3. Cézarová šifra}
-
+\subsubsection*{2. Cézarová šifra}
 \begin{solution}
 def sifruj(sprava, kluc):
     sifra = ""
@@ -69,14 +39,11 @@ def sifruj(sprava, kluc):
     for i in range(len(sprava)):
         pismeno = sprava[i]
         k = kluc[i % len(kluc)]
-
         if A <= ord(pismeno) <= Z:
             poradie = ord(pismeno) - A
             posun = ord(k) - A
-
             poradie = (poradie + posun) % ABECEDA
             sifra += chr(poradie + A)
-
     return sifra
 
 def desifruj(sifra, kluc):
@@ -89,14 +56,11 @@ def desifruj(sifra, kluc):
     for i in range(len(sifra)):
         pismeno = sifra[i]
         k = kluc[i % len(kluc)]
-
         if A <= ord(pismeno) <= Z:
             poradie = ord(pismeno) - A
             posun = ord(k) - A
-
             poradie = (poradie - posun) % ABECEDA
             sprava += chr(poradie + A)
-
     return sprava
 
 retazec = input("Zadaj správu: ")
@@ -112,7 +76,7 @@ elif akcia == "dešifruj":
 print(s)
 \end{solution}
 
-\subsubsection*{4. Pascalov trojuholník}
+\subsubsection*{3. Pascalov trojuholník}
 \begin{solution}
 def pascalov_trojuholnik(n):
     row = [1, 1]
@@ -136,7 +100,7 @@ vyska = int(input("Zadajte výšku Pascalovho trojuholníka: "))
 pascalov_trojuholnik(vyska)
 \end{solution}
 
-\subsubsection*{5. Štatistika}
+\subsubsection*{4. Pekný byt}
 \begin{solution}
 import math
 def priemer(zoznam):
@@ -199,14 +163,11 @@ ceny = []
 vymery = []
 
 byty = open(subor, "r")
-
 for byt in byty:
     zaznam = byt.split(",")
     ceny.append(int(zaznam[0]))
     vymery.append(int(zaznam[1]))
-
 byty.close()
-
 # Pozri tiež modul "statistics" - https://docs.python.org/3/library/statistics.html
 print(f"{'':25s}:{'Cena (eur)':15s}:{'Výmera(m^2)':15s}:")
 print(f"{'Priemer':25s}:{priemer(ceny):15.2f}:{priemer(vymery):15.2f}:")
@@ -215,7 +176,7 @@ print(f"{'Modus':25s}:{modus(ceny):15.2f}:{modus(vymery):15.2f}:")
 print(f"{'Smerodajná odchýlka':25s}:{smerodajna_odchylka(ceny):15.2f}:{smerodajna_odchylka(vymery):15.2f}:")
 \end{solution}
 
-\subsubsection*{6. Rímske čísla}
+\subsubsection*{5. Rímske čísla}
 \begin{solution}
 def rimske_na_arabske(rimske):
     TABULKA = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
@@ -223,7 +184,6 @@ def rimske_na_arabske(rimske):
     vysledok = 0
     for symbol in rimske:
         arabske.append(TABULKA[symbol])
-
     i = 0
     while i < len(arabske):
         if i + 1 != len(arabske) and arabske[i] < arabske[i + 1]:
@@ -233,12 +193,11 @@ def rimske_na_arabske(rimske):
             vysledok += arabske[i]
             i += 1
     return vysledok
-
 cislo = input("Zadaj rímske číslo: ")
 print(rimske_na_arabske(cislo))
 \end{solution}
 
-\subsubsection*{7. Základný tvar zlomku}
+\subsubsection*{6. Základný tvar zlomku}
 \begin{solution}
 def nsd(a, b):
     # Najväčší spoločný deliteľ
