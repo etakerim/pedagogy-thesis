@@ -75,10 +75,8 @@ print(f"Najvyššie miesto trasy: {najvyssie} m")
 \subsubsection*{3. Vedomostný kvíz}
 \begin{solution}
 import random
-
 nazov = input("Súbor s kvízovými otázkami: ")
 kviz = open(nazov, "r")
-
 otazky = []
 skore = 0
 
@@ -90,7 +88,6 @@ while True:
     if riadok.startswith("Otázka: "):
         znacka = kviz.tell() - len(riadok)
         otazky.append(znacka)
-
 print("Kvízové otázky pripravené.")
 print("Ideme na to!", end="\n\n")
 
@@ -103,11 +100,9 @@ while True:
     # Spýtaj sa otázku a navrhni možnosti
     for riadok in kviz:
         riadok = riadok.rstrip()
-
         if riadok.startswith("Odpoveď: "):
             odpoved = riadok.lstrip("Odpoveď: ")
             break
-
         print(riadok.lstrip("Otázka: "))
 
     # Hráčov tip
@@ -127,8 +122,10 @@ kviz.close()
 datum = input("Zobraz narodeniny pre mesiac v roku: ")
 datum = datum.split(".")
 
-NAZVY_MESIACOV = ["Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl",
-                  "August", "September", "Október", "November", "December"]
+NAZVY_MESIACOV = [
+	"Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl",
+	"August", "September", "Október", "November", "December"
+]
 mesiac = int(datum[0])
 rok = int(datum[1])
 

@@ -12,10 +12,12 @@ else:
 
 \subsubsection*{2. Najväčšie číslo}
 \begin{solution}
-x = int(input("1.skóre: "))
-y = int(input("2.skóre: "))
-z = int(input("3.skóre: "))
-
+x = input("1.skóre: ")
+y = input("2.skóre: ")
+z = input("3.skóre: ")
+x = int(x)
+y = int(y)
+z = int(z)
 najviac = x
 poradie = 1
 if y > najviac:
@@ -66,7 +68,6 @@ elif stupen == 2:
 	nazov = "slabý vietor"
 	rychlost = 5
 	vlny = 0.2
-
 # Doplň ostatné stupne podľa Beafortovej stupnice
 
 print(f"Vietor sa nazýva {nazov}.")
@@ -76,8 +77,8 @@ print(f"Očakávaná výška vĺn je {vlny} m.")
 
 \subsubsection*{5. Pokazený rozpis}
 \begin{solution}
-min = int(input("Trvanie (min.): "))
-
+min = input("Trvanie (min.): ")
+min = int(min)
 hod = min // 60
 dni = hod // 24
 hod -= dni * 24

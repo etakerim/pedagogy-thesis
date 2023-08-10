@@ -1,4 +1,3 @@
-%TODO časti kódu (otázky a odpovede číslovaný zoznam) 
 \subsection{Premenné}
 \subsubsection*{1. Pozdrav}
 \begin{solution}
@@ -11,7 +10,7 @@ print("Dovidenia ", meno)
 \begin{solution}
 slovo = input("Napíš slovo, ktoré sa rýmuje so slovom strach: ")
 print("Tu je báseň:")
-print("Z počítačov mával som vždy strach"
+print("Z počítačov mával som vždy strach")
 print("teraz som však šťastný ako", slovo, ".")
 \end{solution}
 
@@ -117,14 +116,14 @@ vyskaOkna = int(sirkaOkna)
 vydatnost = float(vydatnost)
 
 # Spočítaj plochy stien, stropu a odpočítaj plochu okna
-S\_miestnost = (dlzka * sirka) + 2 * (vyska * sirka) + 2 * (vyska * dlzka)
-S\_okno = okno\_sirka * okno\_vyska
-
-S = (S\_miestnost - S\_okno) / 10000
-kg\_farba = S / vydatnost
+PlochaMiestnost = \
+(dlzka * sirka) + 2 * (vyska * sirka) + 2 * (vyska * dlzka)
+PlochaOkno = sirkaOkna * vyskaOkna
+S = (PlochaMiestnost - PlochaOkno) / 10000
+farbaKg = S / vydatnost
 
 print(f"Maľovať budeš plochu {S:.2f} m2."
-print(f"Kúp {kg\_farba:.2f} kg farby.")
+print(f"Kúp {farbaKg:.2f} kg farby.")
 \end{solution}
 
 \subsubsection*{10. Chemikálie}
@@ -160,17 +159,13 @@ F_b /= 1000
 
 # Hmotnosť súpravy je hmotnosť lokomotívy a všetkých vagónov
 m = lokomotiva + (pocet_vagonov * vagon)
-
 # Vypočítaj celkovú kinetickú energiu, tá je rovnaká ako práca
 # ktorú musia brzdy vykonať na zabrzdenie.
 W = 0.5 * m * (v ** 2)
-
 # Celková sila pôsobiaca proti pohybu vlaku
 F = F_b * m
-
 # Z definície práce W = F * s, vypočítaj dráhu potrebnú na zastavenie
 s = W / F
-
 # Vypočítaj čas potrebný na zastavenie pre rovnomerný spomalený pohyb
 a = F / m
 t = math.sqrt(2 * s / a)

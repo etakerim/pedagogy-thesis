@@ -14,6 +14,10 @@ def fog_index(text: str) -> float:
     words = word_tokenizer.tokenize(text)
     long_words = [w for w in words if count_syllables(w) > 2]
 
+    print(f"Počet slov: {len(words)}")
+    print(f"Počet viet: {len(sentences)}")
+    print(f"Náročné slová: {len(long_words)}")
+
     psv = len(words) / len(sentences)
     ds = (len(long_words) / len(words)) * 100
 
@@ -24,4 +28,3 @@ def fog_index(text: str) -> float:
 if __name__ == "__main__":
     text = input("> ")
     print(f"Fog index: {fog_index(text):.2f}")
-

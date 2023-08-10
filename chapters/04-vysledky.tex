@@ -44,7 +44,7 @@ V zbierke je tiež 9 úloh na rýdzo \textbf{informatické} záležitosti:
 \item databázy \emph{(6.3, 6.4, 6.5)}
 \end{itemize}
 
-Výber úloh je aj na učiteľovi, aby reagoval na časové súvislosti v učebných plánoch nadväzujúcic predmetov. Viac nežiadané je predbiehať predmet, z ktorého úloha čerpá, pretože to so sebou nesie znásobené časové nároky na objasnenie a hrozbu nadobudnutia povrchného obrazu o prebratej oblasti z iného vyučovacieho predmetu. Ďalej uvázame znenia zadaní úloh.
+Výber úloh je aj na učiteľovi, aby pružne reagoval na časové súvislosti v učebných plánoch nadväzujúcic predmetov. Viac nežiadané je predbiehať predmet, z ktorého úloha čerpá, pretože to so sebou nesie znásobené časové nároky na objasnenie a hrozbu nadobudnutia povrchného obrazu o prebratej oblasti z iného vyučovacieho predmetu. Ďalej uvázame znenia zadaní úloh.
 
 \input{tasks/1-premenne}
 \input{tasks/2-podmienky}
@@ -55,13 +55,112 @@ Výber úloh je aj na učiteľovi, aby reagoval na časové súvislosti v učebn
 \input{tasks/7-funkcie}
 
 \section{Vzorové riešenia}
-Typickú úlohu na osvojovanie si učiva z danej témy.
+Riešenia úloh v učebniciach spravidla zachytávajú jedinú správnu odpoveď v podobe čísla, oznamovacej vety alebo nákresu bez vysvetlenia postupu. Možností korektného usporiadania príkazov v programe však existuje v princípe neobmedzené množstvo, ktoré len vzrastá so znalosťami pokročilejších vyjadrovacích prostriedkov programovacieho jazyka. Postupnosť elementárnych krokov na dospenie k výsledku je nevyhnuté aj v matematike, ale rozdiel s programovaním je vo formuláciach otázok. 
 
-\input{solutions/chosen}
+Podľa nášho názoru by ideálne riešenie úlohy podporujúce samoštúdium nemalo byť odhalené okamžite v celku, ale navádzať na postup cez čiastkové nápovede vo forme otázok. Riešiteľovi je za takých okolností jasnejšie, prečo si autor zvolili práve odkrytú programovú konštrukciu. Alternatívne môže byť predostretý výpis programu zohľadňujúci požiadavky na vstup a výstup a oboznámenosť žiaka s témou v danom momente na základe predošlých úloh. V prípade ukázania už hotového riešenia slúži to iba na kontrolu. Pokladanie regulujúcich otázok spočíva na učiteľovi. 
+
+V \textbf{prílohe \ref{chapter:appendix-riesenia}} sa nachádzajú \textbf{exemplárne riešenia} takmer všetkých úloh zo zbierky okrem zameraných na opakovanie predošlého celku a na divergentné myslenie. U týchto cvičení je riešenie nanajvýš naznačené výpustkami (\dots), ktoré sú vyznačené v úlohe ,,6.1. Prepisovanie''. Spôsobom zachytenia riešení sa prikláňame v návrhu nášho učebného textu k použitiu na hodinách pod dohľadom učiteľa. 
+
+\begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
+\textbf{\small Náznak riešenia:} &
+\vspace{-3em}
+\begin{code}
+nazov_suboru = input("Názov súboru")
+subor = open(nazov_suboru, "r")
+for riadok in subor:
+    riadok = riadok.strip()
+    ...
+subor.close()
+\end{code}
+\end{tabular}
+
+Na vzorovom programe úlohy ,,3.3. Pyramída'' ukážeme prispôsobenie riešenia odpozorovaním chybám žiakov pri vypracovaní a miesta, kde o zvolenom zápise rozhodujú predchádzajúce skúsenosti. Hneď prvý riadok načítavajúci vstup sa dá napísať troma variantami rastúcej zložitosti na porozumenie. 
+
+\begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
+\textbf{\small Varianta č.1:} &
+\vspace{-3em}
+\begin{code}
+print("Výška pyramídy: ")
+vyska = input()
+vyska = int(vyska)
+\end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
+\textbf{\small Varianta č.2:} &
+\vspace{-3em}
+\begin{code}
+vyska = input("Výška pyramídy: ")
+vyska = int(vyska)
+\end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
+\textbf{\small Varianta č.3:} &
+\vspace{-3em}
+\begin{code}
+vyska = int(input("Výška pyramídy: "))
+\end{code}
+\end{tabular}
+
+Varianta č.1 prísne odlišuje medzi výstupom cez príkaz \verb|print|, načítaní vstupu z klávesnice cez \verb|input| a premenou písmen na typ číslo \verb|int|. Vo variante č.2 už operujeme s viacúčelovosťou príkazu \verb|input|, ktorá sa v skorších fázach pletie s priradením konštantného reťazca do premennej. Najsofistikovanejší spôsob spolieha zápis zloženej funkcie a predstavuje idióm. Žiadna syntax vzorového programu nie je univerzálna, ale vyvíjaja postupom kapitolami. V témach premenné a podmienky sa najčastejšie ukazuje varianta č.2. Od téme cykly sa varianta č.3 považuje za dostatočne známu.
+
+\begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
+\textbf{\small Násobenie reťazcov:} &
+\vspace{-3em}
+\begin{code}
+for riadok in range(vyska):
+	...
+	print(" " * medzery + "*" * hviezdy)
+\end{code}
+\end{tabular}
+
+\vspace{-2em}
+\begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
+\textbf{\small Vnorené cykly:} &
+\vspace{-3em}
+\begin{code}
+for riadok in range(vyska):
+	...
+	for i in range(medzery):
+		print(" ", end="")
+	print()
+	for i in range(hviezdy):
+		print("*", end="")
+	print()
+\end{code}
+\end{tabular}
+
+Náročnosť úlohy a tým umiestnenie v systéme je ovplyvnené aj typmi príkazov vo vzorovom riešení. Tretia úloha v kapitole cykly má za cieľ precvičiť for cyklus s pevne určeným počtom opakovaní, preto sa medzery a hviezdičky vypisujú násobením reťazcov. Napriek tomu, že reťazce sa dosiaľ neprebrali do hĺbky je jednoduchšie na pochopenie idea, že: ,,6 krát hviezdička vypíše 6 hviezedičiek'' než mechanizmus za vnorenými for cyklami. Na tomto príklade sa ukazuje závislosť zaradenia úlohy od použitého jazyka, pretože nie všetky umožňujú násobenie reťazcov, keďže sa jedná o zložený dátový typ.
 
 \section{Diskusia}
+
+
 Štruktúra úlohy (zadanie - scenéria, uvedenie do problémovej situácie, čo sa vyžaduje (priamo / nepriamo), rozvíja čítanie s porozumením
 
+Porozumenie textu: primerne 50 slov / úlohu, 4 - 5 viet, fog index 18
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/words.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/sentences.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.32\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/fog.png}
+\end{subfigure}
+\hfill
+\caption{Kvantifikatívne charakteristiky textu úloh v zbierke}
+\end{figure}
 
 textom znižujeme extra kognitívnu záťaž - je rozdiel porozumieť textu a schopnosť vymyslieť riešenie
 

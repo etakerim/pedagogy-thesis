@@ -1,5 +1,4 @@
 \subsection{Funkcie}
-
 \subsubsection*{1. Vraky}
 \begin{solution}
 import random
@@ -23,7 +22,6 @@ while True:
     if nasiel(x, y):
         print("Našiel si vrak. Dobrá práca!")
         break
-
     print(f"Od vraku si {vzdialenost(x, y):.3f} námornych míľ")
 \end{solution}
 
@@ -86,12 +84,10 @@ def pascalov_trojuholnik(n):
     for i in range(n):
         pocet += 1
         medzery -= 1
-
         print(" " * medzery, end="")
         for cislo in row[:pocet]:
             print(cislo, end=" ")
         print()
-
         for j in range(pocet - 1,  0, -1):
             row[j] = row[j] + row[j - 1]
         row.append(1)
@@ -118,7 +114,6 @@ def modus(zoznam):
         for i in range(len(nazvy)):
             if prvok == nazvy[i]:
                 index = i
-
         if index != -1:
             vyskyty[index] += 1
         else:
@@ -128,12 +123,10 @@ def modus(zoznam):
     # Pozri sa po najväčšom počte objavení sa a prehlás ho za modus
     najviac = None
     rekorder = -1
-
     for i in range(len(vyskyty)):
         if najviac == None or vyskyty[i] > najviac:
             najviac = vyskyty[i]
             rekorder = i
-
     return nazvy[rekorder]
 
 def utried(zoznam):
@@ -151,11 +144,9 @@ def median(zoznam):
 
 def smerodajna_odchylka(zoznam):
     average = priemer(zoznam)
-
     sucet = 0
     for prvok in zoznam:
         sucet += (prvok - average) ** 2
-
     return math.sqrt(sucet / len(zoznam))
 
 subor = input("Súbor s bytmi v lokalite: ")
@@ -254,7 +245,6 @@ def odcitat(x, y):
 
 def vypis(zlomok):
     return f"{zlomok[0]}/{zlomok[1]}"
-
 
 print("Kalkulačka zlomkov")
 a = input("a = ")
