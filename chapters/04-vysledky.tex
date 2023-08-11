@@ -57,71 +57,71 @@ Výber úloh je aj na učiteľovi, aby pružne reagoval na časové súvislosti 
 \section{Vzorové riešenia}
 Riešenia úloh v učebniciach spravidla zachytávajú jedinú správnu odpoveď v podobe čísla, oznamovacej vety alebo nákresu bez vysvetlenia postupu. Možností korektného usporiadania príkazov v programe však existuje v princípe neobmedzené množstvo, ktoré len vzrastá so znalosťami pokročilejších vyjadrovacích prostriedkov programovacieho jazyka. Postupnosť elementárnych krokov na dospenie k výsledku je nevyhnuté aj v matematike, ale rozdiel s programovaním je vo formuláciach otázok. 
 
-Podľa nášho názoru by ideálne riešenie úlohy podporujúce samoštúdium nemalo byť odhalené okamžite v celku, ale navádzať na postup cez čiastkové nápovede vo forme otázok. Riešiteľovi je za takých okolností jasnejšie, prečo si autor zvolili práve odkrytú programovú konštrukciu. Alternatívne môže byť predostretý výpis programu zohľadňujúci požiadavky na vstup a výstup a oboznámenosť žiaka s témou v danom momente na základe predošlých úloh. V prípade ukázania už hotového riešenia slúži to iba na kontrolu. Pokladanie regulujúcich otázok spočíva na učiteľovi. 
+Podľa nášho názoru by ideálne riešenie úlohy podporujúce samoštúdium nemalo byť odhalené okamžite v celku, ale navádzať na postup cez čiastkové nápovede vo forme otázok. Riešiteľovi je za takých okolností jasnejšie, prečo si autor zvolili práve odkrytú programovú konštrukciu. Vyžaduje si to náročnejšiu prípravu sady kontrolných otázok v učebnom materiále. Alternatívne môže byť predostretý výpis programu zohľadňujúci požiadavky na vstup a výstup a oboznámenosť žiaka s témou v danom momente na základe predošlých úloh. V prípade ukázania už hotového riešenia slúži to iba na kontrolu. Pokladanie regulujúcich otázok spočíva na učiteľovi. 
 
 V \textbf{prílohe \ref{chapter:appendix-riesenia}} sa nachádzajú \textbf{exemplárne riešenia} takmer všetkých úloh zo zbierky okrem zameraných na opakovanie predošlého celku a na divergentné myslenie. U týchto cvičení je riešenie nanajvýš naznačené výpustkami (\dots), ktoré sú vyznačené v úlohe ,,6.1. Prepisovanie''. Spôsobom zachytenia riešení sa prikláňame v návrhu nášho učebného textu k použitiu na hodinách pod dohľadom učiteľa. 
 
 \begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
 \textbf{\small Náznak riešenia:} &
-\vspace{-3em}
-\begin{code}
+\vspace{-1em}
+\begin{solution}
 nazov_suboru = input("Názov súboru")
 subor = open(nazov_suboru, "r")
 for riadok in subor:
     riadok = riadok.strip()
     ...
 subor.close()
-\end{code}
+\end{solution}
 \end{tabular}
 
 Na vzorovom programe úlohy ,,3.3. Pyramída'' ukážeme prispôsobenie riešenia odpozorovaním chybám žiakov pri vypracovaní a miesta, kde o zvolenom zápise rozhodujú predchádzajúce skúsenosti. Hneď prvý riadok načítavajúci vstup sa dá napísať troma variantami rastúcej zložitosti na porozumenie. 
 
 \begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
 \textbf{\small Varianta č.1:} &
-\vspace{-3em}
-\begin{code}
+\vspace{-1em}
+\begin{solution}
 print("Výška pyramídy: ")
 vyska = input()
 vyska = int(vyska)
-\end{code}
+\end{solution}
 \end{tabular}
 
 \vspace{-2em}
 \begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
 \textbf{\small Varianta č.2:} &
-\vspace{-3em}
-\begin{code}
+\vspace{-1em}
+\begin{solution}
 vyska = input("Výška pyramídy: ")
 vyska = int(vyska)
-\end{code}
+\end{solution}
 \end{tabular}
 
 \vspace{-2em}
 \begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
 \textbf{\small Varianta č.3:} &
-\vspace{-3em}
-\begin{code}
+\vspace{-1em}
+\begin{solution}
 vyska = int(input("Výška pyramídy: "))
-\end{code}
+\end{solution}
 \end{tabular}
 
 Varianta č.1 prísne odlišuje medzi výstupom cez príkaz \verb|print|, načítaní vstupu z klávesnice cez \verb|input| a premenou písmen na typ číslo \verb|int|. Vo variante č.2 už operujeme s viacúčelovosťou príkazu \verb|input|, ktorá sa v skorších fázach pletie s priradením konštantného reťazca do premennej. Najsofistikovanejší spôsob spolieha zápis zloženej funkcie a predstavuje idióm. Žiadna syntax vzorového programu nie je univerzálna, ale vyvíjaja postupom kapitolami. V témach premenné a podmienky sa najčastejšie ukazuje varianta č.2. Od téme cykly sa varianta č.3 považuje za dostatočne známu.
 
 \begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
 \textbf{\small Násobenie reťazcov:} &
-\vspace{-3em}
-\begin{code}
+\vspace{-1em}
+\begin{solution}
 for riadok in range(vyska):
 	...
 	print(" " * medzery + "*" * hviezdy)
-\end{code}
+\end{solution}
 \end{tabular}
 
 \vspace{-2em}
 \begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
 \textbf{\small Vnorené cykly:} &
-\vspace{-3em}
-\begin{code}
+\vspace{-1em}
+\begin{solution}
 for riadok in range(vyska):
 	...
 	for i in range(medzery):
@@ -130,17 +130,16 @@ for riadok in range(vyska):
 	for i in range(hviezdy):
 		print("*", end="")
 	print()
-\end{code}
+\end{solution}
 \end{tabular}
 
 Náročnosť úlohy a tým umiestnenie v systéme je ovplyvnené aj typmi príkazov vo vzorovom riešení. Tretia úloha v kapitole cykly má za cieľ precvičiť for cyklus s pevne určeným počtom opakovaní, preto sa medzery a hviezdičky vypisujú násobením reťazcov. Napriek tomu, že reťazce sa dosiaľ neprebrali do hĺbky je jednoduchšie na pochopenie idea, že: ,,6 krát hviezdička vypíše 6 hviezedičiek'' než mechanizmus za vnorenými for cyklami. Na tomto príklade sa ukazuje závislosť zaradenia úlohy od použitého jazyka, pretože nie všetky umožňujú násobenie reťazcov, keďže sa jedná o zložený dátový typ.
 
 \section{Diskusia}
+Rozbor učebného textu tvoreného problémovými úlohami zo základov programovania demonštrujeme vo dvoch líniach. Vyjadrujeme jednak číselné charakteristiky textov zadaní a takisto zovšeobecňujeme ich ustálenú obsahovú podobu. Rámec na budúce obohacovanie zbierky o nové zadania sa opriera nemej o výrazové prvky programovacieho jazyka, ktoré má úloha precvičovať, a následnú kategorizáciou úlohy v tématickom celku ku vzťahu k existujúcim úloham. 
 
-
-Štruktúra úlohy (zadanie - scenéria, uvedenie do problémovej situácie, čo sa vyžaduje (priamo / nepriamo), rozvíja čítanie s porozumením
-
-Porozumenie textu: primerne 50 slov / úlohu, 4 - 5 viet, fog index 18
+\subsection{Číselný opis textov zadaní}
+Združenia viet popisujúce problémovú situáciu a pokyny k činnosti patriace pod spoločnú úlohu boli vyhodnotené algoritmom uvedeným v prílohe \ref{chapter:appendix-text-score} pre každú úlohu zvlásť. Ako číselne vlasnosti sme zvolili počet slov, počet viet a skóre čitateľnosti cez fog index. 
 
 \begin{figure}[h]
 \centering
@@ -159,20 +158,95 @@ Porozumenie textu: primerne 50 slov / úlohu, 4 - 5 viet, fog index 18
 \includegraphics[width=\textwidth]{assets/fog.png}
 \end{subfigure}
 \hfill
-\caption{Kvantifikatívne charakteristiky textu úloh v zbierke}
+\caption{Kvantifikatívne vlastnosti textu úloh}
+\label{fig:text-metrics}
 \end{figure}
 
-textom znižujeme extra kognitívnu záťaž - je rozdiel porozumieť textu a schopnosť vymyslieť riešenie
+V prílohe \ref{chapter:appendix-kategorie} sú získané hodnoty v tabuľkách pre všetky znenia cvičení zoskupené po kapitolách. Histogramy (\ref{fig:text-metrics}) poukazujú na to, že priemerný počet slov naprieč zadaniami je $49\; \pm 18$ a teda dominujú kratšie texty v rozmedzí $30$ až $80$ slov. Priemerný počet viet je $4\; \pm 1$ a žiaden text ich nemá viac ako $8$. Fog index sa sústreďuje okolo skóre $18\; \pm 3$, čo značí že texty sú primerane zrozumiteľné pre žiakov stredných škôl. Vo všeobecnosti texty so skóre pod 20 sa pokladajú za veľmi ľahko čitateľné. Do vzorca fog indexu vstupuje počet slov na vetu, ktorých priemer je $10 \pm 2$, a percento ťažkých slov zo všetkých, tých je priemerne $33.9\%\; \pm 8\%$.
 
+Merania fog indexu sme brali výhradne ako doporučenie na úpravu textu, vzhľadom na uspôsobenosť anglickým textom kritériom pre náročné slová a optimálnu dĺžku textu 100 slov. Napiek tomu sme niektoré cvičenia s značne vyšším fog indexom uspôsobili skrátením komplikovaním viet a zamenením náročnejších slov za bežné. Hodnovernejšie posúdenie by poskytlo sémantické kritérium špeciálne pre úlohy, také nám však nie je známe. 
+
+\subsection{Predloha štruktúry úlohy}
+Aby podoba znení pôsobila rovnorodým dojmom pridržiavame sa stáleho rozvrhnutia vnútorného usporiadanie textu cvičenia. Zadanie sa začína opisom scenérie prostredia, kde sa dej odohráva. Nasledujú fakty, vzťahy a požiadavky na vstupy uvádzajúce algoritmizovateľnú problémovú situáciu. Úryvok ukončuje najčastejšie explicitné vyjadrenie pokynu v rozkazovacom spôsobe. Pokyn na riešenie nemusí byť priamo vyslovený. Na objasnenie očakávaní techník, ktoré má žiak zvoliť pri riešení, slúži ukážka behu programu. 
+
+Prítomnosť opísaných štruktúrnych prvkov textu dokladáme vybranými úlohami zo zbierky. Tri hlavné časti nazývame skrátene: \textbf{scenéria, problém a pokyn}.
+
+\paragraph{1.5. Hlboká roklina}
+\begin{quote}
+(\textbf{Scenéria}): \textit{\small ,,Stojíš nad hlbokým údolím za zábradlím a uvažuješ ako odmerať jeho hĺbku. Vtom si spomenieš na svoje vedomosti z fyziky. Zoberieš si do ruky povaľúci sa kameň a pustíš ho priamo do rokliny.''}
+
+(\textbf{Problém}):  \textit{\small Zároveň stlačíš stopky, ktorými zmeriaš čas do dopadu v sekundách. Kameň padá nadol voľným pádom. Stopky zastaviš pri započutí rachotu z nárazu. 
+Pri výpočte zanedbáme rýchlosť zvuku, ktorou sa rachot rožšíri až k nám.''}
+
+(\textbf{Pokyn}): Implicitný
+\end{quote}
+
+\paragraph{1.8. Kúpalisko}
+\begin{quote}
+(\textbf{Scenéria}): \textit{\small ,,Začína sa horúca letná sezóna. Prevádzka kúpaliska musí pred otvorením napustiť bazény.''}
+
+(\textbf{Problém}):  \textit{\small Všetky bazény v areáli sú kvádrového tvaru, ktorých rozmery poznáme. Vedúceho kúpaliska zaujíma spotrebovaná voda pre bazén, keď bude napustený pod okraj. Voda nie je zadarmo, preto si chcú pripraviť dosť peňazí, aby za ňu zaplatili.''}
+
+(\textbf{Pokyn}): Implicitný
+\end{quote}
+
+\paragraph{2.1. Heslo}
+\begin{quote}
+(\textbf{Scenéria}): \textit{\small ,,Tvoj dom na strome už vykradlo pár nezvaných návštevníkov. Vymyslel si preto spôsob ako dovoliť návštevu len overeným osobám.''}
+
+(\textbf{Problém}): \textit{\small ,,Tie musia poznať tajné heslo.''}
+
+(\textbf{Pokyn}): \textit{\small ,,Napíš program, ktorý slovne privíta členov a odoženie zlodejov.''}
+\end{quote}
+
+\paragraph{2.4. Morský vánok}
+\begin{quote}
+(\textbf{Scenéria}): \textit{\small ,,Kapitán plachetnice na otvorenom oceáne musí mať vždy prehľad odkiaľ fúka vietor, aby dokormidloval do vytúženého cieľa. Príliš silné závany vetra môžu byť nebezpečné pre posádku. Rozthať polámať lodné sťažne, potrhať plachty, či zaplaviť palubu.''}
+
+(\textbf{Problém}): \textit{\small ,,Cez rádio dostáva plavidlo každý deň správy o predpovedi sily vetra v Beafortovej stupnici. Sila vetra je ňou vyjadrená do dvanástich stupňov od bezvetria až po orkán.''} 
+
+(\textbf{Pokyn}): \textit{\small ,,Napíš program, ktorý kapitánu vysvetlí stupeň vetra. Podľa stupnice určíme jeho pomenovanie, rýchlosti v námorných uzloch a očakávateľnej výšky vĺn.''}
+\end{quote}
+
+\paragraph{5.5. Výskyt písmen}
+\begin{quote}
+(\textbf{Scenéria}): \textit{\small ,,Dlho do noci čítaš časopisy o umelej inteligencii a fascinuje ťa jej schopnosť rozprávať sa s človekom.''} 
+
+(\textbf{Problém}): \textit{\small ,,Na vytvorenie viet na danú tému potrebuje mať prehľad o percentuálnom výskyte hlások v texte.''}
+
+(\textbf{Pokyn}): \textit{\small ,,Spočítaj a vypíš zoznam početnosti písmen v reťazci.''}
+\end{quote}
+
+\paragraph{7.1. Vraky}
+\begin{quote}
+(\textbf{Scenéria}): \textit{\small ,,V šírich hlbinách Atlantiku sa stále ukrýka nepreberné bohatstvo vo vrakoch potopených lodí. V tejto minihre odkryješ tajomstvo skrývajúce sa pod hladinou.''} 
+
+(\textbf{Problém}): \textit{\small ,,Cieľom je nájsť vrak parníka na náhodnej pozícii.''} 
+
+(\textbf{Pokyn}): \textit{\small ,,Do programu napíš funkciu vzdialenost(x, y), ktorá na základe zadaných súradníc vypočíta ako ďaleko si od vraku.''}
+\end{quote}
+
+ 
+Písomný prejav má tvar 2. osoby jednotného čísla, čím si kladieme predpoklad, že zlepšíme zrorumiteľnosť, keď sa priblížime reči rovesníkov. Uľahčenie v chápaní komunikačného zámeru dosiahnutý pravideľnosťou, umožujeme pridať na inferečnej zložitosti. Namiesto žiakovho sústredenia sa na povrchovú orientáciu v texte ponechávame priestor na vyvodzovanie súvislostí, čím podporujeme čítanie s porozumením. 
+
+Grafická úprava úlohy je taktiež ujednotená a sa skladá z nadpisu, textu zadania, ukážka vzorového súboru ak je prítomná, vstupov a výstupov programu. Nadpis úlohy obsahuje číselné označeníe kapitoly, poradia úlohy vnútri kapitoly a jej názov v podobe slovného spojenia.
+Vstupy a výstupy programu sú orámované v oblasti so šedým pozadím, písmo je neproporciálne, a premenlivé údaje závislé od vstupov sú zastúpené prázdnymi obdĺžnikmi. Na ilustáciu modelového spustenia programu môžu byť do obdĺžnikov niekedy vpísané konkrétne hodnoty.
+
+
+\subsection{Didaktické funkcie úloh}
+Graduálne stupňovanie náročnosti úloh do troch úrovní, rovnomerné zastúpenie náplňania rozličných didaktických funkcií a zapojenia viacerých kognitívných úrovní overíme zaklasifikovaním úloh. Príloha \ref{chapter:appendix-kategorie} zachytáva zaradenie samotných zadaní do systému úloh. Tému, podtému a element sú prevažne predurčené názvom kapitoly, preto tie nešpecifikujeme. 
+
+Určenie didaktických funkcií úlohy je do značnej miery subjektívne, preto na odôvodnenie našich rozhodnutí ponúkame osobitnú interpretáciu kategorizácie. Motivačná funkcia ..
+
+%TODO opíš didaktické funckie
 Zoradenie úloh je podľa náročnosti, do tém a podtém podľa toho ktorý najzložitejší pojem alebo postup sa v nich vyskytuje
 
-Tabuľky na didaktické funkcie, kognitívnu úroveň a kvantitatívne vlastnosti textu (fog, počet slov, počet viet)
+Tabuľky na didaktické funkcie, kognitívnu úroveň
 zaradie úloh do kategórii závisí od ich poradia v zbierke
+
 
 Pozorovanie ako to žiaci zvládali
 
-Do záveru
-Zhrnutie
-Možné rozšírenia: otázky a odpovede (programové vyučovanie) pri prezentovaní riešení, implementácia do webového prostredia (segmentácia úloh na stránky), zhodnotie úspešnosti rozšíriteľnosti zbierky
+
 
 
