@@ -17,7 +17,7 @@ K zdanlivo relatívne menšiemu objemu časti súbory poznamenáme, že v skuto�
 \input{tasks/7-funkcie}
 
 \section{Vzorové riešenia}
-Riešenia úloh v učebniciach spravidla zachytávajú jedinú správnu odpoveď v podobe čísla, oznamovacej vety alebo nákresu bez vysvetlenia postupu. Možností korektného usporiadania príkazov v programe však existuje v princípe neobmedzené množstvo, ktoré len vzrastá so znalosťami pokročilejších vyjadrovacích prostriedkov programovacieho jazyka. Postupnosť elementárnych krokov na dospenie k výsledku je nevyhnuté aj v matematike, ale rozdiel s programovaním je vo formuláciach otázok. 
+Riešenia úloh v učebniciach spravidla zachytávajú jedinú správnu odpoveď v podobe čísla, oznamovacej vety alebo nákresu bez vysvetlenia postupu. Možností korektného usporiadania príkazov v programe existuje v princípe neobmedzené množstvo, ktoré len vzrastá so znalosťami pokročilejších vyjadrovacích prostriedkov programovacieho jazyka. Postupnosť elementárnych krokov na dospenie k výsledku je nevyhnuté aj v matematike, ale rozdiel s programovaním je vo formuláciach otázok. 
 
 Podľa nášho názoru by ideálne riešenie úlohy podporujúce samoštúdium nemalo byť odhalené okamžite v celku, ale navádzať na postup cez čiastkové nápovede vo forme otázok. Riešiteľovi je za takých okolností jasnejšie, prečo si autor zvolili práve odkrytú programovú konštrukciu. Vyžaduje si to náročnejšiu prípravu sady kontrolných otázok v učebnom materiále. Alternatívne môže byť predostretý výpis programu zohľadňujúci požiadavky na vstup a výstup a oboznámenosť žiaka s témou v danom momente na základe predošlých úloh. V prípade ukázania už hotového riešenia slúži to iba na kontrolu. Pokladanie regulujúcich otázok spočíva na učiteľovi. 
 
@@ -126,7 +126,7 @@ Združenia viet popisujúce problémovú situáciu a pokyny k činnosti patriace
 
 V prílohe \ref{chapter:appendix-kategorie} sú získané hodnoty v tabuľkách pre všetky znenia cvičení zoskupené po kapitolách. Histogramy (\ref{fig:text-metrics}) poukazujú na to, že priemerný počet slov naprieč zadaniami je $49\; \pm 18$ a teda dominujú kratšie texty v rozmedzí $30$ až $80$ slov. Priemerný počet viet je $4\; \pm 1$ a žiaden text ich nemá viac ako $8$. Fog index sa sústreďuje okolo skóre $18\; \pm 3$, čo značí že texty sú primerane zrozumiteľné pre žiakov stredných škôl. Vo všeobecnosti texty so skóre pod 20 sa pokladajú za veľmi ľahko čitateľné. Do vzorca fog indexu vstupuje počet slov na vetu, ktorých priemer je $10 \pm 2$, a percento ťažkých slov zo všetkých, tých je priemerne $33.9\%\; \pm 8\%$.
 
-Merania fog indexu sme brali výhradne ako doporučenie na úpravu textu, vzhľadom na uspôsobenosť anglickým textom kritériom pre náročné slová a optimálnu dĺžku textu 100 slov. Napiek tomu sme niektoré cvičenia s značne vyšším fog indexom uspôsobili skrátením komplikovaním viet a zamenením náročnejších slov za bežné. Hodnovernejšie posúdenie by poskytlo sémantické kritérium špeciálne pre úlohy, také nám však nie je známe. 
+Merania fog indexu sme brali výhradne ako doporučenie na úpravu textu, vzhľadom na uspôsobenosť anglickým textom kritériom pre náročné slová a optimálnu dĺžku textu 100 slov. Napiek tomu sme niektoré cvičenia s značne vyšším fog indexom uspôsobili skrátením komplikovaním viet a zamenením náročnejších slov za bežné. Hodnovernejšie posúdenie by poskytlo sémantické kritérium špeciálne pre úlohy, také nám lež nie je známe. 
 
 \subsection{Predloha štruktúry úlohy}
 Aby podoba znení pôsobila rovnorodým dojmom pridržiavame sa stáleho rozvrhnutia vnútorného usporiadanie textu cvičenia. Zadanie sa začína opisom scenérie prostredia, kde sa dej odohráva. Nasledujú fakty, vzťahy a požiadavky na vstupy uvádzajúce algoritmizovateľnú problémovú situáciu. Úryvok ukončuje najčastejšie explicitné vyjadrenie pokynu v rozkazovacom spôsobe. Pokyn na riešenie nemusí byť priamo vyslovený. Na objasnenie očakávaní techník, ktoré má žiak zvoliť pri riešení, slúži ukážka behu programu. 
@@ -196,28 +196,24 @@ Vstupy a výstupy programu sú orámované v oblasti so šedým pozadím, písmo
 \subsection{Didaktické funkcie úloh}
 Graduálne stupňovanie náročnosti úloh do troch úrovní, rovnomerné zastúpenie náplňania rozličných didaktických funkcií a zapojenia viacerých kognitívných úrovní overíme zaklasifikovaním úloh. Príloha \ref{chapter:appendix-kategorie} zachytáva zaradenie samotných zadaní do systému úloh. Tému, podtému a element sú prevažne predurčené názvom kapitoly, preto tie nešpecifikujeme. 
 
-Určenie didaktických funkcií úlohy je do značnej miery subjektívne, preto na odôvodnenie našich rozhodnutí ponúkame osobitnú interpretáciu kategorizácie.
+\textbf{Určenie didaktických funkcií} úlohy je do značnej miery subjektívne, preto na odôvodnenie našich rozhodnutí ponúkame osobitnú interpretáciu kategórií. Logickým štruktúrovaním učiva tématickej oblasti postupne žiaci prechádzajú istými fázami v oboznamovaní sa s učebnou látkou, ktoré podporujú najlepšie úlohy s určitou didaktickou funkcie. 
 
-upevňovanie učiva
-aplikácia mimo odbor
-aplikácia vo vnútri odboru
-opakovanie a systematizácia
-aktulizačné úlohy
-prípravné úlohy
-osvojenie pojmu a postupu
-motivačné úlohy
-propedeutické úlohy
+\textbf{Prípravné úlohy} sa vyskytujú pred uvedením samotného elementu učiva a majú navádzať k potrebe naučenia sa novej metódy, ktorá je v zápätí akoby objavená. Javy z programovania, kde k tomu dochádza, sú duplikácia rovnakého kódu tesne pred predstavením cyklov alebo výskyt veľa premenných základného typu pred oboznámením sa s jednorozmeným poľom. V našej zbierke sa také úlohy priamo nenachádzajú, ale ich znaky pripisujeme niektorým úvodným úlohám kapitol. 
 
-nižšie kognitívne procesy
-vyššie kognitívne procesy
-hodnotiace myslenie
-divergentné myslenie
+Po prípravných úlohách nastupujú na raz \textbf{propedeutické úlohy}, s ktorými sa zvknú prelínať. Propedeutické úlohy však poskytnú už triviálny prípad použitia novej syntaxe, a nie poukážu na nepraktičnosť dosiaľ známych vymožeností zápisu problému. Zložitosťou majú byť tieto skupiny úloh menej náročné.
 
-%TODO opíš didaktické funckie
-Zoradenie úloh je podľa náročnosti, do tém a podtém podľa toho ktorý najzložitejší pojem alebo postup sa v nich vyskytuje
+Sekvencia etáp vyučovacieho procesu predraďuje motiváciu pred expozíciou. V našom ponímaní majú úlohy s \textbf{motivačnou funkciou} vzhľadom k poznávaciemu procesu obrazne donútiť žiaka, aby preskúmal externé zdroje informácií. Fakty, ktoré nenájde v učebnici programovania, má byť potom motivovaný hľadať v učebniciach iných predmetov, v príručkách, knihách alebo na internete. Týkať sa to môže napr. fungovania hodu kockov, nájdenia matematických vzťahov, či dopĺňania banky otázok pre kvíz.
 
-Tabuľky na didaktické funkcie, kognitívnu úroveň
-zaradie úloh do kategórii závisí od ich poradia v zbierke
+Po uvedení cez propedeutické úlohy sa prepracúvame k úlohám na \textbf{osvojenie pojmu, vzťahov a postupu}. Od prvotného vystaveniu sa koncept prvku programovacieho jazyka sa
+ukazuje v tej istej základnej podobe v rozličných situáciach. Spomenieme cyklus, ktorý vypíše najprv desať totožných riadkov, potom hviezdičky v rovnakom riadku alebo hviezdičky po diagonále. Ukončovacia podmienka for cyklu zostáva zakaždým rovnaká, pribúdajú výlučne príkazy bez akéhokoľvek ovplyvňovania toku programu v tele cyklu. Úlohy na osvojovanie sú menej náročné. 
+
+Úlohy napĺňajúce funkciu \textbf{upevňovania učiva} sa málo líšia od \textbf{úloh na opakovanie a systematizáciu}. Zámena účelu úlohy z týchto dvoch skupín závisí kedy ju žiak bude riešiť vzhľadom na doterajšie nadobudnuté znalosti a skúsenosti. Pokiaľ sa pridržiava nami vymedzeného poradia úloh, tak funkcia upevňovania prislúcha skorej uvedeným úloham, kde ešte dochádza k postupnému nabaľovaniu vyjadrovacích možností príkazu, podmienka \emph{if} sa rozširuje o vetvy \emph{elif} a \emph{else}. Systematizáciou sa nepridávajú vlastnosti jazyka, ale stúpa náročnosť problémových situácii, na ktoré sú aplikované. Tvoria predpoklady pre stredné aj vysoko náročné úlohy.
+
+\textbf{Aktualizačné úlohy} zapájajú skorej osvojené učivo do inovatínych situácii, kde nastáva po prvýkrát súhra medzi staršími a novými elementami programovacieho jazyka. Najskoršie umiestnená úloha modelovo napríklad na vetvenie v cykle alebo na iteráciu cez znaky reťazca namiesto cez inkrementujúce sa počítadlo sú úlohy s aktualizačnou funkciou.
+
+\textbf{Aplikačná funkcia mimo alebo vo vnútri} informatiky súvisí s medzipredmetovými vzťahmi, ktoré rozoberáme v ďalšej časti. Podstata odhalenia aplikácie v inom vyučovacom predmete vychádza z pojmov v texte zadania cvičenia.
+
+Zoradenie systému úloh v rámci témy zbierky sa riadi ich najmarkantnejšou didaktickou funkciou. Od jednoduchším k zložitejším zadaniam začína prípravnou funkiou a pokračuje propedeutikou, osvojovaním, upevňovaním, opakovaním a systemizáciou. Priebežne celou témou sa tiahne aktualizácia predošlého učiva a motivácia. Kde nastane zhoda v hlavnej funkcii, tam sa skôr umiestni úloha s nižšou úrovňou vyžadovaných poznávacích procesov. Úlohy na konvergentné myslenie predchádzajú tie s divergentným riešením.
 
 \subsection{Medzipredmetové vzťahy}
 Podľa didaktickej zásady spojenia teórie s praxov a na prispenie ku kompentencii celoživotného učenia sa pre život dbáme na interdisciplinaritu nastolených problémov zasadených do reálneho sveta. Medzipredmetové aplikácie čerpajú z matematiky (16 úloh) a finančnej gramotnosti (2 úlohy), fyziky (4 úlohy), slovenského jazyka a literatúry (3 úlohy), geografie (2 úlohy), dejepisu (2 úlohy) a chémie (1 úloha). 
@@ -264,13 +260,9 @@ Výber úloh je aj na učiteľovi, aby pružne reagoval na časové súvislosti 
 https://etakerim.github.io/zbierka-uloh.html
 https://github.com/etakerim/etakerim.github.io
 
-Pozorovanie ako to žiaci zvládali
+Navigácia medzi úlohami cez obsah
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.6\textwidth]{assets/web-zbierka-obsah.png}
-\caption{Navigácia medzi úlohami cez hypertext}
-\end{figure}
+Pozorovanie ako to žiaci zvládali
 
 \begin{figure}[h]
 \centering
@@ -285,6 +277,9 @@ Pozorovanie ako to žiaci zvládali
 \end{subfigure}
 \caption{Zadanie a riešenie úlohy 2.5. na webe}
 \end{figure}
+
+%TODO elektronická učebnica kolaborácia cez github, záver,
+%TODO abstrakt, pravopis, pošli
 
 
 
