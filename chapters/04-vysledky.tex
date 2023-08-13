@@ -95,7 +95,29 @@ for riadok in range(vyska):
 \end{solution}
 \end{tabular}
 
-Náročnosť úlohy a tým umiestnenie v systéme je ovplyvnené aj typmi príkazov vo vzorovom riešení. Tretia úloha v kapitole cykly má za cieľ precvičiť for cyklus s pevne určeným počtom opakovaní, preto sa medzery a hviezdičky vypisujú násobením reťazcov. Napriek tomu, že reťazce sa dosiaľ neprebrali do hĺbky je jednoduchšie na pochopenie idea, že: ,,6 krát hviezdička vypíše 6 hviezedičiek'' než mechanizmus za vnorenými for cyklami. Na tomto príklade sa ukazuje závislosť zaradenia úlohy od použitého jazyka, pretože nie všetky umožňujú násobenie reťazcov, keďže sa jedná o zložený dátový typ.
+Náročnosť úlohy a tým umiestnenie v systéme je ovplyvnené aj typmi príkazov vo vzorovom riešení. Tretia úloha v kapitole cykly má za cieľ precvičiť for cyklus s pevne určeným počtom opakovaní, preto sa medzery a hviezdičky vypisujú násobením reťazcov. Napriek tomu, že reťazce sa dosiaľ neprebrali do hĺbky je jednoduchšie na pochopenie idea, že: ,,6 krát hviezdička vypíše 6 hviezedičiek'' než mechanizmus za vnorenými for cyklami. Na tomto príklade sa ukazuje závislosť zaradenia úlohy od použitého jazyka, pretože nie všetky umožňujú násobenie reťazcov.
+
+\section{Elektronická učebnica}
+Dostupnosť aktualizovaného učebného textu odkiaľkoľvek umožňuje umiestnenie úloh s riešeniami do online prostredia\footnote{Elektronická zbierka úloh: \url{https://etakerim.github.io/zbierka-uloh.html}}. Navigácia medzi zadaniami sa začína na klikateľnom obsahu, ktorý vymenúva všetky ich názvy s poradovým značením. 
+
+Zobrazenie úloh na samostatných stránkach (Obr.~\ref{fig:uloha-online}) namiesto celej kapitoly na spoločnej stránke vyplýva zo snahy o zníženie nadbytočenej vonkajšej (\emph{extraneous}) kognitívnej záťaže. Zo skúseností počas vyučovania robilo žiakom obtiaže spoľahlivo nájsť požadovanú úlohu, keď boli bezprostedne pod sebou. Na orientáciu malo negatívny dopad aj číslovanie kapitol rímskymi číslami. Posúvanie medzi predošlou a nasledujúcou úlohou, rovnako aj vzorové riešenie sú prístupné hypertextovým odkazom umiestneným naspodu stránky.
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{0.49\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/web-uloha.png}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.49\textwidth}
+\centering
+\includegraphics[width=\textwidth]{assets/web-riesenie.png}
+\end{subfigure}
+\caption{Zadanie a riešenie úlohy 2.5. na webe}
+\label{fig:uloha-online}
+\end{figure}
+
+Elektronická zbierka je voľná na stiahnutie cez portál \emph{Github} pod licenciou \emph{Creative Commons} s uvedením pôvodného zdroja a zachovaním licencie (\emph{CC BY-SA 4.0})\footnote{CC BY-SA 4.0 licencia: \url{https://creativecommons.org/licenses/by-sa/4.0/deed.cs}}. V repozitári\footnote{Git repozitár zbierky úloh: \url{https://github.com/etakerim/etakerim.github.io}} cez systém na správu verzií \emph{Git} je učebný text otvorený voči návrhom na kolaboratívne pridávanie nových úloh. Postačuje ak redaktor schváli zmenu prichádzajúcu cez \emph{Pull request}. Webová stránka zbierky úloh sa potom automaticky zverejení prostredníctom \emph{Github pages}\footnote{Projekt Github pages: \url{https://pages.github.com/}}.
 
 \section{Diskusia}
 Rozbor učebného textu tvoreného problémovými úlohami zo základov programovania demonštrujeme vo dvoch líniach. Vyjadrujeme jednak číselné charakteristiky textov zadaní a takisto zovšeobecňujeme ich ustálenú obsahovú podobu. Rámec na budúce obohacovanie zbierky o nové zadania sa opriera nemej o výrazové prvky programovacieho jazyka, ktoré má úloha precvičovať, a následnú kategorizáciou úlohy v tématickom celku ku vzťahu k existujúcim úloham. 
@@ -124,7 +146,7 @@ Združenia viet popisujúce problémovú situáciu a pokyny k činnosti patriace
 \label{fig:text-metrics}
 \end{figure}
 
-V prílohe \ref{chapter:appendix-kategorie} sú získané hodnoty v tabuľkách pre všetky znenia cvičení zoskupené po kapitolách. Histogramy (\ref{fig:text-metrics}) poukazujú na to, že priemerný počet slov naprieč zadaniami je $49\; \pm 18$ a teda dominujú kratšie texty v rozmedzí $30$ až $80$ slov. Priemerný počet viet je $4\; \pm 1$ a žiaden text ich nemá viac ako $8$. Fog index sa sústreďuje okolo skóre $18\; \pm 3$, čo značí že texty sú primerane zrozumiteľné pre žiakov stredných škôl. Vo všeobecnosti texty so skóre pod 20 sa pokladajú za veľmi ľahko čitateľné. Do vzorca fog indexu vstupuje počet slov na vetu, ktorých priemer je $10 \pm 2$, a percento ťažkých slov zo všetkých, tých je priemerne $33.9\%\; \pm 8\%$.
+V prílohe \ref{chapter:appendix-kategorie} sú získané hodnoty v tabuľkách pre všetky znenia cvičení zoskupené po kapitolách. Histogramy (\ref{fig:text-metrics}) poukazujú na to, že priemerný počet slov naprieč zadaniami je $49 \pm 18$ a teda dominujú kratšie texty v rozmedzí $30$ až $80$ slov. Priemerný počet viet je $4 \pm 1$ a žiaden text ich nemá viac ako $8$. Fog index sa sústreďuje okolo skóre $18 \pm 3$, čo značí že texty sú primerane zrozumiteľné pre žiakov stredných škôl. Vo všeobecnosti texty so skóre pod 20 sa pokladajú za veľmi ľahko čitateľné. Do vzorca fog indexu vstupuje počet slov na vetu, ktorých priemer je $10 \pm 2$, a percento ťažkých slov zo všetkých, tých je priemerne $33.9\% \pm 8\%$.
 
 Merania fog indexu sme brali výhradne ako doporučenie na úpravu textu, vzhľadom na uspôsobenosť anglickým textom kritériom pre náročné slová a optimálnu dĺžku textu 100 slov. Napiek tomu sme niektoré cvičenia s značne vyšším fog indexom uspôsobili skrátením komplikovaním viet a zamenením náročnejších slov za bežné. Hodnovernejšie posúdenie by poskytlo sémantické kritérium špeciálne pre úlohy, také nám lež nie je známe. 
 
@@ -139,15 +161,6 @@ Prítomnosť opísaných štruktúrnych prvkov textu dokladáme vybranými úloh
 
 (\textbf{Problém}):  \textit{\small Zároveň stlačíš stopky, ktorými zmeriaš čas do dopadu v sekundách. Kameň padá nadol voľným pádom. Stopky zastaviš pri započutí rachotu z nárazu. 
 Pri výpočte zanedbáme rýchlosť zvuku, ktorou sa rachot rožšíri až k nám.''}
-
-(\textbf{Pokyn}): Implicitný
-\end{quote}
-
-\paragraph{1.8. Kúpalisko}
-\begin{quote}
-(\textbf{Scenéria}): \textit{\small ,,Začína sa horúca letná sezóna. Prevádzka kúpaliska musí pred otvorením napustiť bazény.''}
-
-(\textbf{Problém}):  \textit{\small Všetky bazény v areáli sú kvádrového tvaru, ktorých rozmery poznáme. Vedúceho kúpaliska zaujíma spotrebovaná voda pre bazén, keď bude napustený pod okraj. Voda nie je zadarmo, preto si chcú pripraviť dosť peňazí, aby za ňu zaplatili.''}
 
 (\textbf{Pokyn}): Implicitný
 \end{quote}
@@ -219,69 +232,8 @@ Zoradenie systému úloh v rámci témy zbierky sa riadi ich najmarkantnejšou d
 Podľa didaktickej zásady spojenia teórie s praxov a na prispenie ku kompentencii celoživotného učenia sa pre život dbáme na interdisciplinaritu nastolených problémov zasadených do reálneho sveta. Medzipredmetové aplikácie čerpajú z matematiky (16 úloh) a finančnej gramotnosti (2 úlohy), fyziky (4 úlohy), slovenského jazyka a literatúry (3 úlohy), geografie (2 úlohy), dejepisu (2 úlohy) a chémie (1 úloha). 
 
 Matematika má z hľadiska využitia jej aparátu v programátorských úlohách nespornú výhodu pre blízkosť k informatike ako takej. Existujú zároveň viaceré možnosti znovupoužitia príkladov z matematických učebníc. K medzipremetovým vzťahov s \textbf{matematikou} prispievajú témy:
-\begin{itemize}[noitemsep,topsep=0pt]
-\item objem a obsah telies \emph{(1.6, 1.8, 1.9)}
-\item meranie času \emph{(2.5)}
-\item kalkulačky \emph{(2.6, 7.8)}
-\item kvadratické rovnice \emph{(2.8)}
-\item trojuholníky \emph{(2.9.)}
-\item malá násobilka \emph{(3.8, 4.3)}
-\item zlomky a percentá \emph{(5.5, 5.6, 7.6)}
-\item finančná gramotnosť \emph{(3.9, 5.7)}
-\item súradnicová sústava \emph{(7.1)}
-\item binomická veta \emph{(7.3)}
-\item štatistika \emph{(7.4)}
-\end{itemize}
-Do \textbf{fyziky} môžeme zaradiť úlohy ohľadom: 
-\begin{itemize}[noitemsep,topsep=0pt]
-\item teploty \emph{(1.4)}
-\item kinematiky \emph{(1.5, 1.7)}
-\item dynamiky \emph{(1.9)}
-\end{itemize}
-\textbf{Slovenského jazyka} sa okrajovo týkajú úlohy na:
-\begin{itemize}[noitemsep,topsep=0pt]
-\item rým \emph{(1.2)}
-\item hláskoslovie \emph{(5.2)}
-\item tvaroslovie \emph{(5.8)}
-\end{itemize}
-Pod témy súvisace s \textbf{geografiou} spadajú meteorológia \emph{(2.4)} a kartografia \emph{(6.2)}, z \textbf{chémie} sme zahrnuli roztoky \emph{(1.10)} a z \textbf{dejepisu} sa zmieňujeme o Májskych pyramídach \emph{(3.3)} a rímskych číslach \emph{(7.6)}. 
-V zbierke je tiež 9 úloh na rýdzo \textbf{informatické} záležitosti:
-\begin{itemize}[noitemsep,topsep=0pt]
-\item heslá \emph{(2.1)}
-\item hry a simulácie \emph{(4.1, 4.2, 7.7)}
-\item šifrovanie \emph{(7.2)}
-\item kompresia \emph{(5.9)}
-\item databázy \emph{(6.3, 6.4, 6.5)}
-\end{itemize}
+objem a obsah telies \emph{(1.6, 1.8, 1.9)}, meranie času \emph{(2.5)}, kalkulačky \emph{(2.6, 7.8)}, kvadratické rovnice \emph{(2.8)}, trojuholníky \emph{(2.9.)}, malá násobilka \emph{(3.8, 4.3)}, zlomky a percentá \emph{(5.5, 5.6, 7.6)}, finančná gramotnosť \emph{(3.9, 5.7)}, súradnicová sústava \emph{(7.1)}, binomická veta \emph{(7.3)}, štatistika \emph{(7.4)}. Do \textbf{fyziky} môžeme zaradiť úlohy ohľadom: teploty \emph{(1.4)}, kinematiky \emph{(1.5, 1.7)}, dynamiky \emph{(1.9)}. \textbf{Slovenského jazyka} sa okrajovo týkajú úlohy na: rým \emph{(1.2)}, hláskoslovie \emph{(5.2)}, tvaroslovie \emph{(5.8)}. Pod témy súvisace s \textbf{geografiou} spadajú meteorológia \emph{(2.4)} a kartografia \emph{(6.2)}, z \textbf{chémie} sme zahrnuli roztoky \emph{(1.10)} a z \textbf{dejepisu} sa zmieňujeme o Májskych pyramídach \emph{(3.3)} a rímskych číslach \emph{(7.6)}. 
 
-Výber úloh je aj na učiteľovi, aby pružne reagoval na časové súvislosti v učebných plánoch nadväzujúcic predmetov. Viac nežiadané je predbiehať predmet, z ktorého úloha čerpá, pretože to so sebou nesie znásobené časové nároky na objasnenie a hrozbu nadobudnutia povrchného obrazu o prebratej oblasti z iného vyučovacieho predmetu.
+V zbierke je tiež 9 úloh na rýdzo \textbf{informatické} zamerianie: heslá \emph{(2.1)}, hry a simulácie \emph{(4.1, 4.2, 7.7)}, šifrovanie \emph{(7.2)}, kompresia \emph{(5.9)}, databázy \emph{(6.3, 6.4, 6.5)}.
 
-\subsection{Elektronická učebnica}
-https://etakerim.github.io/zbierka-uloh.html
-https://github.com/etakerim/etakerim.github.io
-
-Navigácia medzi úlohami cez obsah
-
-Pozorovanie ako to žiaci zvládali
-
-\begin{figure}[h]
-\centering
-\begin{subfigure}[b]{0.49\textwidth}
-\centering
-\includegraphics[width=\textwidth]{assets/web-uloha.png}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.49\textwidth}
-\centering
-\includegraphics[width=\textwidth]{assets/web-riesenie.png}
-\end{subfigure}
-\caption{Zadanie a riešenie úlohy 2.5. na webe}
-\end{figure}
-
-%TODO elektronická učebnica kolaborácia cez github, záver,
-%TODO abstrakt, pravopis, pošli
-
-
-
-
-
+Výber vhodných úloh spolieha na učiteľa, aby pružne reagoval na časové súvislosti v učebných plánoch nadväzujúcic predmetov. Predbiehať predmetu, z ktorého úloha čerpá, je viac nežiadané než oneskorenie, pretože to so sebou nesie znásobené časové nároky na objasnenie a hrozbu nadobudnutia povrchného obrazu o prebratej oblasti z iného vyučovacieho predmetu.
