@@ -2,7 +2,7 @@
 \underline{\textbf{Funkcia}} je pomenovaná časť programu, ktorá vykonáva špecifickú činnosť. Hovorí sa im preto tiež \underline{\textbf{procedúry}} alebo \underline{\textbf{podprogramy}}. Predstavuje súvislú časť kód. Blok kódu obsahuje sled na seba nadväzujúcich príkazov, ktorý tvorí jeden logický celok. Takto umožňuje zložitejší program rozdeliť na viacero samostatných častí.
 
 \subsubsection*{1. Vraky}
-V šírich hlbinách Atlantiku sa stále ukrýka nepreberné bohatstvo vo vrakoch potopených lodí. V tejto minihre odkryješ tajomstvo skrývajúce sa pod hladinou. Cieľom je nájsť vrak parníka na náhodnej pozícii. Do programu napíš funkciu \verb|vzdialenost(x, y)|, ktorá na základe zadaných súradníc vypočíta ako ďaleko si od vraku.
+V šírych hlbinách Atlantiku sa stále ukrýva nepreberné bohatstvo vo vrakoch potopených lodí. V tejto minihre odkryješ tajomstvo skrývajúce sa pod hladinou. Cieľom je nájsť vrak parníka na náhodnej pozícii. Do programu napíš funkciu \verb|vzdialenost(x, y)|, ktorá na základe zadaných súradníc vypočíta ako ďaleko si od vraku.
 
 \begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
 \textbf{\small Vstup:} &
@@ -27,9 +27,9 @@ Našiel si vrak. Dobrá práca!
 
 
 \subsubsection*{2. Cézarová šifra}
-Na cestách po lodných pokladoch ťa odpočúvajú piráti, ktorí ťa chcú predbehnúť a obohatiť sa. Na utajenie svojej polohy a správ s pevninou musíš informácie zašifrovať. 
+Na cestách po lodných pokladoch ťa odpočúvajú piráti, ktorí ťa chcú predbehnúť a obohatiť sa. Na utajenie svojej polohy a správ s pevninou musíš informácie zašifrovať.
 
-Funkcia \verb|sifruj(sprava, kluc)| zašifruje text správy tak, že posunie každé písmeno abecedy podľa písmena \verb|kluc|. Čiže správa \emph{``ABC"} sa s kľúčom \emph{``B''} zmení na \emph{``BCD''}. 
+Funkcia \verb|sifruj(sprava, kluc)| zašifruje text správy tak, že posunie každé písmeno abecedy podľa písmena \verb|kluc|. Čiže správa \emph{``ABC"} sa s kľúčom \emph{``B''} zmení na \emph{``BCD''}.
 
 Funkcia \verb|desifruj(sifra, kluc)| bude fungovať opačne. Pre lepšiu bezpečnosť podporuj aj dlhšie kľúče než len jedno písmeno. Každé písmeno bude potom vyjadrovať posun od začiatku abecedy písmena, s ktorým sa stretne. Správa \emph{``AVE CEZAR''} s kľúčom \emph{``BCD''} bude \emph{``BXH DGCBT''}.
 
@@ -50,10 +50,10 @@ Počet riadkov: @\fbox{5}@
 \textbf{\small Výstup:} &
 \vspace{-3em}
 \begin{code}
-    1
-   1 1
-  1 2 1
- 1 3 3 1
+   1
+  1 1
+ 1 2 1
+1 3 3 1
 1 4 6 4 1
 \end{code}
 \end{tabular}
@@ -75,7 +75,7 @@ Súbor s bytmi v lokalite: @\fbox{\phantom{vstup}}@
 \textbf{\small Výstup:} &
 \vspace{-3em}
 \begin{code}
-                    : Cena (eur)  	:   Výmera(m^2) :
+                   : Cena (eur)  	:   Výmera(m^2) :
 Priemer             : @\fbox{\phantom{vstup}}@    :   @\fbox{\phantom{vstup}}@ :
 Medián              : @\fbox{\phantom{vstup}}@    :   @\fbox{\phantom{vstup}}@ :
 Modus               : @\fbox{\phantom{vstup}}@    :   @\fbox{\phantom{vstup}}@ :
@@ -89,7 +89,7 @@ Smerodajná odchýlka : @\fbox{\phantom{vstup}}@    :   @\fbox{\phantom{vstup}}@
 Od archeológov si dostal dlhý zoznam rímskych čísel. Nájdené boli v novobjavených podzemených historických pamiatkach. Tažko sa v nich dá vyznať a je na tebe, aby si ich premenil na ,,normálne'' arabské čísla. Poslali ti aj tabuľku pravidiel prevodu medzi rímskymi a arabskými ciframi. Napíš pre archeológov funkciu \verb|rimske_na_arabske(rimske)|.
 
 \subsubsection*{6. Základný tvar zlomku}
-Zlomky sú vhodné na presné výpočty s častami z celku. Vytvor jednoduchú kalkulačku, ktorá umožňuje dva zlomky sčítať, odčítať, násobiť a deliť. Výsledok vždy zjednoduš na základný tvar.
+Zlomky sú vhodné na presné výpočty s časťami z celku. Vytvor jednoduchú kalkulačku, ktorá umožňuje dva zlomky sčítať, odčítať, násobiť a deliť. Výsledok vždy zjednoduš na základný tvar.
 
 \begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
 \textbf{\small Vstup:} &
@@ -144,7 +144,7 @@ Ešte stále si 4.komnate
 \vspace{-2em}
 
 \subsubsection*{8. Kalkulačka}
-Moderné vedecké kalkulačky sú skoro zázrak. Buď tým, že sa mimo akademickej pôdy skoro vôbec nepoužívajú, alebo zložitosťou ich fungovania. Dokážu rozlíšiť, či má prednosť násobenie alebo sčítanie, zatiaľ čo vezmú do úvahy zátvorky. Nemôže byť pre nich nič jednoduchšie ako prijsť na to, čo je číslo a čo operátor. Vytvor program kalkuačky, ktorá sa bude správať ako vrecková vedecká kalkulačka, teda s infixovým zápisom.
+Moderné vedecké kalkulačky sú skoro zázrak. Buď tým, že sa mimo akademickej pôdy skoro vôbec nepoužívajú, alebo zložitosťou ich fungovania. Dokážu rozlíšiť, či má prednosť násobenie alebo sčítanie, zatiaľ čo vezmú do úvahy zátvorky. Nemôže byť pre nich nič jednoduchšie ako prísť na to, čo je číslo a čo operátor. Vytvor program kalkulačky, ktorá sa bude správať ako vrecková vedecká kalkulačka, teda s infixovým zápisom.
 
 \begin{tabular}{@{}p{0.15\linewidth}p{0.75\linewidth}}
 \textbf{\small Ukážka možností:} &
