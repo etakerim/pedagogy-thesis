@@ -65,7 +65,7 @@ vyska = int(input("Výška pyramídy: "))
 \end{solution}
 \end{tabular}
 
-Varianta č.1 prísne odlišuje medzi výstupom cez príkaz \verb|print|, načítaním vstupu z klávesnice cez \verb|input| a konverziou písmen na typ číslo \verb|int|. Vo variante č.2 už operujeme s viacúčelovosťou príkazu \verb|input|, ktorá sa v skorších fázach pletie s priradením konštantného reťazca do premennej. Najsofistikovanejší spôsob sa spolieha na zápis zloženej funkcie a predstavuje idióm jazyka. Žiadna syntax vzorového programu nie je univerzálna, ale vyvíjaja sa postupom kapitolami. V témach premenné a podmienky sa najčastejšie ukazuje varianta č.2. Od témy cykly sa varianta č.3 považuje za dostatočne známu.
+Variant č.1 prísne odlišuje medzi výstupom cez príkaz \verb|print|, načítaním vstupu z klávesnice cez \verb|input| a konverziou písmen na typ číslo \verb|int|. Vo variante č.2 už operujeme s viacúčelovosťou príkazu \verb|input|, ktorá sa v skorších fázach pletie s priradením konštantného reťazca do premennej. Najsofistikovanejší spôsob sa spolieha na zápis zloženej funkcie a predstavuje idióm jazyka. Žiadna syntax vzorového programu nie je univerzálna, ale vyvíja sa postupom kapitolami. V témach premenné a podmienky sa najčastejšie ukazuje variant č.2. Od témy cykly sa variant č.3 považuje za dostatočne známu.
 
 \begin{tabular}{@{}p{0.3\linewidth}p{0.6\linewidth}}
 \textbf{\small Násobenie reťazcov:} &
@@ -98,7 +98,7 @@ Náročnosť úlohy a tým umiestnenie v systéme je ovplyvnené aj typmi príka
 \section{Elektronická učebnica}
 Dostupnosť aktualizovaného učebného textu odkiaľkoľvek umožňuje umiestnenie úloh s riešeniami do online prostredia\footnote{Elektronická zbierka úloh: \url{https://etakerim.github.io/zbierka-uloh.html}}. Navigácia medzi zadaniami sa začína na klikateľnom obsahu, ktorý vymenúva všetky ich názvy s poradovým značením.
 
-Zobrazenie úloh na samostatných stránkach (Obr.~\ref{fig:uloha-online}) namiesto celej kapitoly na spoločnej stránke vyplýva zo snahy o zníženie nadbytočnej vonkajšej (\emph{extraneous}) kognitívnej záťaže. Zo skúseností počas vyučovania robilo žiakom obtiaže spoľahlivo nájsť požadovanú úlohu, keď sa nachádzali bezprostredne za sebou. Na orientáciu malo negatívny dopad aj číslovanie kapitol rímskymi číslami. Posúvanie medzi predošlou a nasledujúcou úlohou, rovnako aj vzorové riešenie sú prístupné hypertextovým odkazom umiestneným na spodku stránky.
+Zobrazenie úloh na samostatných stránkach (Obr.~\ref{fig:uloha-online}) namiesto celej kapitoly na spoločnej stránke vyplýva zo snahy o zníženie nadbytočnej vonkajšej (\emph{extraneous}) kognitívnej záťaže. Zo skúseností počas vyučovania nevedeli žiaci spoľahlivo nájsť požadovanú úlohu, keď sa nachádzali bezprostredne za sebou. Na orientáciu malo negatívny dopad aj číslovanie kapitol rímskymi číslami. Posúvanie medzi predošlou a nasledujúcou úlohou, rovnako aj vzorové riešenie sú prístupné hypertextovým odkazom umiestneným na spodku stránky.
 
 \begin{figure}[h]
 \centering
@@ -121,7 +121,7 @@ Elektronická zbierka je voľná na stiahnutie cez portál \emph{Github} pod lic
 Rozbor učebného textu tvoreného problémovými úlohami zo základov programovania demonštrujeme vo dvoch líniách. Vyjadrujeme jednak číselné charakteristiky textov zadaní a takisto zovšeobecňujeme ich ustálenú obsahovú podobu. Rámec na budúce obohacovanie zbierky o nové zadania sa opiera nemej o výrazové prvky programovacieho jazyka, ktoré má úloha precvičovať, a následnú kategorizáciou úlohy v tematickom celku ku vzťahu k existujúcim úlohám.
 
 \subsection{Číselný opis textov zadaní}
-Združenia viet popisujúce problémovú situáciu a pokyny k činnosti patriace pod spoločnú úlohu boli vyhodnotené algoritmom uvedeným v prílohe \ref{chapter:appendix-text-score} pre každú úlohu zvlášť. Ako číselné vlasnosti sme zvolili počet slov, počet viet a skóre čitateľnosti cez fog index.
+Združenia viet popisujúce problémovú situáciu a pokyny k činnosti patriace pod spoločnú úlohu boli vyhodnotené algoritmom uvedeným v prílohe \ref{chapter:appendix-text-score} pre každú úlohu zvlášť. Ako číselné vlastnosti sme zvolili počet slov, počet viet a skóre čitateľnosti cez fog index.
 
 \begin{figure}[h]
 \centering
@@ -146,7 +146,7 @@ Združenia viet popisujúce problémovú situáciu a pokyny k činnosti patriace
 
 V prílohe \ref{chapter:appendix-kategorie} sú získané hodnoty v tabuľkách pre všetky znenia cvičení zoskupené po kapitolách. Histogramy (\ref{fig:text-metrics}) poukazujú na to, že priemerný počet slov naprieč zadaniami je $49 \pm 18$ a teda dominujú kratšie texty v rozmedzí $30$ až $80$ slov. Priemerný počet viet je $4 \pm 1$ a žiaden text ich nemá viac ako $8$. Fog index sa sústreďuje okolo skóre $18 \pm 3$, čo značí že texty sú primerane zrozumiteľné pre žiakov stredných škôl. Vo všeobecnosti texty so skóre pod 20 sa pokladajú za veľmi ľahko čitateľné. Do vzorca fog indexu vstupuje počet slov na vetu, ktorých priemer je $10 \pm 2$, a percento ťažkých slov zo všetkých, tých je priemerne $33.9\% \pm 8\%$.
 
-Merania fog indexu sme brali výhradne ako doporučenie na úpravu textu, vzhľadom na uspôsobenosť anglickým textom kritériom pre náročné slová a optimálnu dĺžku textu 100 slov. Napiek tomu sme niektoré cvičenia so značne vyšším fog indexom uspôsobili skrátením komplikovaním viet a zamenením náročnejších slov za bežné. Hodnovernejšie posúdenie by poskytlo sémantické kritérium špeciálne určené pre úlohy, také nám lež nie je známe.
+Merania fog indexu sme brali výhradne ako odporučenie na úpravu textu, vzhľadom na prispôsobenie anglickým textom kritériom pre náročné slová a optimálnu dĺžku textu 100 slov. Napriek tomu sme niektoré cvičenia so značne vyšším fog indexom uspôsobili skrátením komplikovaním viet a zamenením náročnejších slov za bežné. Hodnovernejšie posúdenie by poskytlo sémantické kritérium špeciálne určené pre úlohy, také nám lež nie je známe.
 
 \subsection{Predloha štruktúry úlohy}
 Aby podoba znení pôsobila rovnorodým dojmom pridržiavame sa stáleho rozvrhnutia vnútorného usporiadanie textu cvičenia. Zadanie sa začína opisom scenérie prostredia, kde sa dej odohráva. Nasledujú fakty, vzťahy a požiadavky na vstupy uvádzajúce algoritmizovateľnú problémovú situáciu. Úryvok ukončuje najčastejšie explicitné vyjadrenie pokynu v rozkazovacom spôsobe. Pokyn na riešenie nemusí byť priamo vyslovený. Na objasnenie očakávaní techník, ktoré má žiak zvoliť pri riešení, slúži ukážka behu programu.
@@ -174,11 +174,11 @@ Pri výpočte zanedbáme rýchlosť zvuku, ktorou sa rachot rožšíri až k ná
 
 \paragraph{2.4. Morský vánok}
 \begin{quote}
-(\textbf{Scenéria}): \textit{\small ,,Kapitán plachetnice na otvorenom oceáne musí mať vždy prehľad odkiaľ fúka vietor, aby dokormidloval do vytúženého cieľa. Príliš silné závany vetra môžu byť nebezpečné pre posádku. Polámať lodné sťažne, potrhať plachty, či zaplaviť palubu.''}
+(\textbf{Scenéria}): \textit{\small ,,Kapitán plachetnice na otvorenom oceáne musí mať vždy prehľad odkiaľ fúka vietor, aby odkormidloval do vytúženého cieľa. Príliš silné závany vetra môžu byť nebezpečné pre posádku. Polámať lodné sťažne, potrhať plachty, či zaplaviť palubu.''}
 
 (\textbf{Problém}): \textit{\small ,,Cez rádio dostáva plavidlo každý deň správy o predpovedi sily vetra v Beafortovej stupnici. Sila vetra je ňou vyjadrená do dvanástich stupňov od bezvetria až po orkán.''}
 
-(\textbf{Pokyn}): \textit{\small ,,Napíš program, ktorý kapitánu vysvetlí stupeň vetra. Podľa stupnice určíme jeho pomenovanie, rýchlosti v námorných uzloch a očakávateľnej výšky vĺn.''}
+(\textbf{Pokyn}): \textit{\small ,,Napíš program, ktorý kapitánovi vysvetlí stupeň vetra. Podľa stupnice určíme jeho pomenovanie, rýchlosti v námorných uzloch a očakávanej výšky vĺn.''}
 \end{quote}
 
 \paragraph{5.5. Výskyt písmen}
@@ -199,21 +199,21 @@ Pri výpočte zanedbáme rýchlosť zvuku, ktorou sa rachot rožšíri až k ná
 (\textbf{Pokyn}): \textit{\small ,,Do programu napíš funkciu vzdialenost(x, y), ktorá na základe zadaných súradníc vypočíta ako ďaleko si od vraku.''}
 \end{quote}
 
-Písomný prejav má tvar 2. osoby jednotného čísla, čím si kladieme predpoklad, že zlepšíme zrorumiteľnosť, keď sa priblížime reči rovesníkov. Uľahčenie v chápaní komunikačného zámeru dosiahnutý pravideľnosťou, nám umožnujeme pridať na inferečnej zložitosti. Namiesto žiakovho sústredenia sa na povrchovú orientáciu v texte ponechávame priestor na vyvodzovanie súvislostí, čím podporujeme čítanie s porozumením.
+Písomný prejav má tvar 2. osoby jednotného čísla, čím si kladieme predpoklad, že zlepšíme zrozumiteľnosť, keď sa priblížime reči rovesníkov. Uľahčenie v chápaní komunikačného zámeru dosiahnutý pravidelnosťou, nám umožňujeme pridať na inferečnej zložitosti. Namiesto žiakovho sústredenia sa na povrchovú orientáciu v texte ponechávame priestor na vyvodzovanie súvislostí, čím podporujeme čítanie s porozumením.
 
-Grafická úprava úlohy je taktiež ujednotená a sa skladá z nadpisu, textu zadania, ukážka vzorového súboru ak je prítomná, vstupov a výstupov programu. Nadpis úlohy obsahuje číselné označenie kapitoly, poradia úlohy vnútri kapitoly a jej názov v podobe slovného spojenia.
+Grafická úprava úlohy je taktiež zjednotená a sa skladá z nadpisu, textu zadania, ukážka vzorového súboru ak je prítomná, vstupov a výstupov programu. Nadpis úlohy obsahuje číselné označenie kapitoly, poradia úlohy vnútri kapitoly a jej názov v podobe slovného spojenia.
 Vstupy a výstupy programu sú orámované v oblasti so šedým pozadím, písmo je neproporcionálne, a premenlivé údaje závislé od vstupov sú zastúpené prázdnymi obdĺžnikmi. Na ilustráciu správania po spustení programu sú do obdĺžnikov niekedy vpísané konkrétne hodnoty.
 
 \subsection{Didaktické funkcie úloh}
 Graduálne stupňovanie náročnosti úloh do troch úrovní, rovnomerné zastúpenie napĺňania rozličných didaktických funkcií a zapojenie viacerých kognitívnych úrovní overíme klasifikovaním úloh. Príloha \ref{chapter:appendix-kategorie} zachytáva zaradenie samotných zadaní do systému úloh. Tému, podtému a element sú prevažne predurčené názvom kapitoly, preto tie nešpecifikujeme.
 
-\textbf{Určenie didaktických funkcií} úlohy je do značnej miery subjektívne, preto na odôvodnenie našich rozhodnutí ponúkame osobitnú interpretáciu kategórií. Logickým štruktúrovaním učiva tématickej oblasti postupne žiaci prechádzajú istými fázami v oboznamovaní sa s učebnou látkou, ktoré podporujú najlepšie úlohy s určitou didaktickou funkcie.
+\textbf{Určenie didaktických funkcií} úlohy je do značnej miery subjektívne, preto na odôvodnenie našich rozhodnutí ponúkame osobitnú interpretáciu kategórií. Logickým štruktúrovaným učiva tematickej oblasti postupne žiaci prechádzajú istými fázami v oboznamovaní sa s učebnou látkou, ktoré podporujú najlepšie úlohy s určitou didaktickou funkcie.
 
-\textbf{Prípravné úlohy} sa vyskytujú pred uvedením samotného elementu učiva a majú navádzať k potrebe naučenia sa novej metódy, ktorá je v zápätí akoby objavená. Javy z programovania, kde k tomu dochádza, sú duplikácia rovnakého kódu tesne pred predstavením cyklov alebo výskyt veľa premenných základného typu pred oboznámením sa s jednorozmerným poľom. V našej zbierke sa také úlohy priamo nenachádzajú, ale ich znaky pripisujeme niektorým úvodným úlohám kapitol.
+\textbf{Prípravné úlohy} sa vyskytujú pred uvedením samotného elementu učiva a majú navádzať k potrebe naučenia sa novej metódy, ktorá je v zapätí akoby objavená. Javy z programovania, kde k tomu dochádza, sú duplikácia rovnakého kódu tesne pred predstavením cyklov alebo výskyt veľa premenných základného typu pred oboznámením sa s jednorozmerným poľom. V našej zbierke sa také úlohy priamo nenachádzajú, ale ich znaky pripisujeme niektorým úvodným úlohám kapitol.
 
-Po prípravných úlohách nastupujú na rad \textbf{propedeutické úlohy}, s ktorými sa zvyknú prelínať. Propedeutické úlohy však poskytnú už triviálny prípad použitia novej syntaxe, a nie poukážu na nepraktičnosť doposiaľ známych vymožeností zápisu problému. Zložitosťou majú byť tieto skupiny úloh menej náročné.
+Po prípravných úlohách nastupujú na rad \textbf{propedeutické úlohy}, s ktorými sa zvyknú prelínať. Propedeutické úlohy však poskytnú triviálny prípad použitia novej syntaxe, a nepoukazujú už na ťažkopádnosť doposiaľ naučených možností zápisu problému. Zložitosťou majú byť tieto skupiny úloh menej náročné.
 
-Sekvencia etáp vyučovacieho procesu predraďuje motiváciu pred expozíciou. V našom ponímaní majú úlohy s \textbf{motivačnou funkciou} vzhľadom k poznávaciemu procesu obrazne donútiť žiaka, aby preskúmal externé zdroje informácií. Fakty, ktoré nenájde v učebnici programovania, má byť potom motivovaný hľadať v učebniciach iných predmetov, v príručkách, knihách alebo na internete. Týkať sa to môže napr. fungovania hodu kockov, nájdenia matematických vzťahov, či dopĺňania banky otázok pre kvíz.
+Sekvencia etáp vyučovacieho procesu predraďuje motiváciu pred expozíciou. V našom ponímaní majú úlohy s \textbf{motivačnou funkciou} vzhľadom k poznávaciemu procesu obrazne donútiť žiaka, aby preskúmal externé zdroje informácií. Fakty, ktoré nenájde v učebnici programovania, má byť potom motivovaný hľadať v učebniciach iných predmetov, v príručkách, knihách alebo na internete. Týkať sa to môže napr. fungovania hodu kockou, nájdenia matematických vzťahov, či dopĺňania banky otázok pre kvíz.
 
 Po uvedení cez propedeutické úlohy sa prepracúvame k úlohám na \textbf{osvojenie pojmu, vzťahov a postupu}. Od prvotného vystaveniu sa koncept prvku programovacieho jazyka sa
 ukazuje v tej istej základnej podobe v rozličných situáciách. Spomenieme cyklus, ktorý vypíše najprv desať totožných riadkov, potom hviezdičky v rovnakom riadku alebo hviezdičky po diagonále. Ukončovacia podmienka for cyklu zostáva zakaždým rovnaká, pribúdajú výlučne príkazy bez akéhokoľvek ovplyvňovania toku programu v tele cyklu. Úlohy na osvojovanie sú menej náročné.
@@ -227,7 +227,7 @@ ukazuje v tej istej základnej podobe v rozličných situáciách. Spomenieme cy
 Zoradenie systému úloh v rámci témy zbierky sa riadi ich najmarkantnejšou didaktickou funkciou. Od jednoduchším k zložitejším zadaniam začína prípravnou funkciou a pokračuje propedeutikou, osvojovaním, upevňovaním, opakovaním a systemizáciou. Priebežne celou témou sa tiahne aktualizácia predošlého učiva a motivácia. Kde nastane zhoda v hlavnej funkcii, tam sa skôr umiestni úloha s nižšou úrovňou vyžadovaných poznávacích procesov. Úlohy na konvergentné myslenie predchádzajú tie s divergentným riešením.
 
 \subsection{Medzipredmetové vzťahy}
-Podľa didaktickej zásady spojenia teórie s praxou a na prispenie ku kompentencii celoživotného učenia sa pre život dbáme na interdisciplinaritu nastolených problémov zasadených do reálneho sveta. Medzipredmetové aplikácie čerpajú z matematiky (16 úloh) a finančnej gramotnosti (2 úlohy), fyziky (4 úlohy), slovenského jazyka a literatúry (3 úlohy), geografie (2 úlohy), dejepisu (2 úlohy) a chémie (1 úloha).
+Podľa didaktickej zásady spojenia teórie s praxou a na prispenie ku kompetencií celoživotného učenia sa pre život dbáme na interdisciplinaritu nastolených problémov zasadených do reálneho sveta. Medzipredmetové aplikácie čerpajú z matematiky (16 úloh) a finančnej gramotnosti (2 úlohy), fyziky (4 úlohy), slovenského jazyka a literatúry (3 úlohy), geografie (2 úlohy), dejepisu (2 úlohy) a chémie (1 úloha).
 
 Matematika má z hľadiska využitia jej aparátu v programátorských úlohách nespornú výhodu pre blízkosť k informatike ako takej. Existujú zároveň viaceré možnosti znovupoužitia príkladov z matematických učebníc. K medzipremetovým vzťahov s \textbf{matematikou} prispievajú témy:
 objem a obsah telies \emph{(1.6, 1.8, 1.9)}, meranie času \emph{(2.5)}, kalkulačky \emph{(2.6, 7.8)}, kvadratické rovnice \emph{(2.8)}, trojuholníky \emph{(2.9.)}, malá násobilka \emph{(3.8, 4.3)}, zlomky a percentá \emph{(5.5, 5.6, 7.6)}, finančná gramotnosť \emph{(3.9, 5.7)}, súradnicová sústava \emph{(7.1)}, binomická veta \emph{(7.3)}, štatistika \emph{(7.4)}. Do \textbf{fyziky} môžeme zaradiť úlohy ohľadom: teploty \emph{(1.4)}, kinematiky \emph{(1.5, 1.7)}, dynamiky \emph{(1.9)}. \textbf{Slovenského jazyka} sa okrajovo týkajú úlohy na: rým \emph{(1.2)}, hláskoslovie \emph{(5.2)}, tvaroslovie \emph{(5.8)}. Pod témy súvisace s \textbf{geografiou} spadajú meteorológia \emph{(2.4)} a kartografia \emph{(6.2)}, z \textbf{chémie} sme zahrnuli roztoky \emph{(1.10)} a z \textbf{dejepisu} sa zmieňujeme o Májskych pyramídach \emph{(3.3)} a rímskych číslach \emph{(7.6)}.
