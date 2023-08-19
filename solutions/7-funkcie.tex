@@ -1,5 +1,5 @@
-\subsection{Funkcie}
-\subsubsection*{1. Vraky}
+\section{Funkcie}
+\subsection{Vraky}
 \begin{solution}
 import random
 import math
@@ -25,7 +25,7 @@ while True:
     print(f"Od vraku si {vzdialenost(x, y):.3f} námornych míľ")
 \end{solution}
 
-\subsubsection*{2. Cézarová šifra}
+\subsection{Cézarová šifra}
 \begin{solution}
 def sifruj(sprava, kluc):
     sifra = ""
@@ -74,7 +74,7 @@ elif akcia == "dešifruj":
 print(s)
 \end{solution}
 
-\subsubsection*{3. Pascalov trojuholník}
+\subsection{Pascalov trojuholník}
 \begin{solution}
 def pascalov_trojuholnik(n):
     row = [1, 1]
@@ -96,7 +96,7 @@ vyska = int(input("Zadajte výšku Pascalovho trojuholníka: "))
 pascalov_trojuholnik(vyska)
 \end{solution}
 
-\subsubsection*{4. Pekný byt}
+\subsection{Pekný byt}
 \begin{solution}
 import math
 def priemer(zoznam):
@@ -167,7 +167,7 @@ print(f"{'Modus':25s}:{modus(ceny):15.2f}:{modus(vymery):15.2f}:")
 print(f"{'Smerodajná odchýlka':25s}:{smerodajna_odchylka(ceny):15.2f}:{smerodajna_odchylka(vymery):15.2f}:")
 \end{solution}
 
-\subsubsection*{5. Rímske čísla}
+\subsection{Rímske čísla}
 \begin{solution}
 def rimske_na_arabske(rimske):
     TABULKA = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
@@ -188,7 +188,7 @@ cislo = input("Zadaj rímske číslo: ")
 print(rimske_na_arabske(cislo))
 \end{solution}
 
-\subsubsection*{6. Základný tvar zlomku}
+\subsection{Základný tvar zlomku}
 \begin{solution}
 def nsd(a, b):
     # Najväčší spoločný deliteľ

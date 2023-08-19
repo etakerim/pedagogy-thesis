@@ -209,7 +209,7 @@
 \AtBeginEnvironment{quote}{\par\singlespacing}
 
 \begin{document}
-
+\pagenumbering{gobble}
 \newgeometry{top=3cm, bottom=2.5cm, right=2.2cm, left=2.2cm}
 % Obal -----------------------------------------------------------------------
 \input{chapters/cover}
@@ -232,6 +232,7 @@
 \renewcommand{\contentsname}{Obsah}
 \pagestyle{empty}
 \tableofcontents{}
+\emptypage
 \emptypage
 
 \pagestyle{fancy}
